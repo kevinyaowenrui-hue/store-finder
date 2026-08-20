@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useEffect, useRef, useState } from 'react';
-import { Search, X, Loader2, Sparkles, History, Trash2, Command } from 'lucide-react';
+import { Search, X, Loader2, Sparkles, History, Trash2 } from 'lucide-react';
 
 interface SearchBarProps {
   value: string;
@@ -11,6 +11,17 @@ interface SearchBarProps {
 }
 
 const STORAGE_KEY = 'store_finder_search_history';
+
+const POPULAR_SUGGESTIONS = [
+  '1906',
+  'Grey Store',
+  '奥特莱斯',
+  '跑步专营',
+  '三里屯',
+  '前滩太古里',
+  '德基广场',
+  '万象城',
+];
 
 export function SearchBar({ value, onChange, onClear, isLoading }: SearchBarProps) {
   const inputRef = useRef<HTMLInputElement>(null);
@@ -30,7 +41,7 @@ export function SearchBar({ value, onChange, onClear, isLoading }: SearchBarProp
     }
   }, []);
 
-  // Save term to history on debounce or submit
+  // Save term to history
   const saveToHistory = (term: string) => {
     const clean = term.trim();
     if (!clean || clean.length < 2) return;
@@ -55,179 +66,112 @@ export function SearchBar({ value, onChange, onClear, isLoading }: SearchBarProp
     }
   };
 
-  // Keyboard shortcut listener (/ or Ctrl+K / Cmd+K)
-  useEffect(() => {
-    const handleKeyDown = (e: KeyboardEvent) => {
-      if (
-        (e.key === '/' && document.activeElement !== inputRef.current && document.activeElement?.tagName !== 'INPUT') ||
-        ((e.metaKey || e.ctrlKey) && e.key === 'k')
-      ) {
-        e.preventDefault();
-        inputRef.current?.focus();
-      } else if (e.key === 'Escape' && document.activeElement === inputRef.current) {
-        inputRef.current?.blur();
-      }
-    };
-    window.addEventListener('keydown', handleKeyDown);
-    return () => window.removeEventListener('keydown', handleKeyDown);
-  }, []);
-
-  const handleSelectHistory = (item: string) => {
-    onChange(item);
-    saveToHistory(item);
+  const handleSelectSuggestion = (term: string) => {
+    onChange(term);
+    saveToHistory(term);
     setIsFocused(false);
   };
 
   return (
-    <div ref={containerRef} className="relative w-full max-w-2xl mx-auto group">
-      <div className="relative flex items-center w-full bg-white rounded-2xl border border-zinc-200/90 shadow-elevated focus-within:border-zinc-900 focus-within:ring-4 focus-within:ring-zinc-900/5 transition-all">
-        {/* Left Search Icon */}
-        <div className="pl-4.5 pr-2 flex items-center pointer-events-none text-zinc-400 group-focus-within:text-zinc-900 transition-colors">
+    <div ref={containerRef} className="w-full max-w-3xl mx-auto space-y-2">
+      {/* Main Search Input */}
+      <div
+        className={`relative flex items-center bg-white rounded-2xl border transition-all duration-200 shadow-sm ${
+          isFocused
+            ? 'border-zinc-900 ring-2 ring-zinc-900/10 shadow-md'
+            : 'border-zinc-200/90 hover:border-zinc-300'
+        }`}
+      >
+        <div className="pl-4 pr-2 text-zinc-400 flex items-center pointer-events-none">
           {isLoading ? (
-            <Loader2 className="w-5 h-5 animate-spin text-brand-600" />
+            <Loader2 className="w-5 h-5 animate-spin text-zinc-600" />
           ) : (
-            <Search className="w-5 h-5" />
+            <Search className="w-5 h-5 text-zinc-500" />
           )}
         </div>
 
-        {/* Search Input */}
         <input
           ref={inputRef}
           type="text"
           value={value}
+          onChange={(e) => onChange(e.target.value)}
           onFocus={() => setIsFocused(true)}
           onBlur={() => {
-            // Delay closing to allow clicking history item
+            // Slight delay so suggestion clicks register before blur
             setTimeout(() => setIsFocused(false), 200);
-            if (value.trim()) saveToHistory(value);
+            if (value.trim()) {
+              saveToHistory(value);
+            }
           }}
           onKeyDown={(e) => {
             if (e.key === 'Enter' && value.trim()) {
               saveToHistory(value);
-              setIsFocused(false);
+              inputRef.current?.blur();
             }
           }}
-          onChange={(e) => onChange(e.target.value)}
-          placeholder="搜索品牌、商场、城市、楼层或特色 (按 / 聚焦)"
-          className="w-full py-4 pr-16 text-base sm:text-lg bg-transparent text-zinc-900 placeholder:text-zinc-400 focus:outline-none font-normal"
+          placeholder="搜索品牌、商场、城市、业态 (如 1906, 奥莱)..."
+          className="w-full py-3.5 pr-10 bg-transparent text-base text-zinc-900 placeholder:text-zinc-400 focus:outline-none"
+          autoComplete="off"
+          autoCorrect="off"
+          spellCheck="false"
         />
 
-        {/* Keyboard shortcut hint / Clear Button */}
-        <div className="absolute right-3 flex items-center space-x-1">
-          {value ? (
-            <button
-              onClick={() => {
-                onClear();
-                inputRef.current?.focus();
-              }}
-              className="p-1.5 rounded-full text-zinc-400 hover:text-zinc-700 hover:bg-zinc-100 transition-colors"
-              title="清空搜索"
-            >
-              <X className="w-4 h-4" />
-            </button>
-          ) : (
-            <kbd className="hidden sm:inline-flex items-center px-2 py-0.5 text-[10px] font-mono text-zinc-400 bg-zinc-100 border border-zinc-200 rounded-md">
-              /
-            </kbd>
-          )}
-        </div>
+        {value && (
+          <button
+            onClick={() => {
+              onClear();
+              inputRef.current?.focus();
+            }}
+            className="absolute right-3 p-1.5 rounded-full text-zinc-400 hover:text-zinc-700 hover:bg-zinc-100 active:scale-90 transition-all"
+            title="清空搜索"
+          >
+            <X className="w-4 h-4" />
+          </button>
+        )}
       </div>
 
-      {/* Recent Searches Dropdown Drawer when focused & empty */}
-      {isFocused && !value && history.length > 0 && (
-        <div className="absolute left-0 right-0 top-full mt-2 bg-white rounded-2xl border border-zinc-200 shadow-elevated p-3 z-30 animate-fade-in text-left">
-          <div className="flex items-center justify-between px-2 pb-2 text-[11px] font-semibold text-zinc-400 border-b border-zinc-100">
-            <span className="flex items-center space-x-1">
-              <History className="w-3.5 h-3.5 text-zinc-400" />
-              <span>最近搜索</span>
+      {/* Quick Search Suggestions & History (Mobile Friendly Horizontal Scroll) */}
+      <div className="flex items-center space-x-1.5 overflow-x-auto no-scrollbar py-1 text-xs -mx-1 px-1">
+        <span className="text-[11px] text-zinc-400 font-medium shrink-0 flex items-center pl-1">
+          <Sparkles className="w-3 h-3 mr-1 text-amber-500" />
+          热门:
+        </span>
+        {POPULAR_SUGGESTIONS.map((item) => (
+          <button
+            key={item}
+            onClick={() => handleSelectSuggestion(item)}
+            className="px-2.5 py-1 rounded-lg bg-zinc-100 hover:bg-zinc-200/80 active:scale-95 text-zinc-700 font-medium shrink-0 transition-all text-xs"
+          >
+            {item}
+          </button>
+        ))}
+
+        {history.length > 0 && (
+          <>
+            <span className="text-zinc-300 shrink-0 px-0.5">|</span>
+            <span className="text-[11px] text-zinc-400 font-medium shrink-0 flex items-center">
+              <History className="w-3 h-3 mr-1 text-zinc-400" />
+              历史:
             </span>
-            <button
-              onMouseDown={(e) => {
-                e.preventDefault();
-                clearHistory();
-              }}
-              className="text-zinc-400 hover:text-rose-600 transition-colors flex items-center space-x-0.5"
-            >
-              <Trash2 className="w-3 h-3" />
-              <span>清空记录</span>
-            </button>
-          </div>
-          <div className="flex flex-wrap gap-1.5 pt-2">
-            {history.map((term, idx) => (
+            {history.map((item) => (
               <button
-                key={idx}
-                onMouseDown={(e) => {
-                  e.preventDefault();
-                  handleSelectHistory(term);
-                }}
-                className="px-2.5 py-1 rounded-lg bg-zinc-100 hover:bg-zinc-200 text-zinc-700 text-xs font-medium transition-colors"
+                key={item}
+                onClick={() => handleSelectSuggestion(item)}
+                className="px-2.5 py-1 rounded-lg bg-zinc-50 border border-zinc-200 hover:bg-zinc-100 active:scale-95 text-zinc-600 font-medium shrink-0 transition-all text-xs"
               >
-                {term}
+                {item}
               </button>
             ))}
-          </div>
-        </div>
-      )}
-
-      {/* Subtle Hint */}
-      <div className="mt-2.5 flex items-center justify-between px-2 text-[12px] text-zinc-400">
-        <div className="flex items-center space-x-1.5 overflow-x-auto no-scrollbar">
-          <Sparkles className="w-3.5 h-3.5 text-zinc-400 shrink-0" />
-          <span className="truncate">
-            热门搜索：
-            <span
-              className="text-zinc-600 font-medium cursor-pointer hover:underline"
-              onClick={() => {
-                onChange('始祖鸟 郑州');
-                saveToHistory('始祖鸟 郑州');
-              }}
+            <button
+              onClick={clearHistory}
+              className="p-1 text-zinc-400 hover:text-zinc-600 shrink-0 text-[10px]"
+              title="清空历史"
             >
-              始祖鸟 郑州
-            </span>{' '}
-            ·{' '}
-            <span
-              className="text-zinc-600 font-medium cursor-pointer hover:underline"
-              onClick={() => {
-                onChange('Lululemon 静安');
-                saveToHistory('Lululemon 静安');
-              }}
-            >
-              Lulu 静安
-            </span>{' '}
-            ·{' '}
-            <span
-              className="text-zinc-600 font-medium cursor-pointer hover:underline"
-              onClick={() => {
-                onChange('Nike 001');
-                saveToHistory('Nike 001');
-              }}
-            >
-              Nike 001
-            </span>{' '}
-            ·{' '}
-            <span
-              className="text-zinc-600 font-medium cursor-pointer hover:underline"
-              onClick={() => {
-                onChange('Salomon 太古里');
-                saveToHistory('Salomon 太古里');
-              }}
-            >
-              Salomon 太古里
-            </span>{' '}
-            ·{' '}
-            <span
-              className="text-zinc-600 font-medium cursor-pointer hover:underline"
-              onClick={() => {
-                onChange('On 昂跑');
-                saveToHistory('On 昂跑');
-              }}
-            >
-              On 昂跑
-            </span>
-          </span>
-        </div>
+              <Trash2 className="w-3 h-3" />
+            </button>
+          </>
+        )}
       </div>
     </div>
   );
 }
-
