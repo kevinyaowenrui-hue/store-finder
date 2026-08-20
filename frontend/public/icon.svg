@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="32" height="32">
+  <defs>
+    <linearGradient id="optA-bg" x1="0" y1="0" x2="100" y2="100" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stopColor="#0B132B" />
+      <stop offset="100%" stopColor="#090D1A" />
+    </linearGradient>
+    <linearGradient id="optA-orange" x1="20" y1="20" x2="80" y2="80" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stopColor="#FB923C" />
+      <stop offset="50%" stopColor="#F97316" />
+      <stop offset="100%" stopColor="#EA580C" />
+    </linearGradient>
+    <linearGradient id="optA-gold" x1="30" y1="30" x2="70" y2="70" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stopColor="#FDE047" />
+      <stop offset="100%" stopColor="#F59E0B" />
+    </linearGradient>
+    <linearGradient id="optA-needle-top" x1="45" y1="35" x2="65" y2="55" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stopColor="#FDE047" />
+      <stop offset="100%" stopColor="#F59E0B" />
+    </linearGradient>
+    <linearGradient id="optA-needle-bot" x1="35" y1="45" x2="55" y2="65" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stopColor="#EA580C" />
+      <stop offset="100%" stopColor="#C2410C" />
+    </linearGradient>
+  </defs>
+
+  <!-- Base Squircle -->
+  <rect width="100" height="100" rx="26" fill="url(#optA-bg)" />
+  <rect width="98" height="98" x="1" y="1" rx="25" fill="none" stroke="#F59E0B" stroke-width="2" stroke-opacity="0.6" />
+
+  <!-- Chimneys -->
+  <path d="M28 26 L34 26 L34 34 L28 34 Z" fill="url(#optA-orange)" />
+  <path d="M66 26 L72 26 L72 34 L66 34 Z" fill="url(#optA-orange)" />
+
+  <!-- Gable Roof & Walls -->
+  <path d="M50 18 L78 36 L78 78 L22 78 L22 36 Z" fill="url(#optA-orange)" stroke="#091124" stroke-width="2" stroke-linejoin="round" />
+  <rect x="18" y="78" width="64" height="4" rx="2" fill="url(#optA-orange)" />
+
+  <!-- Compass Dial -->
+  <circle cx="50" cy="48" r="24" fill="#091124" stroke="url(#optA-gold)" stroke-width="2.5" />
+  <circle cx="50" cy="48" r="17" fill="none" stroke="url(#optA-gold)" stroke-width="1.2" stroke-dasharray="2 2" opacity="0.7" />
+
+  <!-- Star Points -->
+  <polygon points="50,26 47,33 53,33" fill="#FFFFFF" />
+  <polygon points="50,70 47,63 53,63" fill="#FFFFFF" />
+  <polygon points="28,48 35,45 35,51" fill="#FFFFFF" />
+  <polygon points="72,48 65,45 65,51" fill="#FFFFFF" />
+
+  <!-- Needle -->
+  <polygon points="50,48 64,34 53,45" fill="url(#optA-needle-top)" />
+  <polygon points="50,48 36,62 47,51" fill="url(#optA-needle-bot)" />
+  <circle cx="50" cy="48" r="3.5" fill="#091124" stroke="url(#optA-gold)" stroke-width="1.5" />
+  <circle cx="50" cy="48" r="1.5" fill="#FDE047" />
+
+  <!-- Entrance Door -->
+  <path d="M44 78 L44 68 L56 68 L56 78 Z" fill="#091124" stroke="url(#optA-gold)" stroke-width="1.8" stroke-linejoin="round" />
+  <rect x="47" y="71" width="6" height="7" fill="url(#optA-orange)" />
+</svg>

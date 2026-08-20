@@ -1,0 +1,523 @@
+brand_name,mall_name,province,city,district,address,store_name,floor,phone,business_hours,latitude,longitude,source_url,tags,is_active
+New Balance,三里屯太古里,北京市,北京市,朝阳区,三里屯路19号院,New Balance 北京三里屯太古里全球概念店,南区地下1层 SLG-19,010-52121262,10:00 - 22:00,39.9179,116.4418,https://www.newbalance.com.cn,"全球概念店,限量首发,Grey系列,Made in USA",true
+New Balance,SKP-S,北京市,北京市,朝阳区,建国路86号,New Balance 北京SKP-S先锋概念店,3层 潮流专区,010-53057303,10:00 - 22:00,39.938,116.4328,https://www.newbalance.com.cn,"先锋概念店,联名限定,高端潮流",true
+New Balance,国贸商城,北京市,北京市,朝阳区,建国门外大街1号,New Balance 北京国贸商城专营店,中区地下1层 WB110,010-75017510,10:00 - 22:00,39.8976,116.4145,https://www.newbalance.com.cn,"精品店,英产991,高端生活",true
+New Balance,朝阳大悦城,北京市,北京市,朝阳区,朝阳北路101号,New Balance 北京朝阳大悦城店,4层 4F-18,010-64552176,10:00 - 22:00,39.8803,116.3803,https://www.newbalance.com.cn,"NB 1906潮流店,综合体验,跑鞋矩阵",true
+New Balance,王府中环,北京市,北京市,东城区,王府井大街269号,New Balance 北京王府中环旗舰店,B1层 B108,010-65052534,10:00 - 22:00,39.9143,116.3885,https://www.newbalance.com.cn,"旗舰店,经典复古,Made in UK",true
+New Balance,东方新天地,北京市,北京市,东城区,东长安街1号,New Balance 北京东方新天地店,首层 EE06,010-84349082,10:00 - 22:00,39.9237,116.4153,https://www.newbalance.com.cn,"经典体验店,复古跑鞋",true
+New Balance,西单大悦城,北京市,北京市,西城区,西单北大街131号,New Balance 北京西单大悦城店,5层 5F-02,010-55468817,10:00 - 22:00,39.8751,116.3946,https://www.newbalance.com.cn,"NB 1906潮流店,青年潮流,热销经典",true
+New Balance,金融街购物中心,北京市,北京市,西城区,金城坊街2号,New Balance 北京金融街购物中心店,3层 L3-12,010-73646580,10:00 - 22:00,39.9342,116.4389,https://www.newbalance.com.cn,"精品店,商务休闲,英美产",true
+New Balance,颐堤港,北京市,北京市,朝阳区,酒仙桥路18号,New Balance 北京颐堤港Running Store,2层 L2-25,010-72874602,10:00 - 22:00,39.8702,116.4066,https://www.newbalance.com.cn,"跑步专营店,足态分析,专业竞速",true
+New Balance,合生汇,北京市,北京市,朝阳区,西大望路21号,New Balance 北京合生汇店,B1层 B1-78,010-76992693,10:00 - 22:00,39.9136,116.3741,https://www.newbalance.com.cn,"潮流生活店,经典复古,NB Kids",true
+New Balance,世纪金源购物中心,北京市,北京市,海淀区,远大路1号,New Balance 北京金源燕莎店,3层 运动休闲馆,010-82589116,10:00 - 22:00,39.9005,116.3824,https://www.newbalance.com.cn,"综合大店,全系列,亲子专区",true
+New Balance,中关村万象汇,北京市,北京市,海淀区,西北旺镇德政路,New Balance 北京海淀万象汇店,2层 L2-18,010-61878757,10:00 - 22:00,39.9075,116.4386,https://www.newbalance.com.cn,"经典体验店,跑步矩阵",true
+New Balance,五棵松万达广场,北京市,北京市,海淀区,复兴路69号,New Balance 北京五棵松万达店,1层 1F-10,010-66526795,10:00 - 22:00,39.8974,116.3893,https://www.newbalance.com.cn,"综合体验店,潮流经典",true
+New Balance,丽泽天街,北京市,北京市,丰台区,丽泽路300号,New Balance 北京丽泽天街店,2层 2F-15,010-86157434,10:00 - 22:00,39.8909,116.4012,https://www.newbalance.com.cn,"商圈核心店,复古慢跑",true
+New Balance,大兴大悦春风里,北京市,北京市,大兴区,黄村东大街38号,New Balance 北京大兴大悦春风里店,1层 L1-09,010-64912649,10:00 - 22:00,39.9032,116.436,https://www.newbalance.com.cn,"体验店,生活方式",true
+New Balance,通州万达广场,北京市,北京市,通州区,新华西街58号,New Balance 北京通州万达店,3层 3F-22,010-69826887,10:00 - 22:00,39.9019,116.41,https://www.newbalance.com.cn,"副中心旗舰,全系列",true
+New Balance,首创奥特莱斯(房山),北京市,北京市,房山区,长阳镇CSD核心区,New Balance 北京首创奥莱工厂店,1层 1028铺,010-73814715,09:30 - 21:30,39.8999,116.4226,https://www.newbalance.com.cn,"奥特莱斯特惠,超大工厂店,折扣专享",true
+New Balance,斯普瑞斯奥特莱斯,北京市,北京市,朝阳区,金盏乡森林公园路,New Balance 北京斯普瑞斯奥莱店,1层 1-105,010-65961792,09:30 - 21:30,39.9355,116.3888,https://www.newbalance.com.cn,"奥特莱斯特惠,折扣专享",true
+New Balance,八达岭奥特莱斯,北京市,北京市,昌平区,陈庄东口,New Balance 北京八达岭奥莱旗舰店,A区 A1-18,010-62179825,09:30 - 21:30,39.9044,116.4074,https://www.newbalance.com.cn,"奥特莱斯旗舰店,全品类折扣",true
+New Balance,顺义祥云小镇,北京市,北京市,顺义区,安泰大街9号,New Balance 北京祥云小镇店,南区1层 105,010-55204309,10:00 - 22:00,39.9084,116.3893,https://www.newbalance.com.cn,"街区生活店,跑步生活,NB Kids",true
+New Balance,静安嘉里中心,上海市,上海市,静安区,南京西路1515号,New Balance 上海静安嘉里中心全球概念店,南区3层 L3-08,021-71252849,10:00 - 22:00,31.2027,121.4941,https://www.newbalance.com.cn,"全球概念店,Grey Store,Made in USA,限量发售",true
+New Balance,前滩太古里,上海市,上海市,浦东新区,东育路500号,New Balance 上海前滩太古里Running Store,石区L2层 S-L2-16,021-66154598,10:00 - 22:00,31.25,121.5078,https://www.newbalance.com.cn,"跑步专营店,专业跑鞋,足态分析,跑者驿站",true
+New Balance,新天地时尚I,上海市,上海市,黄浦区,马当路245号,New Balance 上海新天地NB 1906潮流概念店,1层 L1-105,021-53107380,10:00 - 22:00,31.1962,121.4636,https://www.newbalance.com.cn,"NB 1906潮流店,概念店,Made in USA系列",true
+New Balance,环贸iapm商场,上海市,上海市,徐汇区,淮海中路999号,New Balance 上海环贸iapm店,地下二层 LG2-218,021-88773439,10:00 - 22:00,31.247,121.4565,https://www.newbalance.com.cn,"经典体验店,潮流生活,英美产专柜",true
+New Balance,港汇恒隆广场,上海市,上海市,徐汇区,虹桥路1号,New Balance 上海港汇恒隆广场店,4层 421铺位,021-66059248,10:00 - 22:00,31.2593,121.4565,https://www.newbalance.com.cn,"精品店,英美产,高街时尚",true
+New Balance,久光百货,上海市,上海市,静安区,南京西路1618号,New Balance 上海久光百货专柜,4层 运动专区,021-54141078,10:00 - 22:00,31.2588,121.4935,https://www.newbalance.com.cn,"百货专柜,经典复古跑鞋",true
+New Balance,IFC国金中心,上海市,上海市,浦东新区,世纪大道8号,New Balance 上海国金中心精品店,LG1层 LG1-32,021-63434130,10:00 - 22:00,31.2093,121.4885,https://www.newbalance.com.cn,"精品店,英产专区,高端生活",true
+New Balance,陆家嘴中心L+Mall,上海市,上海市,浦东新区,浦东南路899号,New Balance 上海陆家嘴中心店,5层 502铺,021-53473248,10:00 - 22:00,31.2377,121.459,https://www.newbalance.com.cn,"体验店,复古潮流",true
+New Balance,世纪汇广场,上海市,上海市,浦东新区,世纪大道1192号,New Balance 上海世纪汇店,B1层 B1-15,021-67136665,10:00 - 22:00,31.2197,121.4765,https://www.newbalance.com.cn,"综合店,跑鞋矩阵",true
+New Balance,五角场万达广场,上海市,上海市,杨浦区,邯郸路600号,New Balance 上海五角场万达店,2层 2F-28,021-76191601,10:00 - 22:00,31.2213,121.4798,https://www.newbalance.com.cn,"综合大店,高校潮流,经典复刻",true
+New Balance,合生汇,上海市,上海市,杨浦区,翔殷路1099号,New Balance 上海五角场合生汇店,B1层 B1-06,021-52095958,10:00 - 22:00,31.2085,121.4841,https://www.newbalance.com.cn,"NB 1906潮流店,青年时尚",true
+New Balance,中山公园龙之梦,上海市,上海市,长宁区,长宁路1018号,New Balance 上海龙之梦店,3层 3022铺,021-56699232,10:00 - 22:00,31.2096,121.4886,https://www.newbalance.com.cn,"核心商圈店,经典慢跑",true
+New Balance,虹桥南丰城,上海市,上海市,长宁区,遵义路100号,New Balance 上海虹桥南丰城店,南区2层 L2-08,021-64768142,10:00 - 22:00,31.2068,121.4859,https://www.newbalance.com.cn,"家庭体验店,NB Kids,亲子跑步",true
+New Balance,环球港,上海市,上海市,普陀区,中山北路3300号,New Balance 上海环球港店,2层 L2-108,021-55864928,10:00 - 22:00,31.246,121.4788,https://www.newbalance.com.cn,"综合大店,全系列,复古跑鞋",true
+New Balance,大宁久光百货,上海市,上海市,静安区,共和新路2188号,New Balance 上海大宁久光店,3层 运动馆,021-71238911,10:00 - 22:00,31.2042,121.4822,https://www.newbalance.com.cn,"精品专柜,经典鞋款",true
+New Balance,七宝万科广场,上海市,上海市,闵行区,漕宝路3366号,New Balance 上海七宝万科店,2层 208铺,021-53016079,10:00 - 22:00,31.2451,121.4984,https://www.newbalance.com.cn,"体验店,生活方式,跑步",true
+New Balance,虹桥天地,上海市,上海市,闵行区,申长路688号,New Balance 上海虹桥天地店,GF层 02铺,021-71524701,10:00 - 22:00,31.228,121.4848,https://www.newbalance.com.cn,"枢纽旗舰,出行装备",true
+New Balance,青浦百联奥特莱斯,上海市,上海市,青浦区,沪青平公路2888号,New Balance 上海青浦百联奥莱旗舰店,A区 A108,021-70204129,09:30 - 21:30,31.2115,121.488,https://www.newbalance.com.cn,"奥特莱斯旗舰店,超大折扣工厂店",true
+New Balance,佛罗伦萨小镇(浦东),上海市,上海市,浦东新区,卓耀路58弄,New Balance 上海佛罗伦萨小镇店,1层 126号,021-57014673,10:00 - 22:00,31.216,121.4489,https://www.newbalance.com.cn,"名品奥特莱斯,经典复古折扣",true
+New Balance,松江印象城,上海市,上海市,松江区,广富林路1788弄,New Balance 上海松江印象城店,1层 L1-33,021-77144991,10:00 - 22:00,31.2048,121.505,https://www.newbalance.com.cn,"新城核心店,潮流生活",true
+New Balance,天津大悦城,天津市,天津市,南开区,南门外大街2号,New Balance 天津大悦城旗舰店,3层 3F-08,022-68616868,10:00 - 22:00,39.0604,117.1722,https://www.newbalance.com.cn,"城市旗舰店,NB 1906潮流店,Made in USA",true
+New Balance,恒隆广场,天津市,天津市,和平区,津塔路与和平路交汇处,New Balance 天津恒隆广场店,2层 206铺,022-74969627,10:00 - 22:00,39.064,117.2336,https://www.newbalance.com.cn,"精品店,英美产,高端生活",true
+New Balance,万象城,天津市,天津市,河西区,乐园道9号,New Balance 天津万象城店,3层 L3-025,022-62181848,10:00 - 22:00,39.1037,117.177,https://www.newbalance.com.cn,"高端体验店,Grey Store,专业跑步",true
+New Balance,和平大悦城,天津市,天津市,和平区,南京路189号,New Balance 天津和平大悦城店,4层 4F-12,022-84134708,10:00 - 22:00,39.0681,117.2098,https://www.newbalance.com.cn,"潮流体验店,青年复古",true
+New Balance,鲁能城购物中心,天津市,天津市,南开区,水上公园东路,New Balance 天津鲁能城店,1层 L1-18,022-89914060,10:00 - 22:00,39.0622,117.229,https://www.newbalance.com.cn,"经典体验店,跑鞋矩阵",true
+New Balance,河东爱琴海购物公园,天津市,天津市,河东区,津滨大道160号,New Balance 天津河东爱琴海店,2层 2F-22,022-73885442,10:00 - 22:00,39.0771,117.2072,https://www.newbalance.com.cn,"综合专卖店,亲子跑步",true
+New Balance,滨海万达广场,天津市,天津市,滨海新区,洞庭路与津塘公路交汇处,New Balance 天津滨海万达店,2层 2F-18,022-69613029,10:00 - 22:00,39.0753,117.1931,https://www.newbalance.com.cn,"滨海核心店,全品类",true
+New Balance,佛罗伦萨小镇(武清),天津市,天津市,武清区,前进道北侧,New Balance 天津武清佛罗伦萨小镇奥莱店,1层 108号,022-89473864,10:00 - 22:00,39.0662,117.2101,https://www.newbalance.com.cn,"奥特莱斯特惠,名品折扣,超大工厂店",true
+New Balance,杉杉奥特莱斯(西青),天津市,天津市,西青区,大寺镇储宝路,New Balance 天津西青杉杉奥莱店,1层 A-16,022-81993534,09:30 - 21:30,39.0623,117.1894,https://www.newbalance.com.cn,"奥特莱斯折扣店,工厂特惠",true
+New Balance,万象城(九龙坡),重庆市,重庆市,九龙坡区,谢家湾正街55号,New Balance 重庆万象城旗舰店,南区L3层 L322,023-63844876,10:00 - 22:00,29.5362,106.518,https://www.newbalance.com.cn,"城市旗舰店,Grey Store,Made in USA,高端系列",true
+New Balance,时代广场,重庆市,重庆市,渝中区,邹容路100号,New Balance 重庆解放碑时代广场店,3层 308铺,023-66401822,10:00 - 22:00,29.5395,106.5787,https://www.newbalance.com.cn,"精品店,英美产,经典复刻",true
+New Balance,北城天街,重庆市,重庆市,江北区,观音桥北城天街8号,New Balance 重庆北城天街NB 1906潮流店,2层 2F-016,023-50638493,10:00 - 22:00,29.5857,106.5714,https://www.newbalance.com.cn,"NB 1906潮流店,观音桥地标,潮流首发",true
+New Balance,光环购物公园,重庆市,重庆市,渝北区,湖彩路118号,New Balance 重庆光环购物公园店,2层 L2-19,023-61787892,10:00 - 22:00,29.564,106.5671,https://www.newbalance.com.cn,"生态体验店,跑步专营,自然慢跑",true
+New Balance,来福士广场,重庆市,重庆市,渝中区,接圣街8号,New Balance 重庆来福士店,2层 02-18,023-51326173,10:00 - 22:00,29.5499,106.5692,https://www.newbalance.com.cn,"地标体验店,山城潮流",true
+New Balance,时代天街,重庆市,重庆市,渝中区,大坪时代大道1号,New Balance 重庆龙湖时代天街店,C馆2层 L2-06,023-56629282,10:00 - 22:00,29.5397,106.5773,https://www.newbalance.com.cn,"综合大店,全系列,跑鞋体验",true
+New Balance,沙坪坝万达广场,重庆市,重庆市,沙坪坝区,经纬大道与石小路交叉口,New Balance 重庆沙坪坝万达店,2层 2F-12,023-69394027,10:00 - 22:00,29.5313,106.5647,https://www.newbalance.com.cn,"专卖店,复古慢跑",true
+New Balance,南坪协信星光时代广场,重庆市,重庆市,南岸区,江南大道28号,New Balance 重庆南坪协信星光店,3层 3F-15,023-67104281,10:00 - 22:00,29.5504,106.542,https://www.newbalance.com.cn,"综合店,经典跑鞋",true
+New Balance,砂之船奥特莱斯(璧山),重庆市,重庆市,璧山区,璧泉街道双星大道,New Balance 重庆璧山砂之船奥莱店,1层 1A-28,023-55892151,09:30 - 21:30,29.5786,106.5458,https://www.newbalance.com.cn,"奥特莱斯超级工厂店,折扣专享",true
+New Balance,砂之船奥特莱斯(两江),重庆市,重庆市,渝北区,机场路金渝立交,New Balance 重庆两江砂之船奥莱店,1层 B108,023-60188995,09:30 - 21:30,29.5299,106.5282,https://www.newbalance.com.cn,"奥特莱斯特惠,超大工厂店",true
+New Balance,太古汇,广东省,广州市,天河区,天河路383号,New Balance 广州太古汇概念店,M层 M58铺位,020-79342478,10:00 - 22:00,23.1392,113.2716,https://www.newbalance.com.cn,"概念店,Grey Store,Made in UK系列,高端生活",true
+New Balance,天环Parc Central,广东省,广州市,天河区,天河路218号,New Balance 广州天环广场NB 1906潮流店,地下1层 B120,020-71901876,10:00 - 22:00,23.0955,113.2524,https://www.newbalance.com.cn,"NB 1906潮流店,潮流概念,限量发售",true
+New Balance,天河城,广东省,广州市,天河区,天河路208号,New Balance 广州天河城体验店,4层 402B铺,020-72381208,10:00 - 22:00,23.1431,113.2957,https://www.newbalance.com.cn,"经典体验店,经典鞋款,全品类",true
+New Balance,正佳广场,广东省,广州市,天河区,天河路228号,New Balance 广州正佳广场Running Store,3层 3F-015,020-58914796,10:00 - 22:00,23.1114,113.2332,https://www.newbalance.com.cn,"跑步专营店,专业跑鞋,步态测试",true
+New Balance,万菱汇,广东省,广州市,天河区,天河路230号,New Balance 广州万菱汇店,1层 108铺,020-53879183,10:00 - 22:00,23.0955,113.2756,https://www.newbalance.com.cn,"潮流体验店,复古跑鞋",true
+New Balance,凯德乐峰广场,广东省,广州市,海珠区,工业大道北106号,New Balance 广州乐峰广场店,B1层 B1-22,020-53999557,10:00 - 22:00,23.126,113.2635,https://www.newbalance.com.cn,"社区旗舰店,亲子跑步,NB Kids",true
+New Balance,广州IGC天汇广场,广东省,广州市,天河区,珠江新城兴民路222号,New Balance 广州IGC店,3层 L306,020-57788274,10:00 - 22:00,23.1599,113.2617,https://www.newbalance.com.cn,"精品店,英美产,商务运动",true
+New Balance,悦汇城,广东省,广州市,荔湾区,西湾路150号,New Balance 广州悦汇城店,2层 2F-18,020-60213933,10:00 - 22:00,23.1065,113.2449,https://www.newbalance.com.cn,"大型综合店,全系列",true
+New Balance,番禺万达广场,广东省,广州市,番禺区,汉溪大道东381号,New Balance 广州番禺万达店,2层 2F-08,020-60696951,10:00 - 22:00,23.12,113.2814,https://www.newbalance.com.cn,"番禺核心店,潮流生活",true
+New Balance,万达广场(白云),广东省,广州市,白云区,云城东路501号,New Balance 广州白云万达店,2层 2F-16,020-50452220,10:00 - 22:00,23.1222,113.2383,https://www.newbalance.com.cn,"综合专卖店,复古慢跑",true
+New Balance,万国奥特莱斯,广东省,广州市,海珠区,江南大道中133号,New Balance 广州万国奥特莱斯店,4层 4F-08,020-56265897,09:30 - 21:30,23.1031,113.2718,https://www.newbalance.com.cn,"奥特莱斯折扣店,热销经典特惠",true
+New Balance,万象天地,广东省,深圳市,南山区,深南大道9668号,New Balance 深圳万象天地旗舰店,LG层 LG18铺,0755-8609631,10:00 - 22:00,22.5248,114.0499,https://www.newbalance.com.cn,"华南旗舰店,Grey Store,跑者驿站,全系列",true
+New Balance,深圳湾万象城,广东省,深圳市,南山区,科苑南路2888号,New Balance 深圳湾万象城精品店,B1层 B116,0755-8009169,10:00 - 22:00,22.5572,114.033,https://www.newbalance.com.cn,"精品店,英美产专柜,高街时尚",true
+New Balance,罗湖万象城,广东省,深圳市,罗湖区,宝安南路1881号,New Balance 深圳罗湖万象城店,4层 488铺,0755-6459240,10:00 - 22:00,22.5133,114.082,https://www.newbalance.com.cn,"经典体验店,英产991,复古慢跑",true
+New Balance,壹方城,广东省,深圳市,宝安区,新湖路99号,New Balance 深圳宝安壹方城NB 1906店,1层 042铺,0755-8282272,10:00 - 22:00,22.5332,114.0287,https://www.newbalance.com.cn,"NB 1906潮流店,前海地标,潮流首发",true
+New Balance,海岸城,广东省,深圳市,南山区,文心五路33号,New Balance 深圳海岸城店,4层 416铺,0755-6134216,10:00 - 22:00,22.5541,114.0497,https://www.newbalance.com.cn,"综合店,亲子儿童,跑步",true
+New Balance,福田星河COCO Park,广东省,深圳市,福田区,福华三路268号,New Balance 深圳福田COCO Park店,B1层 B1-065,0755-8173545,10:00 - 22:00,22.5519,114.0361,https://www.newbalance.com.cn,"潮流概念店,青年潮流",true
+New Balance,深业上城,广东省,深圳市,福田区,皇岗路5001号,New Balance 深圳深业上城Running Store,L3层 小镇T3055,0755-6557896,10:00 - 22:00,22.5279,114.0544,https://www.newbalance.com.cn,"跑步专营店,足态分析,莲花山跑者驿站",true
+New Balance,龙华壹方天地,广东省,深圳市,龙华区,人民路4022号,New Balance 深圳龙华壹方天地店,A区1层 L1-018,0755-7955497,10:00 - 22:00,22.5635,114.0336,https://www.newbalance.com.cn,"超级大店,全系列,家庭生活",true
+New Balance,龙岗万科广场,广东省,深圳市,龙岗区,龙翔大道7188号,New Balance 深圳龙岗万科店,2层 L2-15,0755-7263919,10:00 - 22:00,22.5645,114.0448,https://www.newbalance.com.cn,"东部核心店,复古跑鞋",true
+New Balance,大梅沙京基奥特莱斯,广东省,深圳市,盐田区,盐葵路环梅路1号,New Balance 深圳大梅沙奥莱店,二期1层 2108,0755-7838797,09:30 - 21:30,22.5164,114.047,https://www.newbalance.com.cn,"奥特莱斯折扣店,滨海度假特惠",true
+New Balance,杉杉奥特莱斯(满京华),广东省,深圳市,宝安区,松福大道与芙蓉路交汇处,New Balance 深圳杉杉奥莱旗舰店,1层 1F-28,0755-7407284,09:30 - 21:30,22.5553,114.0862,https://www.newbalance.com.cn,"奥特莱斯超级工厂店,超大折扣",true
+New Balance,民盈·国贸城,广东省,东莞市,东城街道,鸿福东路1号,New Balance 东莞国贸城旗舰店,L2层 L2018,0769-8353688,10:00 - 22:00,23.0008,113.7737,https://www.newbalance.com.cn,"城市旗舰店,NB 1906潮流店,Made in USA",true
+New Balance,汇一城,广东省,东莞市,南城街道,鸿福路200号,New Balance 东莞汇一城店,1层 1F-32,0769-7762412,10:00 - 22:00,22.9986,113.7302,https://www.newbalance.com.cn,"核心体验店,复古跑鞋",true
+New Balance,松山湖万象汇,广东省,东莞市,松山湖区,新竹路与沁园路交汇处,New Balance 东莞松山湖万象汇店,2层 L2-12,0769-8730636,10:00 - 22:00,23.0279,113.7392,https://www.newbalance.com.cn,"科技新城店,跑步矩阵",true
+New Balance,长安万达广场,广东省,东莞市,长安镇,东门中路1号,New Balance 东莞长安万达店,2层 2F-16,0769-6717936,10:00 - 22:00,23.0458,113.7819,https://www.newbalance.com.cn,"区域核心店,经典潮流",true
+New Balance,虎门君乐汇,广东省,东莞市,虎门镇,太宝路与虎门大道交汇处,New Balance 东莞虎门君乐汇店,1层 1F-08,0769-7007621,10:00 - 22:00,22.996,113.7435,https://www.newbalance.com.cn,"专卖店,复古慢跑",true
+New Balance,岭南天地,广东省,佛山市,禅城区,祖庙大街2号,New Balance 佛山岭南天地概念店,1层 商业街06号,0757-6234778,10:00 - 22:00,23.0395,113.1233,https://www.newbalance.com.cn,"岭南特色概念店,复古潮流,限定首发",true
+New Balance,千灯湖环宇城,广东省,佛山市,南海区,桂澜中路18号,New Balance 佛山千灯湖环宇城店,1层 L1-22,0757-7495523,10:00 - 22:00,23.0207,113.1077,https://www.newbalance.com.cn,"千灯湖核心店,跑步专营",true
+New Balance,顺德万象汇,广东省,佛山市,顺德区,大良街道驹荣路,New Balance 佛山顺德万象汇店,2层 L2-08,0757-6537278,10:00 - 22:00,23.0485,113.1286,https://www.newbalance.com.cn,"顺德旗舰店,全品类",true
+New Balance,南海万达广场,广东省,佛山市,南海区,桂澜北路28号,New Balance 佛山南海万达店,2层 2F-18,0757-6573473,10:00 - 22:00,22.9991,113.0876,https://www.newbalance.com.cn,"综合专卖店,经典跑鞋",true
+New Balance,顺德大良保利广场,广东省,佛山市,顺德区,东乐路与东区大道交汇处,New Balance 佛山顺德保利店,1层 1F-15,0757-8088259,10:00 - 22:00,23.0506,113.1158,https://www.newbalance.com.cn,"体验店,生活方式",true
+New Balance,佛罗伦萨小镇(广佛),广东省,佛山市,南海区,疏港路28号,New Balance 佛山佛罗伦萨小镇奥莱店,1层 116号,0757-8780276,10:00 - 22:00,23.0194,113.096,https://www.newbalance.com.cn,"名品奥特莱斯,经典复古折扣工厂店",true
+New Balance,富华里,广东省,珠海市,香洲区,九洲大道西2023号,New Balance 珠海中海富华里店,1层 105铺,0756-7205112,10:00 - 22:00,22.2994,113.6061,https://www.newbalance.com.cn,"街区概念店,潮流生活,Made in USA",true
+New Balance,华发商都,广东省,珠海市,香洲区,珠海大道8号,New Balance 珠海华发商都旗舰店,A馆2层 A2018,0756-7872231,10:00 - 22:00,22.2465,113.6076,https://www.newbalance.com.cn,"城市旗舰店,全系列跑鞋,NB Kids",true
+New Balance,环宇城,广东省,珠海市,香洲区,前山西路66号,New Balance 珠海中海环宇城店,2层 L2-16,0756-8654909,10:00 - 22:00,22.2537,113.5966,https://www.newbalance.com.cn,"综合体验店,复古慢跑",true
+New Balance,金湾华发商都,广东省,珠海市,金湾区,航空新城金河东路,New Balance 珠海金湾华发商都店,1层 1F-12,0756-7766741,10:00 - 22:00,22.2886,113.5489,https://www.newbalance.com.cn,"航空新城店,跑步生活",true
+New Balance,华贸天地,广东省,惠州市,惠城区,文昌一路9号,New Balance 惠州华贸天地店,2层 2018铺,0752-7334113,10:00 - 22:00,23.0915,114.4194,https://www.newbalance.com.cn,"城市旗舰店,英美产专区,复古潮流",true
+New Balance,佳兆业广场,广东省,惠州市,惠城区,惠州大道11号,New Balance 惠州佳兆业店,1层 1F-08,0752-6772436,10:00 - 22:00,23.1431,114.4182,https://www.newbalance.com.cn,"核心商圈店,经典慢跑",true
+New Balance,惠阳万达广场,广东省,惠州市,惠阳区,开城大道南138号,New Balance 惠州惠阳万达店,2层 2F-15,0752-8985658,10:00 - 22:00,23.1018,114.4163,https://www.newbalance.com.cn,"综合专卖店,全系列",true
+New Balance,利和广场,广东省,中山市,中山市区,中山三路16号,New Balance 中山利和广场店,2层 208铺,0760-8604795,10:00 - 22:00,22.4914,113.4211,https://www.newbalance.com.cn,"地标旗舰店,复古潮流,跑步",true
+New Balance,石岐大信新都汇,广东省,中山市,石岐区,莲塘路36号,New Balance 中山石岐大信店,2层 2F-12,0760-7343232,10:00 - 22:00,22.52,113.4243,https://www.newbalance.com.cn,"经典体验店,生活方式",true
+New Balance,江门万达广场,广东省,江门市,蓬江区,发展大道与丰乐路交汇处,New Balance 江门蓬江万达店,2层 2F-18,0750-8184832,10:00 - 22:00,22.5887,113.1039,https://www.newbalance.com.cn,"城市旗舰店,全系列",true
+New Balance,汇悦大融城,广东省,江门市,蓬江区,白石大道166号,New Balance 江门汇悦大融城店,2层 2F-06,0750-8451502,10:00 - 22:00,22.5567,113.1048,https://www.newbalance.com.cn,"体验店,经典跑鞋",true
+New Balance,万象城,广东省,汕头市,龙湖区,金砂东路与华山路交汇处,New Balance 汕头万象城店,3层 L3-18,0754-6449280,10:00 - 22:00,23.3764,116.6854,https://www.newbalance.com.cn,"粤东旗舰店,Grey Store,潮流首发",true
+New Balance,苏宁广场,广东省,汕头市,龙湖区,金砂东路179号,New Balance 汕头苏宁广场店,2层 2F-15,0754-7850269,10:00 - 22:00,23.3444,116.694,https://www.newbalance.com.cn,"核心商圈店,复古跑鞋",true
+New Balance,湛江万达广场,广东省,湛江市,开发区,海滨大道中128号,New Balance 湛江万达店,2层 2F-08,0759-8332327,10:00 - 22:00,21.2596,110.3613,https://www.newbalance.com.cn,"粤西旗舰店,全系列跑鞋",true
+New Balance,鼎盛广场,广东省,湛江市,霞山区,人民大道南116号,New Balance 湛江鼎盛广场店,2层 2F-16,0759-6552462,10:00 - 22:00,21.2616,110.3524,https://www.newbalance.com.cn,"体验店,复古潮流",true
+New Balance,德基广场,江苏省,南京市,玄武区,中山路18号,New Balance 南京德基广场概念店,二期5层 F518,025-82979793,10:00 - 22:00,32.0915,118.7754,https://www.newbalance.com.cn,"全国标杆概念店,Grey Store,Made in USA/UK高端线",true
+New Balance,新街口中央商场,江苏省,南京市,秦淮区,中山南路79号,New Balance 南京中央商场专柜,6层 运动专区,025-73836712,10:00 - 22:00,32.0436,118.8302,https://www.newbalance.com.cn,"百货专柜,经典跑鞋,全品类",true
+New Balance,金鹰新街口店,江苏省,南京市,秦淮区,汉中路89号,New Balance 南京金鹰新街口专营店,B座5层 运动馆,025-72549997,10:00 - 22:00,32.0364,118.8296,https://www.newbalance.com.cn,"精品专柜,高端英美产",true
+New Balance,新街口大洋百货,江苏省,南京市,秦淮区,中山南路122号,New Balance 南京大洋百货店,4层 4F-08,025-81571032,10:00 - 22:00,32.0647,118.8276,https://www.newbalance.com.cn,"经典体验店,青年潮流",true
+New Balance,万象天地,江苏省,南京市,秦淮区,中山南路666号,New Balance 南京万象天地NB 1906店,L1层 L1-12,025-79776310,10:00 - 22:00,32.0814,118.8316,https://www.newbalance.com.cn,"NB 1906潮流店,街区潮流,限量发售",true
+New Balance,江宁景枫中心,江苏省,南京市,江宁区,双龙大道1698号,New Balance 南京江宁景枫店,2层 2F-16,025-81469539,10:00 - 22:00,32.0911,118.7756,https://www.newbalance.com.cn,"江宁旗舰店,跑步矩阵,NB Kids",true
+New Balance,江宁万达广场,江苏省,南京市,江宁区,竹山路68号,New Balance 南京江宁万达店,2层 2F-22,025-55864744,10:00 - 22:00,32.0432,118.7759,https://www.newbalance.com.cn,"综合大店,全系列",true
+New Balance,河西金鹰世界,江苏省,南京市,建邺区,应天大街888号,New Balance 南京河西金鹰世界店,4层 4F-28,025-57109061,10:00 - 22:00,32.0582,118.8069,https://www.newbalance.com.cn,"河西核心店,专业慢跑",true
+New Balance,华采天地,江苏省,南京市,建邺区,江东中路258号,New Balance 南京华采天地店,2层 2F-11,025-67394322,10:00 - 22:00,32.0791,118.7797,https://www.newbalance.com.cn,"家庭体验店,亲子跑步",true
+New Balance,仙林金鹰湖滨天地,江苏省,南京市,栖霞区,学海路1号,New Balance 南京仙林金鹰店,1层 1F-18,025-72367221,10:00 - 22:00,32.0726,118.8291,https://www.newbalance.com.cn,"大学城体验店,青年复古",true
+New Balance,砂之船奥特莱斯(江宁),江苏省,南京市,江宁区,秣陵街道砂之船路,New Balance 南京砂之船奥莱店,1层 A108,025-62747876,09:30 - 21:30,32.0512,118.7997,https://www.newbalance.com.cn,"奥特莱斯超级工厂店,折扣专享",true
+New Balance,百联奥特莱斯(汤山),江苏省,南京市,江宁区,圣湖路99号,New Balance 南京汤山百联奥莱店,1层 1128,025-67613548,09:30 - 21:30,32.084,118.7922,https://www.newbalance.com.cn,"名品奥特莱斯,经典复古特惠",true
+New Balance,苏州中心商场,江苏省,苏州市,工业园区,星港街与苏绣路交汇处,New Balance 苏州中心全球概念店,南区2层 02-18,0512-6355896,10:00 - 22:00,31.3009,120.5702,https://www.newbalance.com.cn,"城市旗舰店,Grey Store,Made in USA,Running Store",true
+New Balance,诚品生活,江苏省,苏州市,工业园区,月廊街8号,New Balance 苏州诚品生活概念店,1层 L106,0512-8752497,10:00 - 22:00,31.3236,120.5913,https://www.newbalance.com.cn,"文化概念店,复古慢跑,英产专区",true
+New Balance,美罗百货(观前街),江苏省,苏州市,姑苏区,观前街245号,New Balance 苏州美罗百货专柜,4层 运动名品馆,0512-8029306,10:00 - 22:00,31.2759,120.5745,https://www.newbalance.com.cn,"高端百货专柜,英美产系列",true
+New Balance,大悦春风里,江苏省,苏州市,相城区,御窑路1999号,New Balance 苏州大悦春风里店,1层 L1-15,0512-7484958,10:00 - 22:00,31.325,120.5677,https://www.newbalance.com.cn,"生活方式体验店,复古潮鞋",true
+New Balance,龙湖狮山天街,江苏省,苏州市,虎丘区,狮山路与塔园路交汇处,New Balance 苏州狮山天街店,2层 2F-22,0512-8263990,10:00 - 22:00,31.28,120.6107,https://www.newbalance.com.cn,"新区核心店,全系列跑鞋",true
+New Balance,吴中万达广场,江苏省,苏州市,吴中区,石湖东路100号,New Balance 苏州吴中万达店,2层 2F-08,0512-7811815,10:00 - 22:00,31.3315,120.6088,https://www.newbalance.com.cn,"综合专卖店,经典慢跑",true
+New Balance,常熟琴湖溪里,江苏省,苏州市,常熟市,海虞南路琴湖畔,New Balance 常熟琴湖溪里店,1层 1F-16,0512-7495330,10:00 - 22:00,31.2795,120.5513,https://www.newbalance.com.cn,"县域核心店,潮流生活",true
+New Balance,昆山金鹰国际购物中心,江苏省,苏州市,昆山市,珠江中路199号,New Balance 昆山金鹰国际店,3层 3F-12,0512-6578639,10:00 - 22:00,31.3098,120.6027,https://www.newbalance.com.cn,"昆山旗舰店,复古慢跑",true
+New Balance,张家港曼巴特购物广场,江苏省,苏州市,张家港市,河西路88号,New Balance 张家港曼巴特店,2层 2F-18,0512-7944417,10:00 - 22:00,31.2829,120.5883,https://www.newbalance.com.cn,"核心商圈店,全品类",true
+New Balance,苏州首创奥特莱斯,江苏省,苏州市,高新区,科技城普陀山路,New Balance 苏州首创奥莱店,1层 1058,0512-8531203,09:30 - 21:30,31.3267,120.5938,https://www.newbalance.com.cn,"奥特莱斯特惠,超大工厂店",true
+New Balance,比斯特苏州购物村,江苏省,苏州市,工业园区,阳澄环路969号,New Balance 比斯特苏州奕欧来奥莱店,1层 108铺,0512-7049840,10:00 - 22:00,31.2871,120.5861,https://www.newbalance.com.cn,"名品奥特莱斯,经典复古折扣",true
+New Balance,恒隆广场,江苏省,无锡市,梁溪区,人民中路139号,New Balance 无锡恒隆广场精品店,3层 318铺,0510-7240281,10:00 - 22:00,31.47,120.333,https://www.newbalance.com.cn,"高端概念店,Grey Store,Made in USA/UK",true
+New Balance,大东方百货,江苏省,无锡市,梁溪区,中山路343号,New Balance 无锡大东方百货专柜,5层 运动馆,0510-8582914,10:00 - 22:00,31.4837,120.2861,https://www.newbalance.com.cn,"核心百货专柜,经典慢跑",true
+New Balance,海岸城,江苏省,无锡市,滨湖区,立信大道168号,New Balance 无锡海岸城店,2层 2F-16,0510-7812662,10:00 - 22:00,31.5223,120.2951,https://www.newbalance.com.cn,"太湖新城店,跑步专营",true
+New Balance,万象城,江苏省,无锡市,滨湖区,金石路88号,New Balance 无锡万象城店,2层 L2-08,0510-6902429,10:00 - 22:00,31.5078,120.2973,https://www.newbalance.com.cn,"滨湖旗舰店,潮流生活",true
+New Balance,江阴澄星广场,江苏省,无锡市,江阴市,人民东路与虹桥北路交叉口,New Balance 江阴澄星广场店,2层 2F-12,0510-6797157,10:00 - 22:00,31.4773,120.3438,https://www.newbalance.com.cn,"江阴核心店,全系列",true
+New Balance,宜兴八佰伴,江苏省,无锡市,宜兴市,解放东路888号,New Balance 宜兴八佰伴店,3层 3F-15,0510-7500647,10:00 - 22:00,31.4758,120.3395,https://www.newbalance.com.cn,"宜兴旗舰店,复古跑鞋",true
+New Balance,百联奥特莱斯(无锡),江苏省,无锡市,锡山区,锡东大道与润锡路交汇处,New Balance 无锡百联奥莱店,1层 1028,0510-7726188,09:30 - 21:30,31.5144,120.3389,https://www.newbalance.com.cn,"奥特莱斯特惠,折扣工厂店",true
+New Balance,常州购物中心,江苏省,常州市,钟楼区,延陵西路1号,New Balance 常州购物中心专柜,4层 运动专区,0519-8108240,10:00 - 22:00,31.8037,119.9927,https://www.newbalance.com.cn,"核心百货专柜,经典复古跑鞋",true
+New Balance,武进吾悦广场,江苏省,常州市,武进区,武宜中路1号,New Balance 常州武进吾悦店,2层 2F-18,0519-7564417,10:00 - 22:00,31.7902,119.9824,https://www.newbalance.com.cn,"武进旗舰店,全系列",true
+New Balance,新北万达广场,江苏省,常州市,新北区,通江南路280号,New Balance 常州新北万达店,2层 2F-06,0519-8030185,10:00 - 22:00,31.8294,119.9597,https://www.newbalance.com.cn,"综合专卖店,跑步矩阵",true
+New Balance,江南环球港,江苏省,常州市,新北区,通江南路501号,New Balance 常州江南环球港店,1层 1088铺,0519-8243966,10:00 - 22:00,31.8298,119.9931,https://www.newbalance.com.cn,"超大体验店,NB 1906潮流店",true
+New Balance,南通万象城,江苏省,南通市,崇川区,北大街111号,New Balance 南通万象城店,2层 L2-18,0513-7686320,10:00 - 22:00,32.0353,120.8363,https://www.newbalance.com.cn,"城市旗舰店,NB 1906潮流店,Made in USA",true
+New Balance,文峰大世界,江苏省,南通市,崇川区,南大街3-21号,New Balance 南通文峰大世界专柜,4层 运动天地,0513-6615451,10:00 - 22:00,31.9908,120.8409,https://www.newbalance.com.cn,"老牌百货专柜,经典跑鞋",true
+New Balance,中南城购物中心,江苏省,南通市,崇川区,崇川路106号,New Balance 南通中南城店,2层 2F-12,0513-7450239,10:00 - 22:00,32.0409,120.8357,https://www.newbalance.com.cn,"核心体验店,复古慢跑",true
+New Balance,海门文峰大世界,江苏省,南通市,海门区,解放中路369号,New Balance 南通海门文峰店,3层 3F-08,0513-8205270,10:00 - 22:00,31.9946,120.8451,https://www.newbalance.com.cn,"区域专柜,生活方式",true
+New Balance,徐州苏宁广场,江苏省,徐州市,鼓楼区,彭城路与淮海东路交汇处,New Balance 徐州苏宁广场旗舰店,3层 3F-18,0516-7357293,10:00 - 22:00,34.2471,117.1816,https://www.newbalance.com.cn,"淮海经济区旗舰,Grey Store,Made in USA",true
+New Balance,金鹰国际购物中心,江苏省,徐州市,泉山区,中山南路2号,New Balance 徐州金鹰国际店,4层 运动专区,0516-6565662,10:00 - 22:00,34.2399,117.1528,https://www.newbalance.com.cn,"高端百货专柜,英美产专区",true
+New Balance,徐州万科广场,江苏省,徐州市,泉山区,三环西路与开元路交汇处,New Balance 徐州万科广场店,2层 2F-15,0516-8575301,10:00 - 22:00,34.2638,117.1791,https://www.newbalance.com.cn,"综合体验店,复古跑鞋",true
+New Balance,云龙万达广场,江苏省,徐州市,云龙区,和平路与庆丰路交汇处,New Balance 徐州云龙万达店,2层 2F-08,0516-8066569,10:00 - 22:00,34.2614,117.1855,https://www.newbalance.com.cn,"东区核心店,全系列",true
+New Balance,徐州杉杉奥特莱斯,江苏省,徐州市,贾汪区,徐州工业园区金溪路,New Balance 徐州杉杉奥莱店,1层 A108,0516-8402354,09:30 - 21:30,34.2457,117.1986,https://www.newbalance.com.cn,"奥特莱斯特惠,超大工厂店",true
+New Balance,扬州万象汇,江苏省,扬州市,邗江区,文昌西路与邗江北路交叉口,New Balance 扬州万象汇旗舰店,2层 L2-08,0514-7972545,10:00 - 22:00,32.3832,119.445,https://www.newbalance.com.cn,"城市旗舰店,NB 1906潮流店",true
+New Balance,金鹰文昌店,江苏省,扬州市,广陵区,文昌中路568号,New Balance 扬州金鹰文昌店,4层 运动馆,0514-6317465,10:00 - 22:00,32.3987,119.3828,https://www.newbalance.com.cn,"市中心核心专柜,经典跑鞋",true
+New Balance,京华城全生活广场,江苏省,扬州市,邗江区,京华城路168号,New Balance 扬州京华城店,2层 2F-16,0514-6861445,10:00 - 22:00,32.4004,119.4275,https://www.newbalance.com.cn,"西区体验店,跑步生活",true
+New Balance,镇江苏宁广场,江苏省,镇江市,京口区,解放路288号,New Balance 镇江苏宁广场店,2层 2F-18,0511-6790404,10:00 - 22:00,32.1686,119.4607,https://www.newbalance.com.cn,"城市旗舰店,全系列",true
+New Balance,镇江八佰伴,江苏省,镇江市,京口区,中山东路288号,New Balance 镇江八佰伴专柜,4层 运动天地,0511-7835676,10:00 - 22:00,32.1786,119.4006,https://www.newbalance.com.cn,"老牌专柜,经典复古跑鞋",true
+New Balance,泰州万达广场,江苏省,泰州市,海陵区,济川东路222号,New Balance 泰州万达店,2层 2F-12,0523-6099207,10:00 - 22:00,32.4358,119.9327,https://www.newbalance.com.cn,"核心专卖店,复古跑鞋",true
+New Balance,泰州中骏世界城,江苏省,泰州市,海陵区,海陵南路与永定东路交汇处,New Balance 泰州中骏世界城店,2层 2F-06,0523-6647692,10:00 - 22:00,32.4482,119.9358,https://www.newbalance.com.cn,"新城体验店,跑步矩阵",true
+New Balance,盐城金鹰聚龙湖店,江苏省,盐城市,盐都区,解放南路268号,New Balance 盐城金鹰聚龙湖店,3层 3F-16,0515-8924633,10:00 - 22:00,33.3346,120.1957,https://www.newbalance.com.cn,"城市旗舰店,Made in USA",true
+New Balance,中南城购物中心,江苏省,盐城市,城南新区,解放南路与世纪大道交汇处,New Balance 盐城中南城店,2层 2F-08,0515-7268122,10:00 - 22:00,33.3211,120.1349,https://www.newbalance.com.cn,"综合体验店,经典慢跑",true
+New Balance,淮安万达广场,江苏省,淮安市,清江浦区,翔宇中道169号,New Balance 淮安清江浦万达店,2层 2F-18,0517-7329333,10:00 - 22:00,33.5333,118.99,https://www.newbalance.com.cn,"城市旗舰店,全系列",true
+New Balance,新亚商场,江苏省,淮安市,清江浦区,淮海东路138号,New Balance 淮安新亚商场专柜,4层 运动休闲馆,0517-8269852,10:00 - 22:00,33.5403,119.0226,https://www.newbalance.com.cn,"百货专柜,经典跑鞋",true
+New Balance,连云港万达广场,江苏省,连云港市,海州区,瀛洲路与凌州路交汇处,New Balance 连云港万达店,2层 2F-15,0518-6409772,10:00 - 22:00,34.5913,119.2021,https://www.newbalance.com.cn,"城市专卖店,复古慢跑",true
+New Balance,苏宁广场,江苏省,连云港市,海州区,通灌北路与海连中路交汇处,New Balance 连云港苏宁广场店,2层 2F-08,0518-8901565,10:00 - 22:00,34.6035,119.2551,https://www.newbalance.com.cn,"市中心店,潮流生活",true
+New Balance,宿迁宝龙广场,江苏省,宿迁市,宿城区,西湖路与宿支路交汇处,New Balance 宿迁宝龙广场店,2层 2F-16,0527-6023279,10:00 - 22:00,33.965,118.2984,https://www.newbalance.com.cn,"城市旗舰店,经典跑鞋",true
+New Balance,宿迁金鹰国际购物中心,江苏省,宿迁市,宿城区,发展大道与洪泽湖路交汇处,New Balance 宿迁金鹰国际店,3层 3F-12,0527-7652755,10:00 - 22:00,33.9792,118.2491,https://www.newbalance.com.cn,"高端专柜,复古慢跑",true
+New Balance,湖滨银泰in77,浙江省,杭州市,上城区,延安路258号,New Balance 杭州湖滨银泰in77核心概念店,C区地下1层 B1-052,0571-8656629,10:00 - 22:00,30.2543,120.1304,https://www.newbalance.com.cn,"核心概念店,Grey Store,西湖地标,限量发售",true
+New Balance,杭州万象城,浙江省,杭州市,上城区,富春路701号,New Balance 杭州万象城店,4层 488铺,0571-6378616,10:00 - 22:00,30.2725,120.1369,https://www.newbalance.com.cn,"钱江新城旗舰,Made in USA/UK系列,高端跑步",true
+New Balance,杭州嘉里中心,浙江省,杭州市,拱墅区,延安路385号,New Balance 杭州嘉里中心Running Store,3层 L310,0571-6708589,10:00 - 22:00,30.2807,120.1491,https://www.newbalance.com.cn,"跑步专营店,足态步态测试,西湖跑者驿站",true
+New Balance,杭州大厦购物城,浙江省,杭州市,拱墅区,武林广场1号,New Balance 杭州大厦专柜,C座4层 运动专区,0571-6513201,10:00 - 22:00,30.2704,120.1818,https://www.newbalance.com.cn,"高端百货专柜,英美产专柜",true
+New Balance,城西银泰城,浙江省,杭州市,拱墅区,丰潭路380号,New Balance 杭州城西银泰城店,2层 2F-028,0571-7014225,10:00 - 22:00,30.2945,120.1566,https://www.newbalance.com.cn,"城西旗舰店,NB 1906潮流店,亲子专区",true
+New Balance,龙湖滨江天街,浙江省,杭州市,滨江区,江汉路1515号,New Balance 杭州滨江天街店,3层 3F-18,0571-7843878,10:00 - 22:00,30.244,120.182,https://www.newbalance.com.cn,"高新区旗舰,跑步生活,复古潮流",true
+New Balance,奥体印象城,浙江省,杭州市,萧山区,飞虹路与金鸡路交汇处,New Balance 杭州奥体印象城店,2层 L2-16,0571-8799302,10:00 - 22:00,30.2835,120.1587,https://www.newbalance.com.cn,"钱江南岸旗舰,专业跑鞋",true
+New Balance,萧山万象汇,浙江省,杭州市,萧山区,市心北路与市心中路交汇处,New Balance 杭州萧山万象汇店,2层 L2-08,0571-6158988,10:00 - 22:00,30.2618,120.172,https://www.newbalance.com.cn,"萧山核心店,全系列",true
+New Balance,西溪印象城,浙江省,杭州市,余杭区,五常大道1号,New Balance 杭州西溪印象城店,1层 1F-32,0571-7289233,10:00 - 22:00,30.278,120.1601,https://www.newbalance.com.cn,"西溪生态体验店,慢跑生活",true
+New Balance,砂之船奥特莱斯(杭州),浙江省,杭州市,上城区,解放东路8号钱江新城地下,New Balance 杭州砂之船奥莱店,B1层 B1-108,0571-6726331,09:30 - 21:30,30.2982,120.1735,https://www.newbalance.com.cn,"奥特莱斯特惠,超大工厂店",true
+New Balance,首创奥特莱斯(富阳),浙江省,杭州市,富阳区,江滨东大道67号,New Balance 杭州首创奥莱店,1层 1038,0571-7522762,09:30 - 21:30,30.2436,120.1637,https://www.newbalance.com.cn,"奥特莱斯折扣店,名品特惠",true
+New Balance,宁波阪急百货,浙江省,宁波市,鄞州区,海晏北路189号,New Balance 宁波阪急旗舰店,4层 4F-18,0574-8335618,10:00 - 22:00,29.902,121.5452,https://www.newbalance.com.cn,"城市旗舰店,Grey Store,Made in USA,高端潮流",true
+New Balance,鄞州万达广场,浙江省,宁波市,鄞州区,四明中路999号,New Balance 宁波鄞州万达店,2层 2F-28,0574-6378861,10:00 - 22:00,29.8886,121.5202,https://www.newbalance.com.cn,"核心综合大店,全系列",true
+New Balance,天一广场,浙江省,宁波市,海曙区,中山东路188号,New Balance 宁波天一广场店,1层 1058铺,0574-6123540,10:00 - 22:00,29.8551,121.5361,https://www.newbalance.com.cn,"市中心地标店,NB 1906潮流店",true
+New Balance,和义大道购物中心,浙江省,宁波市,海曙区,和义路66号,New Balance 宁波和义大道精品店,2层 208铺,0574-7262884,10:00 - 22:00,29.8768,121.5636,https://www.newbalance.com.cn,"高端精品店,英产专区",true
+New Balance,杉井奥特莱斯,浙江省,宁波市,海曙区,秋实路与联丰中路交叉口,New Balance 宁波杉井奥莱店,1层 108铺,0574-7318352,09:30 - 21:30,29.8583,121.5464,https://www.newbalance.com.cn,"奥特莱斯特惠,超大折扣工厂店",true
+New Balance,慈溪爱琴海购物公园,浙江省,宁波市,慈溪市,北三环东路与新城大道交叉口,New Balance 慈溪爱琴海店,2层 2F-16,0574-7755668,10:00 - 22:00,29.8818,121.5657,https://www.newbalance.com.cn,"慈溪旗舰店,经典跑鞋",true
+New Balance,余姚五彩城,浙江省,宁波市,余姚市,城东路与金型路交汇处,New Balance 余姚五彩城店,2层 2F-08,0574-7165692,10:00 - 22:00,29.8661,121.5147,https://www.newbalance.com.cn,"余姚核心店,复古潮流",true
+New Balance,温州万象城,浙江省,温州市,瓯海区,温瑞大道999号,New Balance 温州万象城旗舰店,3层 L3-18,0577-7939615,10:00 - 22:00,27.9877,120.7146,https://www.newbalance.com.cn,"浙南旗舰店,Grey Store,Made in USA",true
+New Balance,时代广场,浙江省,温州市,鹿城区,车站大道288号,New Balance 温州时代广场专柜,4层 运动专区,0577-8868775,10:00 - 22:00,27.9803,120.7199,https://www.newbalance.com.cn,"市中心高端专柜,英美产专区",true
+New Balance,温州印象城MEGA,浙江省,温州市,鹿城区,市府路与府东路交汇处,New Balance 温州印象城MEGA店,2层 L2-12,0577-8034126,10:00 - 22:00,27.962,120.7311,https://www.newbalance.com.cn,"潮流地标店,NB 1906潮流店",true
+New Balance,瑞安吾悦广场,浙江省,温州市,瑞安市,安阳路与瑞祥大道交汇处,New Balance 瑞安吾悦广场店,2层 2F-15,0577-7620119,10:00 - 22:00,27.9865,120.6856,https://www.newbalance.com.cn,"瑞安核心店,全系列跑鞋",true
+New Balance,乐清南虹广场,浙江省,温州市,乐清市,伯乐东路与晨曦路交汇处,New Balance 乐清南虹广场店,2层 2F-08,0577-7300832,10:00 - 22:00,28.012,120.6698,https://www.newbalance.com.cn,"乐清旗舰店,复古慢跑",true
+New Balance,绍兴银泰百货(金帝银泰城),浙江省,绍兴市,越城区,解放南路777号,New Balance 绍兴金帝银泰城店,3层 3F-16,0575-7166480,10:00 - 22:00,30.0061,120.5579,https://www.newbalance.com.cn,"城市旗舰店,NB 1906潮流店",true
+New Balance,柯桥万达广场,浙江省,绍兴市,柯桥区,钱陶公路与柯华路交汇处,New Balance 绍兴柯桥万达店,2层 2F-22,0575-7582738,10:00 - 22:00,29.9862,120.5869,https://www.newbalance.com.cn,"柯桥核心店,全系列",true
+New Balance,诸暨万达广场,浙江省,绍兴市,诸暨市,高湖东路与东旺路交汇处,New Balance 诸暨万达广场店,2层 2F-08,0575-6504743,10:00 - 22:00,30.0156,120.5787,https://www.newbalance.com.cn,"诸暨旗舰店,经典跑鞋",true
+New Balance,嘉兴八佰伴,浙江省,嘉兴市,南湖区,中山东路与建国南路交汇处,New Balance 嘉兴八佰伴店,4层 4F-18,0573-7970381,10:00 - 22:00,30.7672,120.7894,https://www.newbalance.com.cn,"城市旗舰店,Made in USA",true
+New Balance,嘉兴万达广场,浙江省,嘉兴市,南湖区,广益路与庆丰路交汇处,New Balance 嘉兴万达店,2层 2F-12,0573-6965658,10:00 - 22:00,30.7767,120.7857,https://www.newbalance.com.cn,"综合体验店,复古跑鞋",true
+New Balance,海宁皮革城奥特莱斯,浙江省,嘉兴市,海宁市,海州西路201号,New Balance 海宁皮革城奥莱店,1层 1058,0573-7444565,09:30 - 21:30,30.7222,120.7876,https://www.newbalance.com.cn,"奥特莱斯折扣店,工厂特惠",true
+New Balance,义乌之心城市生活广场,浙江省,金华市,义乌市,绣湖西路1号,New Balance 义乌之心旗舰店,2层 2F-18,0579-7159851,10:00 - 22:00,29.0648,119.6444,https://www.newbalance.com.cn,"浙中旗舰店,Grey Store,NB 1906潮流店",true
+New Balance,义乌万达广场,浙江省,金华市,义乌市,新科路与西城路交汇处,New Balance 义乌万达店,2层 2F-25,0579-8706996,10:00 - 22:00,29.0531,119.6379,https://www.newbalance.com.cn,"综合大店,全系列跑鞋",true
+New Balance,金华第一百货(江北店),浙江省,金华市,婺城区,中山路116号,New Balance 金华第一百货专柜,3层 运动馆,0579-6944425,10:00 - 22:00,29.0526,119.6462,https://www.newbalance.com.cn,"市中心百货专柜,经典复古",true
+New Balance,金华万达广场,浙江省,金华市,金东区,李渔东路与东市南街交汇处,New Balance 金华金东万达店,2层 2F-16,0579-7523243,10:00 - 22:00,29.0838,119.6147,https://www.newbalance.com.cn,"综合专卖店,跑步生活",true
+New Balance,台州万达广场,浙江省,台州市,椒江区,开发大道与经中路交汇处,New Balance 台州椒江万达店,2层 2F-18,0576-8337665,10:00 - 22:00,28.6496,121.4058,https://www.newbalance.com.cn,"城市旗舰店,全系列",true
+New Balance,台州青悦城,浙江省,台州市,椒江区,市府大道与白云山南路交汇处,New Balance 台州青悦城店,2层 2F-06,0576-7134236,10:00 - 22:00,28.6503,121.4307,https://www.newbalance.com.cn,"体验店,NB 1906潮流店",true
+New Balance,温岭银泰城,浙江省,台州市,温岭市,中华路与万昌中路交汇处,New Balance 温岭银泰城店,2层 2F-12,0576-6772416,10:00 - 22:00,28.6316,121.4112,https://www.newbalance.com.cn,"温岭核心店,经典跑鞋",true
+New Balance,湖州爱山银泰城,浙江省,湖州市,吴兴区,红旗路与爱山路交汇处,New Balance 湖州爱山银泰店,3层 3F-15,0572-7629684,10:00 - 22:00,30.9167,120.0836,https://www.newbalance.com.cn,"城市旗舰店,复古跑鞋",true
+New Balance,湖州万达广场,浙江省,湖州市,吴兴区,太湖路与金田路交汇处,New Balance 湖州万达店,2层 2F-08,0572-7421419,10:00 - 22:00,30.8847,120.0921,https://www.newbalance.com.cn,"综合专卖店,全系列",true
+New Balance,衢州国金中心,浙江省,衢州市,柯城区,下街与坊门街交叉口,New Balance 衢州国金中心店,2层 2F-12,0570-7955833,10:00 - 22:00,28.9933,118.858,https://www.newbalance.com.cn,"城市旗舰店,复古跑鞋",true
+New Balance,衢州万达广场,浙江省,衢州市,柯城区,浙西大道与迎宾大道交汇处,New Balance 衢州万达店,2层 2F-06,0570-7969411,10:00 - 22:00,28.996,118.8921,https://www.newbalance.com.cn,"专卖店,生活方式",true
+New Balance,丽水万地广场,浙江省,丽水市,莲都区,花园路与长虹路交汇处,New Balance 丽水万地广场店,2层 2F-18,0578-8426507,10:00 - 22:00,28.4861,119.9496,https://www.newbalance.com.cn,"城市旗舰店,全系列跑鞋",true
+New Balance,舟山杉杉普陀天地,浙江省,舟山市,普陀区,海洲路与海印路交汇处,New Balance 舟山杉杉天地店,1层 1F-15,0580-6606621,10:00 - 22:00,30.0061,122.2,https://www.newbalance.com.cn,"海岛旗舰店,复古慢跑",true
+New Balance,舟山临城凯虹广场,浙江省,舟山市,定海区,千岛路与海天大道交汇处,New Balance 舟山凯虹广场店,2层 2F-08,0580-7683833,10:00 - 22:00,29.9641,122.2379,https://www.newbalance.com.cn,"综合专卖店,全品类",true
+New Balance,恒隆广场,山东省,济南市,历下区,泉城路188号,New Balance 济南恒隆广场旗舰店,西翼3层 328铺,0531-7608213,10:00 - 22:00,36.6472,117.1122,https://www.newbalance.com.cn,"城市旗舰店,Grey Store,Made in USA/UK高端线",true
+New Balance,万象城,山东省,济南市,历下区,经十路11111号,New Balance 济南万象城Running Store,L3层 L318,0531-8451809,10:00 - 22:00,36.6716,117.121,https://www.newbalance.com.cn,"跑步专营店,足态分析,专业竞速",true
+New Balance,贵和购物中心,山东省,济南市,历下区,天地坛街1号,New Balance 济南贵和购物中心专柜,4层 运动天地,0531-8120916,10:00 - 22:00,36.6318,117.1261,https://www.newbalance.com.cn,"高端百货专柜,英美产专区",true
+New Balance,世茂广场,山东省,济南市,历下区,泉城路26号,New Balance 济南世茂广场店,2层 2F-16,0531-6083898,10:00 - 22:00,36.6275,117.1313,https://www.newbalance.com.cn,"NB 1906潮流店,青年潮流",true
+New Balance,高新万达广场,山东省,济南市,历下区,工业南路与舜华路交汇处,New Balance 济南高新万达店,2层 2F-22,0531-7412844,10:00 - 22:00,36.6745,117.1197,https://www.newbalance.com.cn,"高新核心店,全系列",true
+New Balance,魏家庄万达广场,山东省,济南市,市中区,经四路5号,New Balance 济南经四路万达店,2层 2F-08,0531-6300856,10:00 - 22:00,36.6176,117.1437,https://www.newbalance.com.cn,"市中心专卖店,经典跑鞋",true
+New Balance,首创奥特莱斯(历城),山东省,济南市,历城区,唐冶中路与世纪大道交汇处,New Balance 济南首创奥莱店,1层 1028,0531-6488863,09:30 - 21:30,36.6224,117.1276,https://www.newbalance.com.cn,"奥特莱斯特惠,超大工厂店",true
+New Balance,百联奥特莱斯(高新),山东省,济南市,历城区,经十东路与春暄路交汇处,New Balance 济南高新百联奥莱店,1层 116,0531-7162209,09:30 - 21:30,36.6799,117.1237,https://www.newbalance.com.cn,"名品奥特莱斯,折扣专享",true
+New Balance,万象城,山东省,青岛市,市南区,山东路6号,New Balance 青岛万象城全球概念店,L3层 L316,0532-8104254,10:00 - 22:00,36.1008,120.3816,https://www.newbalance.com.cn,"城市旗舰店,Grey Store,Made in USA,跑者驿站",true
+New Balance,海信广场,山东省,青岛市,市南区,澳门路117号,New Balance 青岛海信广场精品店,4层 4F-08,0532-7042489,10:00 - 22:00,36.0393,120.4106,https://www.newbalance.com.cn,"高端精品店,英产专区,高端生活",true
+New Balance,大悦春风里,山东省,青岛市,市北区,开平路与周口路交汇处,New Balance 青岛大悦春风里店,1层 L1-12,0532-7913767,10:00 - 22:00,36.1017,120.408,https://www.newbalance.com.cn,"NB 1906潮流店,生活方式",true
+New Balance,凯德MALL,山东省,青岛市,市北区,黑龙江南路18号,New Balance 青岛凯德MALL店,2层 02-15,0532-6558368,10:00 - 22:00,36.0612,120.3477,https://www.newbalance.com.cn,"核心体验店,复古跑鞋",true
+New Balance,金鼎广场,山东省,青岛市,崂山区,香港东路83号,New Balance 青岛金鼎广场店,2层 2F-18,0532-7031954,10:00 - 22:00,36.0649,120.3552,https://www.newbalance.com.cn,"崂山核心店,跑步矩阵",true
+New Balance,李沧万达广场,山东省,青岛市,李沧区,巨峰路178号,New Balance 青岛李沧万达店,2层 2F-28,0532-7204914,10:00 - 22:00,36.048,120.396,https://www.newbalance.com.cn,"李沧旗舰大店,全系列",true
+New Balance,西海岸万达广场,山东省,青岛市,黄岛区,滨海大道2888号,New Balance 青岛西海岸万达店,2层 2F-06,0532-8127945,10:00 - 22:00,36.0395,120.3603,https://www.newbalance.com.cn,"西海岸核心店,跑步生活",true
+New Balance,砂之船奥特莱斯(青岛),山东省,青岛市,城阳区,火炬路与河东路交汇处,New Balance 青岛砂之船奥莱店,1层 A108,0532-8088790,09:30 - 21:30,36.0504,120.3681,https://www.newbalance.com.cn,"奥特莱斯超级工厂店,超大折扣",true
+New Balance,烟台大悦城,山东省,烟台市,芝罘区,海港路29号,New Balance 烟台大悦城旗舰店,2层 2F-18,0535-8390497,10:00 - 22:00,37.4667,121.4594,https://www.newbalance.com.cn,"城市旗舰店,NB 1906潮流店,Made in USA",true
+New Balance,万达广场(芝罘),山东省,烟台市,芝罘区,西关南街6号,New Balance 烟台芝罘万达店,2层 2F-22,0535-8517441,10:00 - 22:00,37.4526,121.4367,https://www.newbalance.com.cn,"核心专卖店,复古跑鞋",true
+New Balance,保利MALL,山东省,烟台市,莱山区,清泉路29号,New Balance 烟台保利MALL店,2层 2F-08,0535-7436393,10:00 - 22:00,37.4893,121.4753,https://www.newbalance.com.cn,"莱山旗舰店,跑步矩阵",true
+New Balance,开发区万达广场,山东省,烟台市,福山区,辽河路与衡山路交汇处,New Balance 烟台开发区万达店,2层 2F-16,0535-6088739,10:00 - 22:00,37.4646,121.4546,https://www.newbalance.com.cn,"综合大店,全系列",true
+New Balance,潍坊泰华城,山东省,潍坊市,奎文区,东风东街360号,New Balance 潍坊泰华城旗舰店,2层 2F-18,0536-6348712,10:00 - 22:00,36.7349,119.195,https://www.newbalance.com.cn,"城市旗舰店,NB 1906潮流店",true
+New Balance,潍坊万达广场,山东省,潍坊市,奎文区,福寿东街与鸢飞路交汇处,New Balance 潍坊万达店,2层 2F-26,0536-6128829,10:00 - 22:00,36.6773,119.1425,https://www.newbalance.com.cn,"核心体验店,全系列跑鞋",true
+New Balance,潍百集团中百大厦,山东省,潍坊市,奎文区,胜利东街与和平路交汇处,New Balance 潍坊中百大厦专柜,3层 运动馆,0536-8182308,10:00 - 22:00,36.682,119.1708,https://www.newbalance.com.cn,"百货专柜,经典慢跑",true
+New Balance,临沂泰盛广场,山东省,临沂市,兰山区,解放路与通达路交汇处,New Balance 临沂泰盛广场旗舰店,2层 2F-28,0539-7790353,10:00 - 22:00,35.0932,118.3742,https://www.newbalance.com.cn,"鲁南旗舰店,Grey Store,NB 1906潮流店",true
+New Balance,万象汇,山东省,临沂市,兰山区,沂蒙路与上海路交汇处,New Balance 临沂万象汇店,2层 L2-15,0539-7214793,10:00 - 22:00,35.0998,118.3534,https://www.newbalance.com.cn,"北城新地标店,专业跑步",true
+New Balance,临沂万达广场,山东省,临沂市,兰山区,聚才六路与临西八路交汇处,New Balance 临沂万达店,2层 2F-12,0539-8511962,10:00 - 22:00,35.0824,118.3591,https://www.newbalance.com.cn,"综合专卖店,全系列",true
+New Balance,临沂奥特莱斯,山东省,临沂市,河东区,北京东路与沭河路交汇处,New Balance 临沂奥莱店,1层 108,0539-8500524,09:30 - 21:30,35.1187,118.3498,https://www.newbalance.com.cn,"奥特莱斯特惠,工厂折扣",true
+New Balance,淄博万象汇,山东省,淄博市,张店区,金晶大道66号,New Balance 淄博万象汇旗舰店,2层 L2-16,0533-6190601,10:00 - 22:00,36.7952,118.0206,https://www.newbalance.com.cn,"城市旗舰店,NB 1906潮流店,Made in USA",true
+New Balance,淄博王府井广场,山东省,淄博市,张店区,美食街与柳泉路交汇处,New Balance 淄博王府井店,2层 2F-08,0533-6694819,10:00 - 22:00,36.8314,118.0385,https://www.newbalance.com.cn,"核心商圈店,复古跑鞋",true
+New Balance,济宁万达广场,山东省,济宁市,任城区,太白东路与太白楼路交汇处,New Balance 济宁万达店,2层 2F-22,0537-8111179,10:00 - 22:00,35.4084,116.5558,https://www.newbalance.com.cn,"鲁西南旗舰店,全系列跑鞋",true
+New Balance,济宁运河城,山东省,济宁市,任城区,太白中路与共青团路交汇处,New Balance 济宁运河城店,3层 3F-16,0537-6284419,10:00 - 22:00,35.4285,116.5538,https://www.newbalance.com.cn,"核心体验店,复古潮流",true
+New Balance,威海九龙城休闲购物广场,山东省,威海市,经区,青岛中路158号,New Balance 威海九龙城店,2层 2F-18,0631-8191258,10:00 - 22:00,37.5147,122.0907,https://www.newbalance.com.cn,"城市旗舰店,全系列跑鞋",true
+New Balance,威海威高广场,山东省,威海市,环翠区,新威路17号,New Balance 威海威高广场店,2层 2F-08,0631-7118408,10:00 - 22:00,37.511,122.136,https://www.newbalance.com.cn,"市中心核心店,复古潮流",true
+New Balance,武汉天地,湖北省,武汉市,江岸区,芦沟桥路68号,New Balance 武汉天地概念店,1层 108号,027-76278696,10:00 - 22:00,30.6225,114.327,https://www.newbalance.com.cn,"城市核心概念店,Grey Store,Made in USA/UK高端线",true
+New Balance,武商MALL,湖北省,武汉市,江汉区,解放大道690号,New Balance 武汉武商MALL店,6层 运动馆,027-53271871,10:00 - 22:00,30.6221,114.2971,https://www.newbalance.com.cn,"全国标杆百货专柜,英美产全品类",true
+New Balance,武汉万象城,湖北省,武汉市,江岸区,建设大道668号,New Balance 武汉万象城Running Store,L3层 L316,027-72749953,10:00 - 22:00,30.562,114.2933,https://www.newbalance.com.cn,"跑步专营店,足态步态分析,专业竞速",true
+New Balance,汉街万达广场,湖北省,武汉市,武昌区,楚河汉街第三街区,New Balance 武汉楚河汉街店,1层 012号,027-72752131,10:00 - 22:00,30.5962,114.2779,https://www.newbalance.com.cn,"NB 1906潮流店,街区旗舰,潮流首发",true
+New Balance,群光广场,湖北省,武汉市,洪山区,珞瑜路6号,New Balance 武汉群光广场专柜,5层 运动名品馆,027-79505514,10:00 - 22:00,30.5922,114.2831,https://www.newbalance.com.cn,"光谷高校商圈旗舰,经典复古跑鞋",true
+New Balance,光谷大悦城,湖北省,武汉市,洪山区,高新大道799号,New Balance 武汉光谷大悦城店,2层 2F-18,027-84181409,10:00 - 22:00,30.6041,114.2873,https://www.newbalance.com.cn,"光谷东核心店,全系列",true
+New Balance,永旺梦乐城(金桥),湖北省,武汉市,江岸区,金桥大道15号,New Balance 武汉金桥永旺店,2层 2F-06,027-84653601,10:00 - 22:00,30.5688,114.3094,https://www.newbalance.com.cn,"家庭体验店,亲子跑步,NB Kids",true
+New Balance,江夏永旺梦乐城,湖北省,武汉市,江夏区,文化大道与四环线交汇处,New Balance 武汉江夏永旺店,2层 2F-28,027-56797052,10:00 - 22:00,30.6135,114.3294,https://www.newbalance.com.cn,"江南超级大店,全品类",true
+New Balance,百联奥特莱斯(黄陂),湖北省,武汉市,黄陂区,盘龙城经济开发区盘龙大道,New Balance 武汉盘龙城百联奥莱店,1层 1088,027-64463245,09:30 - 21:30,30.5895,114.3271,https://www.newbalance.com.cn,"奥特莱斯特惠,超大工厂折扣店",true
+New Balance,首创奥特莱斯(光谷),湖北省,武汉市,江夏区,高新二路与武黄高速交汇处,New Balance 武汉首创奥莱店,1层 1028,027-60756294,09:30 - 21:30,30.5851,114.3144,https://www.newbalance.com.cn,"名品奥特莱斯,经典复古特惠",true
+New Balance,襄阳万达广场,湖北省,襄阳市,樊城区,长虹北路与松鹤路交汇处,New Balance 襄阳长虹路万达店,2层 2F-18,0710-6305985,10:00 - 22:00,31.975,112.1527,https://www.newbalance.com.cn,"鄂西北旗舰店,全系列跑鞋",true
+New Balance,襄阳民发广场,湖北省,襄阳市,襄州区,航空路与卧龙路交汇处,New Balance 襄阳民发广场店,2层 2F-08,0710-8185170,10:00 - 22:00,32.0045,112.0968,https://www.newbalance.com.cn,"核心商圈店,复古慢跑",true
+New Balance,襄阳武商MALL,湖北省,襄阳市,樊城区,解放路36号,New Balance 襄阳武商专柜,4层 运动专区,0710-7802715,10:00 - 22:00,32.0269,112.138,https://www.newbalance.com.cn,"百货专柜,经典鞋款",true
+New Balance,宜昌万达广场,湖北省,宜昌市,伍家岗区,沿江大道168号,New Balance 宜昌沿江万达店,2层 2F-16,0717-8693933,10:00 - 22:00,30.6647,111.281,https://www.newbalance.com.cn,"三峡区域旗舰,全系列",true
+New Balance,宜昌国贸大厦,湖北省,宜昌市,西陵区,东山大道106号,New Balance 宜昌国贸大厦专柜,4层 运动馆,0717-6007892,10:00 - 22:00,30.7198,111.2821,https://www.newbalance.com.cn,"市中心百货专柜,复古跑鞋",true
+New Balance,荆州万达广场,湖北省,荆州市,荆州区,北京西路与武德路交汇处,New Balance 荆州万达店,2层 2F-18,0716-7397755,10:00 - 22:00,30.3611,112.2379,https://www.newbalance.com.cn,"江汉平原旗舰,全系列",true
+New Balance,人信汇,湖北省,荆州市,沙市区,北京中路与江汉南路交汇处,New Balance 荆州人信汇店,2层 2F-06,0716-7348106,10:00 - 22:00,30.3614,112.2536,https://www.newbalance.com.cn,"核心体验店,复古慢跑",true
+New Balance,长沙IFS国金中心,湖南省,长沙市,芙蓉区,解放西路188号,New Balance 长沙IFS国金中心旗舰店,LG1层 LG128,0731-8872864,10:00 - 22:00,28.2533,112.9665,https://www.newbalance.com.cn,"华中标杆旗舰,Grey Store,Made in USA,限量首发",true
+New Balance,德思勤四季汇,湖南省,长沙市,雨花区,湘府中路18号,New Balance 长沙德思勤店,2层 2F-16,0731-7780377,10:00 - 22:00,28.2241,112.9249,https://www.newbalance.com.cn,"城南地标店,NB 1906潮流店,全系列",true
+New Balance,长沙万象城,湖南省,长沙市,岳麓区,桐梓坡路与岳华路交汇处,New Balance 长沙万象城Running Store,L3层 L312,0731-7087930,10:00 - 22:00,28.2037,112.9533,https://www.newbalance.com.cn,"跑步专营店,河西旗舰,专业跑鞋",true
+New Balance,步步高梅溪新天地,湖南省,长沙市,岳麓区,枫林三路1099号,New Balance 长沙梅溪新天地店,1层 1F-28,0731-7799297,10:00 - 22:00,28.2304,112.9051,https://www.newbalance.com.cn,"超级体验大店,亲子跑步,NB Kids",true
+New Balance,王府井百货(五一店),湖南省,长沙市,天心区,黄兴中路27号,New Balance 长沙王府井专柜,5层 运动休闲馆,0731-7721958,10:00 - 22:00,28.2205,112.9367,https://www.newbalance.com.cn,"五一广场核心专柜,经典复古跑鞋",true
+New Balance,洋湖天街,湖南省,长沙市,岳麓区,先导路与连山路交汇处,New Balance 长沙洋湖天街店,2层 2F-08,0731-8120599,10:00 - 22:00,28.2418,112.9272,https://www.newbalance.com.cn,"洋湖新城店,生活方式",true
+New Balance,砂之船奥特莱斯(长沙),湖南省,长沙市,望城区,月亮岛路与金星北路交汇处,New Balance 长沙砂之船奥莱店,1层 A108,0731-8157118,09:30 - 21:30,28.208,112.9712,https://www.newbalance.com.cn,"奥特莱斯特惠,超大工厂折扣店",true
+New Balance,时代奥特莱斯,湖南省,长沙市,开福区,金霞物流园区中青路,New Balance 长沙时代奥莱店,1层 1058,0731-8320117,09:30 - 21:30,28.2523,112.9486,https://www.newbalance.com.cn,"名品奥特莱斯,折扣专享",true
+New Balance,株洲大汉悦中心,湖南省,株洲市,芦淞区,车站路1号,New Balance 株洲大汉悦中心店,2层 2F-18,0731-7715304,10:00 - 22:00,27.8379,113.1684,https://www.newbalance.com.cn,"城市旗舰店,复古跑鞋",true
+New Balance,株洲神农太阳城,湖南省,株洲市,天元区,珠江南路神农城,New Balance 株洲神农城店,2层 2F-06,0731-8143426,10:00 - 22:00,27.8126,113.1616,https://www.newbalance.com.cn,"天元核心店,全系列",true
+New Balance,衡阳万达广场,湖南省,衡阳市,蒸湘区,解放西路与蒸水南路交汇处,New Balance 衡阳蒸湘万达店,2层 2F-18,0734-8503229,10:00 - 22:00,26.8967,112.5392,https://www.newbalance.com.cn,"湘南旗舰店,全系列跑鞋",true
+New Balance,衡阳万象汇,湖南省,衡阳市,雁峰区,蒸阳南路与雁城路交汇处,New Balance 衡阳万象汇店,2层 L2-08,0734-7819640,10:00 - 22:00,26.9272,112.575,https://www.newbalance.com.cn,"新城核心店,复古慢跑",true
+New Balance,岳阳友阿国际广场,湖南省,岳阳市,岳阳楼区,东茅岭路32号,New Balance 岳阳友阿国际店,3层 3F-16,0730-7638335,10:00 - 22:00,29.3404,113.0988,https://www.newbalance.com.cn,"洞庭湖地标店,全系列",true
+New Balance,岳阳步步高广场,湖南省,岳阳市,岳阳楼区,巴陵中路与金鹗中路交汇处,New Balance 岳阳步步高店,2层 2F-08,0730-7593697,10:00 - 22:00,29.3614,113.0977,https://www.newbalance.com.cn,"核心体验店,复古跑鞋",true
+New Balance,万象九宜城,福建省,福州市,台江区,工业路378号,New Balance 福州万象九宜城旗舰店,2层 2F-18,0591-6290651,10:00 - 22:00,26.087,119.2994,https://www.newbalance.com.cn,"城市旗舰店,Grey Store,Made in USA,NB 1906",true
+New Balance,东百中心,福建省,福州市,鼓楼区,八一七北路88号,New Balance 福州东百中心专柜,5层 运动名品馆,0591-6189359,10:00 - 22:00,26.093,119.2696,https://www.newbalance.com.cn,"三坊七巷地标专柜,英美产专区",true
+New Balance,泰禾广场(东二环),福建省,福州市,晋安区,竹屿路6号,New Balance 福州东二环泰禾店,2层 2F-28,0591-6813325,10:00 - 22:00,26.0396,119.3013,https://www.newbalance.com.cn,"东区综合大店,全系列跑鞋,NB Kids",true
+New Balance,仓山万达广场,福建省,福州市,仓山区,浦上大道272号,New Balance 福州仓山万达店,2层 2F-16,0591-7279337,10:00 - 22:00,26.0707,119.2941,https://www.newbalance.com.cn,"仓山核心店,跑步生活",true
+New Balance,苏宁广场,福建省,福州市,台江区,工业路233号,New Balance 福州苏宁广场店,B1层 B1-08,0591-8295812,10:00 - 22:00,26.1093,119.2873,https://www.newbalance.com.cn,"潮流体验店,青年复古",true
+New Balance,百联奥特莱斯(福州),福建省,福州市,闽侯县,南屿镇旗山大道,New Balance 福州百联奥莱店,1层 1088,0591-7443411,09:30 - 21:30,26.0994,119.3084,https://www.newbalance.com.cn,"奥特莱斯特惠,超大工厂折扣店",true
+New Balance,厦门万象城,福建省,厦门市,思明区,湖滨东路99号,New Balance 厦门万象城旗舰店,L3层 L318,0592-6748813,10:00 - 22:00,24.4606,118.079,https://www.newbalance.com.cn,"闽南标杆旗舰,Grey Store,Made in USA/UK高端线",true
+New Balance,宝龙一城,福建省,厦门市,思明区,金山路1号,New Balance 厦门宝龙一城NB 1906店,1层 L1-016,0592-6896295,10:00 - 22:00,24.4548,118.0828,https://www.newbalance.com.cn,"NB 1906潮流店,岛内东部旗舰,潮流首发",true
+New Balance,SM城市广场,福建省,厦门市,湖里区,嘉禾路468号,New Balance 厦门SM一期店,3层 3F-12,0592-6771195,10:00 - 22:00,24.4519,118.0791,https://www.newbalance.com.cn,"经典体验店,全系列,跑鞋矩阵",true
+New Balance,SM三期,福建省,厦门市,湖里区,嘉禾路468号SM三期,New Balance 厦门SM三期Running Store,2层 L2-08,0592-6622930,10:00 - 22:00,24.5054,118.0828,https://www.newbalance.com.cn,"跑步专营店,足态步态测试,专业竞速",true
+New Balance,中华城,福建省,厦门市,思明区,思明南路189号,New Balance 厦门中华城店,1层 1F-15,0592-8616729,10:00 - 22:00,24.4585,118.0995,https://www.newbalance.com.cn,"中山路商圈店,复古慢跑",true
+New Balance,湾悦城,福建省,厦门市,湖里区,日圆二里1号,New Balance 厦门湾悦城店,2层 2F-18,0592-8131135,10:00 - 22:00,24.4999,118.115,https://www.newbalance.com.cn,"五缘湾核心店,家庭运动",true
+New Balance,集美后溪奥特莱斯,福建省,厦门市,集美区,后溪镇孙坂南路,New Balance 厦门集美奥莱店,1层 1058,0592-7265584,09:30 - 21:30,24.469,118.0703,https://www.newbalance.com.cn,"奥特莱斯特惠,名品折扣工厂店",true
+New Balance,泉州中骏世界城,福建省,泉州市,丰泽区,安吉南路与体育街交汇处,New Balance 泉州中骏世界城旗舰店,2层 2F-28,0595-8741384,10:00 - 22:00,24.8781,118.5835,https://www.newbalance.com.cn,"泉州旗舰店,NB 1906潮流店,全系列",true
+New Balance,浦西万达广场,福建省,泉州市,丰泽区,宝洲街679号,New Balance 泉州浦西万达店,2层 2F-16,0595-8470149,10:00 - 22:00,24.9224,118.6228,https://www.newbalance.com.cn,"市中心专卖店,复古跑鞋",true
+New Balance,晋江万达广场,福建省,泉州市,晋江市,世纪大道与青华新村交汇处,New Balance 泉州晋江万达店,2层 2F-12,0595-6749727,10:00 - 22:00,24.9385,118.5754,https://www.newbalance.com.cn,"晋江核心大店,跑步生活",true
+New Balance,晋江SM国际广场,福建省,泉州市,晋江市,福兴路与福马路交汇处,New Balance 泉州晋江SM店,2层 2F-06,0595-8027743,10:00 - 22:00,24.9134,118.5716,https://www.newbalance.com.cn,"综合专柜,生活方式",true
+New Balance,成都太古里,四川省,成都市,锦江区,中纱帽街8号,New Balance 成都太古里品牌概念店,中里1层 1218号,028-61433527,10:00 - 22:00,30.5421,104.0585,https://www.newbalance.com.cn,"西南标杆概念店,Grey Store,Made in USA,首发限量",true
+New Balance,成都IFS,四川省,成都市,锦江区,红星路三段1号,New Balance 成都IFS国际金融中心店,5层 L536,028-67408915,10:00 - 22:00,30.591,104.0781,https://www.newbalance.com.cn,"高端精品店,英产专区,高街时尚",true
+New Balance,成都万象城,四川省,成都市,成华区,双庆路8号,New Balance 成都万象城Running Store,C馆2层 L2-05,028-60185822,10:00 - 22:00,30.5423,104.0502,https://www.newbalance.com.cn,"跑步专营店,专业跑鞋,跑者驿站",true
+New Balance,成都SKP,四川省,成都市,高新区,天府大道北段,New Balance 成都SKP先锋概念专柜,B1层 潮流运动馆,028-65437287,10:00 - 22:00,30.6019,104.0755,https://www.newbalance.com.cn,"先锋概念专柜,联名限定,高端生活",true
+New Balance,大悦城,四川省,成都市,武侯区,大悦路518号,New Balance 成都大悦城NB 1906店,2层 2F-18,028-78998156,10:00 - 22:00,30.5928,104.0349,https://www.newbalance.com.cn,"NB 1906潮流店,青年潮流",true
+New Balance,龙湖西宸天街,四川省,成都市,金牛区,花照壁西顺街399号,New Balance 成都西宸天街店,2层 2F-12,028-76502774,10:00 - 22:00,30.5403,104.0351,https://www.newbalance.com.cn,"城西核心店,全系列",true
+New Balance,锦华万达广场,四川省,成都市,锦江区,二环路东五段29号,New Balance 成都锦华万达店,2层 2F-22,028-83171176,10:00 - 22:00,30.6033,104.0832,https://www.newbalance.com.cn,"老牌核心店,经典复古跑鞋",true
+New Balance,港汇天地,四川省,成都市,高新区,天府五街999号,New Balance 成都高新港汇天地店,1层 1F-08,028-52502213,10:00 - 22:00,30.5605,104.0433,https://www.newbalance.com.cn,"天府软件园店,程序员慢跑矩阵",true
+New Balance,时代奥特莱斯(双流),四川省,成都市,双流区,双楠大道中段99号,New Balance 成都时代奥莱旗舰店,1层 1088,028-68861208,09:30 - 21:30,30.578,104.0937,https://www.newbalance.com.cn,"西南超大奥特莱斯工厂店,折扣专享",true
+New Balance,佛罗伦萨小镇(郫都),四川省,成都市,郫都区,银杏路888号,New Balance 成都佛罗伦萨小镇奥莱店,1层 128,028-71992470,10:00 - 22:00,30.5916,104.0789,https://www.newbalance.com.cn,"名品奥特莱斯,经典复古特惠",true
+New Balance,绵阳涪城万达广场,四川省,绵阳市,涪城区,花园南街58号,New Balance 绵阳涪城万达店,2层 2F-18,0816-6274176,10:00 - 22:00,31.4379,104.7386,https://www.newbalance.com.cn,"川北旗舰店,全系列跑鞋",true
+New Balance,绵阳大悦城,四川省,绵阳市,涪城区,临园路东段68号,New Balance 绵阳大悦城店,2层 2F-08,0816-6050365,10:00 - 22:00,31.4532,104.7377,https://www.newbalance.com.cn,"市中心潮流店,NB 1906潮流店",true
+New Balance,南充高坪万达广场,四川省,南充市,高坪区,安汉路与鹤鸣路交汇处,New Balance 南充高坪万达店,2层 2F-16,0817-6422757,10:00 - 22:00,30.8306,106.133,https://www.newbalance.com.cn,"川东北旗舰,全系列",true
+New Balance,南充王府井购物中心,四川省,南充市,顺庆区,滨江中路与大西街交汇处,New Balance 南充王府井店,3层 3F-12,0817-6998514,10:00 - 22:00,30.8552,106.1172,https://www.newbalance.com.cn,"核心商圈店,复古跑鞋",true
+New Balance,宜宾万达广场,四川省,宜宾市,叙州区,酒都路与蜀南大道交汇处,New Balance 宜宾万达店,2层 2F-18,0831-7665507,10:00 - 22:00,28.7512,104.6466,https://www.newbalance.com.cn,"川南旗舰店,全系列跑鞋",true
+New Balance,宜宾万象汇,四川省,宜宾市,叙州区,南部新区金沙江大道,New Balance 宜宾万象汇店,2层 L2-06,0831-7727772,10:00 - 22:00,28.7334,104.6328,https://www.newbalance.com.cn,"新城核心店,复古慢跑",true
+New Balance,德阳万达广场,四川省,德阳市,旌阳区,青衣江东路与牡丹江路交汇处,New Balance 德阳万达店,2层 2F-16,0838-6311490,10:00 - 22:00,31.1051,104.3919,https://www.newbalance.com.cn,"城市旗舰店,经典跑鞋",true
+New Balance,泸州万象汇,四川省,泸州市,江阳区,佳乐世纪城金融中心,New Balance 泸州万象汇店,2层 L2-18,0830-8659759,10:00 - 22:00,28.8781,105.449,https://www.newbalance.com.cn,"城市旗舰店,全系列跑鞋",true
+New Balance,泸州万达广场,四川省,泸州市,龙马潭区,酒城大道与龙马大道交汇处,New Balance 泸州万达店,2层 2F-08,0830-8015795,10:00 - 22:00,28.8444,105.4233,https://www.newbalance.com.cn,"综合专卖店,复古慢跑",true
+New Balance,西安SKP,陕西省,西安市,碑林区,长安北路261号,New Balance 西安SKP先锋概念店,5层 运动潮流馆,029-77658894,10:00 - 22:00,34.3663,108.9679,https://www.newbalance.com.cn,"西北标杆先锋概念店,Grey Store,Made in USA/UK高端线",true
+New Balance,赛格国际购物中心,陕西省,西安市,雁塔区,小寨十字东北角,New Balance 西安赛格国际旗舰店,地下1层 B1-018,029-87964334,10:00 - 22:00,34.3569,108.9625,https://www.newbalance.com.cn,"小寨地标旗舰,NB 1906潮流店,限量发售",true
+New Balance,曲江大悦城,陕西省,西安市,雁塔区,慈恩路77号,New Balance 西安曲江大悦城店,2层 2F-16,029-62615944,10:00 - 22:00,34.3299,108.9147,https://www.newbalance.com.cn,"大雁塔地标店,潮流生活,跑者驿站",true
+New Balance,开元商城(钟楼店),陕西省,西安市,碑林区,东大街解放市场6号,New Balance 西安钟楼开元商城专柜,4层 运动名品馆,029-64756999,10:00 - 22:00,34.3203,108.9261,https://www.newbalance.com.cn,"钟楼核心百货专柜,经典复古慢跑",true
+New Balance,老城根G-park,陕西省,西安市,莲湖区,星火路22号,New Balance 西安老城根G-park店,1层 1F-08,029-53196450,10:00 - 22:00,34.3364,108.9361,https://www.newbalance.com.cn,"街区潮流店,复古潮流,青年生活",true
+New Balance,高新万达广场,陕西省,西安市,雁塔区,科技七路与唐延路交汇处,New Balance 西安高新万达店,2层 2F-22,029-63182579,10:00 - 22:00,34.3129,108.9061,https://www.newbalance.com.cn,"高新核心店,全系列跑鞋",true
+New Balance,西安万象天地,陕西省,西安市,雁塔区,雁展路与雁南一路交汇处,New Balance 西安万象天地Running Store,L2层 L218,029-73646519,10:00 - 22:00,34.3197,108.9113,https://www.newbalance.com.cn,"跑步专营店,足态步态测试,专业竞速",true
+New Balance,砂之船奥特莱斯(西安),陕西省,西安市,灞桥区,世博大道与欧亚大道交汇处,New Balance 西安砂之船奥莱店,1层 A108,029-70337174,09:30 - 21:30,34.3611,108.9227,https://www.newbalance.com.cn,"奥特莱斯超级工厂店,超大折扣",true
+New Balance,首创奥特莱斯(西安),陕西省,西安市,临潼区,秦汉大道与芷阳五路交汇处,New Balance 西安首创奥莱店,1层 1028,029-66258796,09:30 - 21:30,34.3308,108.9173,https://www.newbalance.com.cn,"名品奥特莱斯,折扣专享",true
+New Balance,咸阳丽彩万达广场,陕西省,咸阳市,秦都区,玉泉西路与滨河西路交汇处,New Balance 咸阳万达店,2层 2F-18,029-84799875,10:00 - 22:00,34.3264,108.6926,https://www.newbalance.com.cn,"城市旗舰店,全系列",true
+New Balance,咸阳世纪金花,陕西省,咸阳市,秦都区,人民东路53号,New Balance 咸阳世纪金花专柜,3层 运动馆,029-61883948,10:00 - 22:00,34.3228,108.6839,https://www.newbalance.com.cn,"核心专柜,经典跑鞋",true
+New Balance,宝鸡高新天下汇,陕西省,宝鸡市,渭滨区,高新大道1号,New Balance 宝鸡天下汇店,2层 2F-16,0917-8143383,10:00 - 22:00,34.3911,107.1336,https://www.newbalance.com.cn,"城市旗舰店,复古跑鞋",true
+New Balance,宝鸡万达广场,陕西省,宝鸡市,金台区,大庆路与金台大道交汇处,New Balance 宝鸡万达店,2层 2F-08,0917-8020180,10:00 - 22:00,34.3473,107.1314,https://www.newbalance.com.cn,"综合专卖店,全系列",true
+New Balance,榆林万达广场,陕西省,榆林市,榆阳区,草海则大街与建榆路交汇处,New Balance 榆林万达店,2层 2F-18,0912-6975764,10:00 - 22:00,38.2758,109.7563,https://www.newbalance.com.cn,"陕北旗舰店,全系列跑鞋",true
+New Balance,榆林世纪金花,陕西省,榆林市,榆阳区,长城南路与新建南路交汇处,New Balance 榆林世纪金花专柜,3层 运动专区,0912-8274756,10:00 - 22:00,38.3124,109.7614,https://www.newbalance.com.cn,"高端专柜,复古慢跑",true
+New Balance,万象城,河北省,石家庄市,桥西区,中山西路108号,New Balance 石家庄万象城旗舰店,3层 L318,0311-6342607,10:00 - 22:00,38.0421,114.5381,https://www.newbalance.com.cn,"河北旗舰店,Grey Store,Made in USA/UK高端线",true
+New Balance,北国商城,河北省,石家庄市,长安区,中山东路188号,New Balance 石家庄北国商城专柜,5层 运动名品馆,0311-7583202,10:00 - 22:00,38.022,114.5022,https://www.newbalance.com.cn,"老牌地标百货专柜,经典跑鞋,全品类",true
+New Balance,勒泰中心,河北省,石家庄市,长安区,中山东路39号,New Balance 石家庄勒泰中心NB 1906店,2层 2F-16,0311-8746146,10:00 - 22:00,38.0716,114.5488,https://www.newbalance.com.cn,"NB 1906潮流店,青年潮流",true
+New Balance,裕华万达广场,河北省,石家庄市,裕华区,建华南大街136号,New Balance 石家庄裕华万达店,2层 2F-28,0311-8647578,10:00 - 22:00,38.0363,114.5399,https://www.newbalance.com.cn,"综合大店,全系列跑鞋",true
+New Balance,长安万达广场,河北省,石家庄市,长安区,中山东路与建华北大街交汇处,New Balance 石家庄长安万达店,2层 2F-12,0311-6982600,10:00 - 22:00,38.0641,114.5029,https://www.newbalance.com.cn,"东区核心店,跑步矩阵",true
+New Balance,北国奥特莱斯,河北省,石家庄市,鹿泉区,青银高速铜冶出口,New Balance 石家庄北国奥莱旗舰店,1层 A108,0311-7118166,09:30 - 21:30,38.0553,114.5084,https://www.newbalance.com.cn,"奥特莱斯超级工厂店,超大折扣",true
+New Balance,唐山万达广场,河北省,唐山市,路南区,新华西道100号,New Balance 唐山路南万达店,2层 2F-18,0315-7396755,10:00 - 22:00,39.6047,118.1982,https://www.newbalance.com.cn,"城市旗舰店,全系列",true
+New Balance,唐山爱琴海购物公园,河北省,唐山市,路北区,北新西道与卫国路交汇处,New Balance 唐山爱琴海店,2层 2F-12,0315-8127919,10:00 - 22:00,39.6497,118.1881,https://www.newbalance.com.cn,"核心体验店,复古跑鞋",true
+New Balance,唐山远洋城,河北省,唐山市,路北区,建设北路128号,New Balance 唐山远洋城专柜,3层 运动馆,0315-7986232,10:00 - 22:00,39.6012,118.1622,https://www.newbalance.com.cn,"老牌商圈专柜,经典鞋款",true
+New Balance,保定万博广场,河北省,保定市,竞秀区,朝阳北大街99号,New Balance 保定万博广场旗舰店,3层 3F-16,0312-6964746,10:00 - 22:00,38.8624,115.4641,https://www.newbalance.com.cn,"城市旗舰店,NB 1906潮流店,Made in USA",true
+New Balance,保定茂业百货,河北省,保定市,竞秀区,朝阳北大街799号,New Balance 保定茂业百货店,2层 2F-12,0312-7843382,10:00 - 22:00,38.8973,115.4611,https://www.newbalance.com.cn,"核心体验店,复古跑鞋",true
+New Balance,保定万达广场,河北省,保定市,莲池区,七一东路与东二环交汇处,New Balance 保定莲池万达店,2层 2F-08,0312-6842378,10:00 - 22:00,38.8748,115.4854,https://www.newbalance.com.cn,"东区核心店,全系列",true
+New Balance,邯郸万达广场,河北省,邯郸市,丛台区,陵东北大街与丛台路交汇处,New Balance 邯郸万达店,2层 2F-18,0310-6801930,10:00 - 22:00,36.6437,114.5103,https://www.newbalance.com.cn,"冀南旗舰店,全系列跑鞋",true
+New Balance,邯郸新世纪广场,河北省,邯郸市,丛台区,中华北大街29号,New Balance 邯郸新世纪专柜,4层 运动天地,0310-7472752,10:00 - 22:00,36.65,114.499,https://www.newbalance.com.cn,"市中心地标百货专柜,经典复古",true
+New Balance,廊坊万达广场,河北省,廊坊市,广阳区,新华路50号,New Balance 廊坊万达店,2层 2F-18,0316-8042322,10:00 - 22:00,39.5321,116.6938,https://www.newbalance.com.cn,"城市旗舰店,全系列",true
+New Balance,首创奥特莱斯(廊坊),河北省,廊坊市,安次区,龙河高新区安盛道,New Balance 廊坊首创奥莱店,1层 1058,0316-8072991,09:30 - 21:30,39.5064,116.6978,https://www.newbalance.com.cn,"奥特莱斯特惠,工厂折扣店",true
+New Balance,丹尼斯大卫城,河南省,郑州市,金水区,二七路与太康路交汇处,New Balance 郑州丹尼斯大卫城概念店,5层 运动名品馆 5F-028,0371-6680330,10:00 - 22:00,34.7611,113.6285,https://www.newbalance.com.cn,"中原标杆概念店,Grey Store,Made in USA/UK高端线",true
+New Balance,正弘城,河南省,郑州市,金水区,花园路126号,New Balance 郑州正弘城NB 1906潮流店,4层 4F-18,0371-6806979,10:00 - 22:00,34.7367,113.6214,https://www.newbalance.com.cn,"NB 1906潮流店,中原潮流地标,限量首发",true
+New Balance,二七万达广场,河南省,郑州市,二七区,大学南路8号,New Balance 郑州二七万达店,2层 2F-22,0371-8026862,10:00 - 22:00,34.7311,113.6153,https://www.newbalance.com.cn,"二七商圈综合大店,全系列跑鞋",true
+New Balance,中原万达广场,河南省,郑州市,中原区,中原中路171号,New Balance 郑州中原万达店,2层 2F-16,0371-6451254,10:00 - 22:00,34.7174,113.6532,https://www.newbalance.com.cn,"西区核心店,经典慢跑",true
+New Balance,新田360广场(国贸店),河南省,郑州市,金水区,花园路39号,New Balance 郑州国贸360店,2层 2F-06,0371-8143513,10:00 - 22:00,34.7809,113.596,https://www.newbalance.com.cn,"青年潮流体验店,复古潮鞋",true
+New Balance,郑州万象城,河南省,郑州市,二七区,民主路10号,New Balance 郑州万象城Running Store,L3层 L316,0371-8921600,10:00 - 22:00,34.7124,113.6593,https://www.newbalance.com.cn,"跑步专营店,足态分析,专业竞速",true
+New Balance,杉杉奥特莱斯(中牟),河南省,郑州市,中牟县,郑开大道与工业路交汇处,New Balance 郑州杉杉奥莱旗舰店,1层 1088,0371-8341610,09:30 - 21:30,34.7538,113.6599,https://www.newbalance.com.cn,"奥特莱斯超级工厂店,超大折扣",true
+New Balance,首创奥特莱斯(郑州),河南省,郑州市,荥阳市,中原西路与飞龙路交汇处,New Balance 郑州首创奥莱店,1层 1028,0371-6093102,09:30 - 21:30,34.7678,113.6466,https://www.newbalance.com.cn,"名品奥特莱斯,经典复古特惠",true
+New Balance,洛阳正大广场,河南省,洛阳市,洛龙区,开元大道与厚载门街交汇处,New Balance 洛阳正大广场店,2层 2F-18,0379-8120314,10:00 - 22:00,34.6189,112.466,https://www.newbalance.com.cn,"豫西旗舰店,NB 1906潮流店,全系列",true
+New Balance,洛阳泉舜购物中心,河南省,洛阳市,洛龙区,开元大道与长兴街交汇处,New Balance 洛阳泉舜店,2层 2F-26,0379-8905153,10:00 - 22:00,34.5968,112.4248,https://www.newbalance.com.cn,"洛龙核心店,跑步生活",true
+New Balance,王府井百货(南昌路店),河南省,洛阳市,涧西区,南昌路130号,New Balance 洛阳南昌路王府井店,3层 3F-12,0379-8242512,10:00 - 22:00,34.6331,112.4544,https://www.newbalance.com.cn,"涧西旗舰店,复古跑鞋",true
+New Balance,西工万达广场,河南省,洛阳市,西工区,辽宁路与华山路交汇处,New Balance 洛阳西工万达店,2层 2F-08,0379-8446765,10:00 - 22:00,34.6098,112.4384,https://www.newbalance.com.cn,"综合专卖店,经典鞋款",true
+New Balance,南阳新田360广场,河南省,南阳市,卧龙区,文化路与七一路交汇处,New Balance 南阳新田360店,2层 2F-18,0377-7495681,10:00 - 22:00,33.0196,112.5155,https://www.newbalance.com.cn,"豫西南旗舰,全系列跑鞋",true
+New Balance,南阳建业凯旋广场,河南省,南阳市,宛城区,中州中路与工业路交汇处,New Balance 南阳建业凯旋店,2层 2F-08,0377-7890325,10:00 - 22:00,33.022,112.4987,https://www.newbalance.com.cn,"核心商圈店,复古慢跑",true
+New Balance,新乡宝龙广场,河南省,新乡市,红旗区,金穗大道与新中大道交汇处,New Balance 新乡宝龙广场店,2层 2F-16,0373-8620282,10:00 - 22:00,35.3125,113.9201,https://www.newbalance.com.cn,"城市旗舰店,全系列",true
+New Balance,新乡胖东来大胖,河南省,新乡市,卫滨区,健康路与胜利路交汇处,New Balance 新乡胖东来专柜,3层 运动专区,0373-8430172,10:00 - 22:00,35.2808,113.9472,https://www.newbalance.com.cn,"品质标杆专柜,经典复古跑鞋",true
+New Balance,新乡平原商场,河南省,新乡市,卫滨区,平原路193号,New Balance 新乡平原商场专柜,3层 运动馆,0373-7329404,10:00 - 22:00,35.2787,113.9023,https://www.newbalance.com.cn,"老牌专柜,生活方式",true
+New Balance,许昌胖东来时代广场,河南省,许昌市,魏都区,七一路与八一东路交汇处,New Balance 许昌胖东来时代广场店,3层 运动休闲馆,0374-7725118,10:00 - 22:00,34.0415,113.8731,https://www.newbalance.com.cn,"中原口碑旗舰专柜,全系列,专业跑鞋",true
+New Balance,许昌胖东来生活广场,河南省,许昌市,魏都区,劳动路与南大街交汇处,New Balance 许昌胖东来生活广场专柜,2层 运动专区,0374-8423904,10:00 - 22:00,34.0627,113.8449,https://www.newbalance.com.cn,"标杆专柜,经典复古",true
+New Balance,许昌万达广场,河南省,许昌市,魏都区,莲城大道与劳动北路交汇处,New Balance 许昌万达店,2层 2F-12,0374-6429897,10:00 - 22:00,34.0659,113.827,https://www.newbalance.com.cn,"综合专卖店,生活方式",true
+New Balance,合肥万象城,安徽省,合肥市,蜀山区,潜山路与习友路交汇处,New Balance 合肥万象城旗舰店,L3层 L318,0551-6664812,10:00 - 22:00,31.8462,117.2559,https://www.newbalance.com.cn,"安徽标杆旗舰,Grey Store,Made in USA/UK高端线",true
+New Balance,银泰中心,安徽省,合肥市,庐阳区,长江中路98号,New Balance 合肥银泰中心精品店,5层 运动名品馆,0551-8710349,10:00 - 22:00,31.7934,117.2425,https://www.newbalance.com.cn,"市中心高端精品店,英美产专区",true
+New Balance,之心城,安徽省,合肥市,蜀山区,长江西路189号,New Balance 合肥之心城NB 1906店,3层 3F-16,0551-6478926,10:00 - 22:00,31.7931,117.2271,https://www.newbalance.com.cn,"三里庵地标店,NB 1906潮流店,青年潮流",true
+New Balance,滨湖银泰城,安徽省,合肥市,包河区,庐州大道与紫云路交汇处,New Balance 合肥滨湖银泰店,2层 2F-28,0551-8113389,10:00 - 22:00,31.8398,117.199,https://www.newbalance.com.cn,"滨海新城旗舰,全系列跑鞋",true
+New Balance,包河万达广场,安徽省,合肥市,包河区,马鞍山路130号,New Balance 合肥包河万达店,2层 2F-12,0551-6534855,10:00 - 22:00,31.8064,117.2,https://www.newbalance.com.cn,"综合专卖店,复古跑鞋",true
+New Balance,高新银泰百货,安徽省,合肥市,蜀山区,创新大道与望江西路交汇处,New Balance 合肥高新银泰店,2层 2F-08,0551-7723844,10:00 - 22:00,31.8127,117.2078,https://www.newbalance.com.cn,"高新区店,跑步生活",true
+New Balance,砂之船奥特莱斯(合肥),安徽省,合肥市,蜀山区,长宁大道与望江西路交汇处,New Balance 合肥砂之船奥莱店,1层 A108,0551-7777208,09:30 - 21:30,31.8277,117.205,https://www.newbalance.com.cn,"奥特莱斯超级工厂店,超大折扣",true
+New Balance,首创奥特莱斯(滨湖),安徽省,合肥市,包河区,徽州大道与深圳路交汇处,New Balance 合肥首创奥莱店,1层 1028,0551-7736713,09:30 - 21:30,31.819,117.2599,https://www.newbalance.com.cn,"名品奥特莱斯,经典复古特惠",true
+New Balance,芜湖银泰城,安徽省,芜湖市,弋江区,利民西路与九华南路交汇处,New Balance 芜湖银泰城店,2层 2F-18,0553-7334708,10:00 - 22:00,31.3587,118.3443,https://www.newbalance.com.cn,"皖南旗舰店,全系列跑鞋",true
+New Balance,芜湖苏宁广场,安徽省,芜湖市,镜湖区,中山北路77号,New Balance 芜湖苏宁广场店,2层 2F-08,0553-6262160,10:00 - 22:00,31.3369,118.3504,https://www.newbalance.com.cn,"市中心核心店,复古潮流",true
+New Balance,芜湖万达广场,安徽省,芜湖市,镜湖区,北京中路与弋江北路交汇处,New Balance 芜湖镜湖万达店,2层 2F-16,0553-8505659,10:00 - 22:00,31.3207,118.3913,https://www.newbalance.com.cn,"综合专卖店,生活方式",true
+New Balance,蚌埠万达广场,安徽省,蚌埠市,蚌山区,东海大道与工农路交汇处,New Balance 蚌埠万达店,2层 2F-18,0552-8852603,10:00 - 22:00,32.9149,117.3831,https://www.newbalance.com.cn,"皖北旗舰店,全系列",true
+New Balance,蚌埠银泰城,安徽省,蚌埠市,蚌山区,东海大道与延安路交汇处,New Balance 蚌埠银泰城店,2层 2F-06,0552-7048875,10:00 - 22:00,32.8913,117.4187,https://www.newbalance.com.cn,"核心体验店,复古慢跑",true
+New Balance,阜阳颍州万达广场,安徽省,阜阳市,颍州区,颍淮大道与淮河路交汇处,New Balance 阜阳颍州万达店,2层 2F-22,0558-7532204,10:00 - 22:00,32.887,115.7886,https://www.newbalance.com.cn,"城市旗舰店,全系列跑鞋",true
+New Balance,阜阳吾悦广场,安徽省,阜阳市,颍州区,淮河路与西清路交汇处,New Balance 阜阳吾悦店,2层 2F-08,0558-7605298,10:00 - 22:00,32.8912,115.791,https://www.newbalance.com.cn,"新城核心店,复古跑鞋",true
+New Balance,南昌武商MALL,江西省,南昌市,东湖区,北京西路与八一大道交汇处,New Balance 南昌武商MALL旗舰店,4层 运动名品馆,0791-7331848,10:00 - 22:00,28.6868,115.8415,https://www.newbalance.com.cn,"江西标杆旗舰,Grey Store,Made in USA/UK高端线",true
+New Balance,南昌万象城,江西省,南昌市,红谷滩区,学府南道与前湖大道交汇处,New Balance 南昌万象城Running Store,L3层 L318,0791-8461549,10:00 - 22:00,28.6544,115.871,https://www.newbalance.com.cn,"跑步专营店,红谷滩旗舰,专业竞速",true
+New Balance,红谷滩万达广场,江西省,南昌市,红谷滩区,会展路999号,New Balance 南昌红谷滩万达店,2层 2F-28,0791-6239616,10:00 - 22:00,28.6651,115.8926,https://www.newbalance.com.cn,"综合大店,全系列跑鞋",true
+New Balance,南昌T16购物中心,江西省,南昌市,红谷滩区,庐山南大道369号,New Balance 南昌T16店,2层 2F-12,0791-6074477,10:00 - 22:00,28.708,115.8312,https://www.newbalance.com.cn,"NB 1906潮流店,青年时尚",true
+New Balance,中山路百盛,江西省,南昌市,西湖区,中山路177号,New Balance 南昌百盛专柜,4层 运动专区,0791-8003931,10:00 - 22:00,28.7143,115.8611,https://www.newbalance.com.cn,"市中心百货专柜,经典复古",true
+New Balance,首创奥特莱斯(新建),江西省,南昌市,新建区,望城新区长堎工业园,New Balance 南昌首创奥莱店,1层 1088,0791-6142518,09:30 - 21:30,28.6693,115.8747,https://www.newbalance.com.cn,"奥特莱斯特惠,超大工厂折扣店",true
+New Balance,杉杉奥特莱斯(九龙湖),江西省,南昌市,红谷滩区,生米镇生米大道,New Balance 南昌杉杉奥莱店,1层 1028,0791-8679958,09:30 - 21:30,28.6638,115.8797,https://www.newbalance.com.cn,"名品奥特莱斯,折扣专享",true
+New Balance,赣州万象城,江西省,赣州市,章贡区,琴江路与新元路交汇处,New Balance 赣州万象城店,2层 L2-18,0797-7508109,10:00 - 22:00,25.8068,114.9533,https://www.newbalance.com.cn,"赣南旗舰店,NB 1906潮流店,全系列",true
+New Balance,赣州万达广场,江西省,赣州市,章贡区,客家大道与金东北路交汇处,New Balance 赣州万达店,2层 2F-08,0797-6049998,10:00 - 22:00,25.806,114.9651,https://www.newbalance.com.cn,"综合专卖店,复古跑鞋",true
+New Balance,赣州中创国际城,江西省,赣州市,章贡区,长冈路与长征大道交汇处,New Balance 赣州中创国际店,2层 2F-15,0797-8966293,10:00 - 22:00,25.825,114.9509,https://www.newbalance.com.cn,"核心商圈店,跑步生活",true
+New Balance,九江联盛快乐城,江西省,九江市,浔阳区,九龙街与浔阳东路交汇处,New Balance 九江快乐城店,2层 2F-18,0792-7381426,10:00 - 22:00,29.7195,115.9976,https://www.newbalance.com.cn,"城市旗舰店,全系列跑鞋",true
+New Balance,九江万达广场,江西省,九江市,濂溪区,德化路与长虹大道交汇处,New Balance 九江万达店,2层 2F-08,0792-6301379,10:00 - 22:00,29.6838,116.0126,https://www.newbalance.com.cn,"综合专卖店,复古慢跑",true
+New Balance,万象城,辽宁省,沈阳市,和平区,青年大街288号,New Balance 沈阳万象城全球概念店,L4层 L418,024-54195548,10:00 - 22:00,41.8105,123.416,https://www.newbalance.com.cn,"东北标杆旗舰,Grey Store,Made in USA/UK高端线",true
+New Balance,中街大悦城,辽宁省,沈阳市,大东区,中街路128号,New Balance 沈阳中街大悦城NB 1906店,C馆2层 2F-06,024-67384351,10:00 - 22:00,41.7978,123.4652,https://www.newbalance.com.cn,"NB 1906潮流店,百年中街地标,潮流首发",true
+New Balance,皇城恒隆广场,辽宁省,沈阳市,沈河区,中街路128号,New Balance 沈阳皇城恒隆广场店,2层 228铺,024-72134559,10:00 - 22:00,41.8183,123.441,https://www.newbalance.com.cn,"经典体验店,英美产专区",true
+New Balance,市府恒隆广场,辽宁省,沈阳市,沈河区,青年大街1号,New Balance 沈阳市府恒隆店,3层 308铺,024-64247188,10:00 - 22:00,41.838,123.4062,https://www.newbalance.com.cn,"高端精品店,商务运动",true
+New Balance,铁西万达广场,辽宁省,沈阳市,铁西区,重工南街68号,New Balance 沈阳铁西万达店,2层 2F-22,024-89003132,10:00 - 22:00,41.7783,123.444,https://www.newbalance.com.cn,"铁西核心大店,全系列跑鞋",true
+New Balance,沈阳K11购物艺术中心,辽宁省,沈阳市,和平区,博览路2甲1号,New Balance 沈阳K11艺术概念店,2层 2F-16,024-52465562,10:00 - 22:00,41.8019,123.4238,https://www.newbalance.com.cn,"先锋概念店,生活美学,慢跑",true
+New Balance,赛特奥特莱斯(棋盘山),辽宁省,沈阳市,浑南区,双园路36号,New Balance 沈阳赛特奥莱旗舰店,1层 1088,024-78538303,09:30 - 21:30,41.7879,123.4301,https://www.newbalance.com.cn,"奥特莱斯超级工厂店,超大折扣",true
+New Balance,尚柏奥特莱斯,辽宁省,沈阳市,沈北新区,蒲河新城蒲河大道,New Balance 沈阳尚柏奥莱店,1层 1028,024-53912777,09:30 - 21:30,41.7882,123.4616,https://www.newbalance.com.cn,"名品奥特莱斯,经典复古特惠",true
+New Balance,大连恒隆广场,辽宁省,大连市,西岗区,五四路66号,New Balance 大连恒隆广场旗舰店,3层 318铺,0411-7739356,10:00 - 22:00,38.9217,121.5952,https://www.newbalance.com.cn,"滨城标杆旗舰,Grey Store,Made in USA/UK高端线",true
+New Balance,大连万象汇,辽宁省,大连市,甘井子区,中华西路与华北路交汇处,New Balance 大连万象汇店,2层 L2-18,0411-7942969,10:00 - 22:00,38.9218,121.6385,https://www.newbalance.com.cn,"甘井子核心店,NB 1906潮流店",true
+New Balance,大连百年城,辽宁省,大连市,中山区,解放路19号,New Balance 大连百年城店,3层 3F-12,0411-7414535,10:00 - 22:00,38.8983,121.601,https://www.newbalance.com.cn,"青泥洼桥商圈店,复古潮流",true
+New Balance,高新万达广场,辽宁省,大连市,甘井子区,黄浦路500号,New Balance 大连高新万达店,2层 2F-28,0411-8251781,10:00 - 22:00,38.881,121.6476,https://www.newbalance.com.cn,"软件园大店,全系列跑鞋",true
+New Balance,西安路罗斯福广场,辽宁省,大连市,沙河口区,西安路139号,New Balance 大连罗斯福广场店,2层 2F-06,0411-8234572,10:00 - 22:00,38.9311,121.5893,https://www.newbalance.com.cn,"西安路核心店,经典慢跑",true
+New Balance,大连友谊商城,辽宁省,大连市,中山区,人民路8号,New Balance 大连友谊商城专柜,4层 运动专区,0411-8074956,10:00 - 22:00,38.9386,121.5939,https://www.newbalance.com.cn,"高端百货专柜,英美产",true
+New Balance,大连时代奥特莱斯,辽宁省,大连市,甘井子区,大连湾街道棉花岛,New Balance 大连时代奥莱店,1层 1058,0411-8499161,09:30 - 21:30,38.9139,121.5887,https://www.newbalance.com.cn,"奥特莱斯特惠,超大工厂折扣店",true
+New Balance,鞍山万象汇,辽宁省,鞍山市,铁东区,胜利南路与千山中路交汇处,New Balance 鞍山万象汇店,2层 L2-18,0412-8311910,10:00 - 22:00,41.0952,122.9911,https://www.newbalance.com.cn,"城市旗舰店,全系列跑鞋",true
+New Balance,鞍山大商新玛特,辽宁省,鞍山市,铁东区,二道街与胜利广场交汇处,New Balance 鞍山新玛特专柜,3层 运动专区,0412-8946511,10:00 - 22:00,41.0739,122.9824,https://www.newbalance.com.cn,"核心百货专柜,复古跑鞋",true
+New Balance,欧亚卖场,吉林省,长春市,朝阳区,开运街5178号,New Balance 长春欧亚卖场超级旗舰店,20街区 2F-88,0431-8061397,10:00 - 22:00,43.8059,125.3572,https://www.newbalance.com.cn,"亚洲最大单体商场旗舰店,全系列,跑鞋矩阵,NB Kids",true
+New Balance,长春万象城,吉林省,长春市,南关区,人民大街与解放大路交汇处,New Balance 长春万象城店,L3层 L318,0431-7834264,10:00 - 22:00,43.7885,125.3515,https://www.newbalance.com.cn,"城市标杆旗舰,Grey Store,Made in USA/UK",true
+New Balance,这有山,吉林省,长春市,朝阳区,红旗街959号,New Balance 长春这有山文旅概念店,山顶街区 3F-08,0431-8016909,10:00 - 22:00,43.8493,125.3416,https://www.newbalance.com.cn,"文旅主题概念店,复古潮流,限定首发",true
+New Balance,红旗街万达广场,吉林省,长春市,朝阳区,红旗街616号,New Balance 长春红旗街万达店,2层 2F-16,0431-6730928,10:00 - 22:00,43.7823,125.3299,https://www.newbalance.com.cn,"红旗街核心店,NB 1906潮流店",true
+New Balance,长春欧亚商都,吉林省,长春市,朝阳区,工农大路1128号,New Balance 长春欧亚商都专柜,4层 运动专区,0431-7009845,10:00 - 22:00,43.8305,125.3032,https://www.newbalance.com.cn,"高端百货专柜,英美产系列",true
+New Balance,砂之船奥特莱斯(长春),吉林省,长春市,九台区,长吉南线与莲花山大路交汇处,New Balance 长春砂之船奥莱店,1层 A108,0431-6010895,09:30 - 21:30,43.8241,125.3096,https://www.newbalance.com.cn,"奥特莱斯超级工厂店,超大折扣",true
+New Balance,吉林财富购物广场,吉林省,吉林市,船营区,光华路与光华胡同交汇处,New Balance 吉林财富广场店,2层 2F-18,0432-8568916,10:00 - 22:00,43.8031,126.5192,https://www.newbalance.com.cn,"江城旗舰店,全系列跑鞋",true
+New Balance,吉林欧亚商都,吉林省,吉林市,昌邑区,四川街与松江东路交汇处,New Balance 吉林欧亚商都店,2层 2F-08,0432-6252930,10:00 - 22:00,43.8409,126.5521,https://www.newbalance.com.cn,"综合专卖店,复古慢跑",true
+New Balance,哈尔滨远大购物中心(南岗),黑龙江省,哈尔滨市,南岗区,果戈里大街378号,New Balance 哈尔滨南岗远大概念店,4层 运动名品馆,0451-7782117,10:00 - 22:00,45.8227,126.5235,https://www.newbalance.com.cn,"冰城标杆概念店,Grey Store,Made in USA/UK高端线",true
+New Balance,哈西万达广场,黑龙江省,哈尔滨市,南岗区,中兴大道168号,New Balance 哈尔滨哈西万达店,2层 2F-28,0451-6384713,10:00 - 22:00,45.8268,126.5299,https://www.newbalance.com.cn,"哈西旗舰大店,全系列跑鞋",true
+New Balance,卓展购物中心,黑龙江省,哈尔滨市,道里区,爱建路与安隆街交汇处,New Balance 哈尔滨卓展精品店,3层 3F-08,0451-7806658,10:00 - 22:00,45.7747,126.5677,https://www.newbalance.com.cn,"高端精品店,英产专区",true
+New Balance,中央大街金安国际,黑龙江省,哈尔滨市,道里区,中央大街69号,New Balance 哈尔滨金安国际店,2层 2F-12,0451-6932258,10:00 - 22:00,45.8365,126.5088,https://www.newbalance.com.cn,"百年老街地标店,NB 1906潮流店",true
+New Balance,哈尔滨西城红场,黑龙江省,哈尔滨市,南岗区,哈西大街299号,New Balance 哈尔滨西城红场店,2层 2F-16,0451-7298863,10:00 - 22:00,45.7699,126.545,https://www.newbalance.com.cn,"工业艺术街区店,复古跑鞋",true
+New Balance,杉杉奥特莱斯(利民),黑龙江省,哈尔滨市,松北区,利民开发区利民大道,New Balance 哈尔滨杉杉奥莱店,1层 1088,0451-6328573,09:30 - 21:30,45.8317,126.5604,https://www.newbalance.com.cn,"奥特莱斯超级工厂店,超大折扣",true
+New Balance,枫叶小镇奥特莱斯,黑龙江省,哈尔滨市,松北区,巨宝三路与中源大道交汇处,New Balance 哈尔滨枫叶小镇奥莱店,1层 1028,0451-6530616,09:30 - 21:30,45.7715,126.5226,https://www.newbalance.com.cn,"名品奥特莱斯,经典复古特惠",true
+New Balance,大庆萨尔图万达广场,黑龙江省,大庆市,萨尔图区,东风路与纬二路交汇处,New Balance 大庆萨尔图万达店,2层 2F-18,0459-6354495,10:00 - 22:00,46.6136,125.072,https://www.newbalance.com.cn,"油田旗舰店,全系列跑鞋",true
+New Balance,大庆新玛特购物休闲广场,黑龙江省,大庆市,萨尔图区,经六街与纬二路交汇处,New Balance 大庆新玛特专柜,3层 运动馆,0459-8159552,10:00 - 22:00,46.6176,125.118,https://www.newbalance.com.cn,"核心商圈专柜,经典复古",true
+New Balance,齐齐哈尔建华万达广场,黑龙江省,齐齐哈尔市,建华区,中华西路与党校胡同交汇处,New Balance 齐齐哈尔万达店,2层 2F-16,0452-8975824,10:00 - 22:00,47.3361,123.9006,https://www.newbalance.com.cn,"鹤城旗舰店,全系列跑鞋",true
+New Balance,齐齐哈尔大商新玛特,黑龙江省,齐齐哈尔市,建华区,卜奎北大街与中华路交汇处,New Balance 齐齐哈尔新玛特店,2层 2F-08,0452-7707625,10:00 - 22:00,47.3375,123.9516,https://www.newbalance.com.cn,"市中心专柜,复古慢跑",true
+New Balance,恒隆广场,云南省,昆明市,盘龙区,东风东路21号,New Balance 昆明恒隆广场旗舰店,3层 318铺,0871-6942631,10:00 - 22:00,25.0761,102.7272,https://www.newbalance.com.cn,"春城标杆旗舰,Grey Store,Made in USA/UK高端线",true
+New Balance,顺城购物中心,云南省,昆明市,五华区,东风西路11号,New Balance 昆明顺城购物中心店,B1层 B1-16,0871-8660780,10:00 - 22:00,25.0454,102.6825,https://www.newbalance.com.cn,"NB 1906潮流店,三市街地标,潮流首发",true
+New Balance,金鹰购物广场,云南省,昆明市,五华区,青年路与威远街交汇处,New Balance 昆明金鹰专柜,4层 运动专区,0871-8979446,10:00 - 22:00,25.0197,102.7425,https://www.newbalance.com.cn,"市中心高端专柜,英美产专区",true
+New Balance,同德昆明广场,云南省,昆明市,盘龙区,北京路928号,New Balance 昆明同德广场店,2层 2F-18,0871-6936618,10:00 - 22:00,25.0618,102.7268,https://www.newbalance.com.cn,"北市区核心店,全系列跑鞋",true
+New Balance,西山万达广场,云南省,昆明市,西山区,前兴路688号,New Balance 昆明西山万达店,2层 2F-22,0871-6761398,10:00 - 22:00,25.0402,102.7304,https://www.newbalance.com.cn,"双塔地标大店,经典慢跑",true
+New Balance,公园1903,云南省,昆明市,西山区,滇池路前卫西路,New Balance 昆明公园1903生活方式店,凯旋门街区 1F-08,0871-7242139,10:00 - 22:00,25.0343,102.7307,https://www.newbalance.com.cn,"法式街区概念店,复古跑鞋,跑者驿站",true
+New Balance,首创奥特莱斯(昆明),云南省,昆明市,呈贡区,呈贡新区联大街与石龙路交汇处,New Balance 昆明首创奥莱店,1层 1088,0871-7593885,09:30 - 21:30,25.0429,102.7304,https://www.newbalance.com.cn,"奥特莱斯特惠,超大工厂折扣店",true
+New Balance,砂之船奥特莱斯(昆明),云南省,昆明市,安宁市,太平新城太平路,New Balance 昆明砂之船奥莱店,1层 A108,0871-6691509,09:30 - 21:30,25.0514,102.7428,https://www.newbalance.com.cn,"名品奥特莱斯,折扣专享",true
+New Balance,大理万达广场,云南省,大理白族自治州,大理市,海东新区九溪路,New Balance 大理万达店,2层 2F-12,0872-6820306,10:00 - 22:00,25.5997,100.2547,https://www.newbalance.com.cn,"滇西旗舰店,全系列跑鞋",true
+New Balance,大理泰兴市场步行街,云南省,大理白族自治州,大理市,下关镇建设路,New Balance 大理下关体验店,1层 108号,0872-7252541,10:00 - 22:00,25.6054,100.247,https://www.newbalance.com.cn,"下关商圈店,复古慢跑",true
+New Balance,丽江祥和商业广场,云南省,丽江市,古城区,祥和路与庆云路交汇处,New Balance 丽江祥和广场店,1层 1F-16,0888-8449213,10:00 - 22:00,26.9049,100.213,https://www.newbalance.com.cn,"古城度假旗舰,慢跑生活,复古潮鞋",true
+New Balance,贵阳万象城,贵州省,贵阳市,南明区,解放路与遵义路交汇处,New Balance 贵阳万象城旗舰店,L3层 L318,0851-7699859,10:00 - 22:00,26.6391,106.6334,https://www.newbalance.com.cn,"林城标杆旗舰,Grey Store,Made in USA/UK高端线",true
+New Balance,亨特国际金融中心,贵州省,贵阳市,南明区,文昌南路33号,New Balance 贵阳亨特城市广场店,2层 2F-16,0851-6525273,10:00 - 22:00,26.6158,106.6502,https://www.newbalance.com.cn,"市中心地标店,NB 1906潮流店",true
+New Balance,世纪金源购物中心,贵州省,贵阳市,观山湖区,北京西路6号,New Balance 贵阳金阳世纪金源店,2层 2F-28,0851-8141706,10:00 - 22:00,26.67,106.6058,https://www.newbalance.com.cn,"观山湖大店,全系列跑鞋",true
+New Balance,花果园购物中心,贵州省,贵阳市,南明区,花果园大街1号,New Balance 贵阳花果园店,1层 1F-12,0851-7406413,10:00 - 22:00,26.6501,106.6215,https://www.newbalance.com.cn,"超大社区旗舰,生活方式",true
+New Balance,国贸逸天城,贵州省,贵阳市,南明区,市南路42号,New Balance 贵阳逸天城专柜,3层 运动名品馆,0851-7490719,10:00 - 22:00,26.6207,106.633,https://www.newbalance.com.cn,"高端百货专柜,英美产专区",true
+New Balance,砂之船奥特莱斯(贵阳),贵州省,贵阳市,双龙航空港区,龙洞堡机场路,New Balance 贵阳砂之船奥莱店,1层 A108,0851-6518780,09:30 - 21:30,26.6194,106.598,https://www.newbalance.com.cn,"奥特莱斯超级工厂店,超大折扣",true
+New Balance,杉杉奥特莱斯(观山湖),贵州省,贵阳市,观山湖区,金清大道与百花大道交汇处,New Balance 贵阳杉杉奥莱店,1层 1028,0851-8072455,09:30 - 21:30,26.6326,106.6458,https://www.newbalance.com.cn,"名品奥特莱斯,折扣专享",true
+New Balance,遵义万达广场,贵州省,遵义市,红花岗区,遵南大道与播州大道交汇处,New Balance 遵义红花岗万达店,2层 2F-18,0851-7894127,10:00 - 22:00,27.7347,106.9168,https://www.newbalance.com.cn,"黔北旗舰店,全系列跑鞋",true
+New Balance,遵义高铁新城,贵州省,遵义市,汇川区,南京路与湛江路交汇处,New Balance 遵义高铁新城店,2层 2F-08,0851-7410975,10:00 - 22:00,27.7456,106.9296,https://www.newbalance.com.cn,"汇川核心店,复古跑鞋",true
+New Balance,南宁万象城,广西壮族自治区,南宁市,青秀区,民族大道136号,New Balance 南宁万象城全球概念店,L3层 L318,0771-6414945,10:00 - 22:00,22.8255,108.3785,https://www.newbalance.com.cn,"广西标杆旗舰,Grey Store,Made in USA/UK高端线",true
+New Balance,会展航洋城,广西壮族自治区,南宁市,青秀区,民族大道131号,New Balance 南宁航洋城NB 1906店,2层 2F-16,0771-7737437,10:00 - 22:00,22.8401,108.3548,https://www.newbalance.com.cn,"NB 1906潮流店,青年潮流地标,限量发售",true
+New Balance,江南万达广场,广西壮族自治区,南宁市,江南区,亭江路48号,New Balance 南宁江南万达店,2层 2F-28,0771-7178926,10:00 - 22:00,22.8102,108.3683,https://www.newbalance.com.cn,"江南核心大店,全系列跑鞋",true
+New Balance,安吉万达广场,广西壮族自治区,南宁市,西乡塘区,高新大道与安吉大道交汇处,New Balance 南宁安吉万达店,2层 2F-12,0771-6765819,10:00 - 22:00,22.8087,108.3769,https://www.newbalance.com.cn,"大学城专卖店,复古慢跑",true
+New Balance,百盛步行街广场,广西壮族自治区,南宁市,兴宁区,朝阳路9号,New Balance 南宁朝阳百盛专柜,4层 运动天地,0771-8948141,10:00 - 22:00,22.8501,108.3332,https://www.newbalance.com.cn,"朝阳商圈百货专柜,经典鞋款",true
+New Balance,杉杉奥特莱斯(南宁),广西壮族自治区,南宁市,江南区,沙井大道与同乐大道交汇处,New Balance 南宁杉杉奥莱店,1层 1088,0771-6747172,09:30 - 21:30,22.8352,108.3953,https://www.newbalance.com.cn,"奥特莱斯超级工厂店,超大折扣",true
+New Balance,首创奥特莱斯(兴宁),广西壮族自治区,南宁市,兴宁区,昆仑大道与长虹东路交汇处,New Balance 南宁首创奥莱店,1层 1028,0771-6473330,09:30 - 21:30,22.8248,108.3794,https://www.newbalance.com.cn,"名品奥特莱斯,折扣专享",true
+New Balance,桂林万象城,广西壮族自治区,桂林市,秀峰区,红岭路与翠竹路交汇处,New Balance 桂林万象城店,2层 L2-18,0773-8707584,10:00 - 22:00,25.2841,110.2791,https://www.newbalance.com.cn,"桂北旗舰店,NB 1906潮流店,全系列",true
+New Balance,桂林高新万达广场,广西壮族自治区,桂林市,七星区,穿山东路43号,New Balance 桂林高新万达店,2层 2F-08,0773-8153564,10:00 - 22:00,25.3002,110.3111,https://www.newbalance.com.cn,"七星核心店,复古慢跑",true
+New Balance,微笑堂商厦,广西壮族自治区,桂林市,秀峰区,中山中路37号,New Balance 桂林微笑堂专柜,4层 运动馆,0773-7182544,10:00 - 22:00,25.2415,110.2844,https://www.newbalance.com.cn,"市中心老牌专柜,经典跑鞋",true
+New Balance,柳州万象城,广西壮族自治区,柳州市,鱼峰区,文昌路17号,New Balance 柳州万象城旗舰店,2层 L2-18,0772-7531197,10:00 - 22:00,24.3414,109.3945,https://www.newbalance.com.cn,"工业重镇旗舰,全系列跑鞋",true
+New Balance,柳州城中万达广场,广西壮族自治区,柳州市,城中区,东环大道256号,New Balance 柳州城中万达店,2层 2F-16,0772-6624436,10:00 - 22:00,24.3211,109.443,https://www.newbalance.com.cn,"城中核心店,复古慢跑",true
+New Balance,工贸大厦,广西壮族自治区,柳州市,城中区,龙城路2号,New Balance 柳州工贸大厦专柜,3层 运动专区,0772-7229986,10:00 - 22:00,24.3501,109.4592,https://www.newbalance.com.cn,"百货专柜,经典鞋款",true
+New Balance,海口万象城,海南省,海口市,龙华区,金贸东路4号,New Balance 海口万象城旗舰店,L3层 L318,0898-7970296,10:00 - 22:00,20.0683,110.3398,https://www.newbalance.com.cn,"自贸港标杆旗舰,Grey Store,Made in USA/UK高端线",true
+New Balance,海口日月广场,海南省,海口市,琼山区,国兴大道8号,New Balance 海口日月广场NB 1906店,双子座2层 L2-16,0898-7280711,10:00 - 22:00,20.0446,110.3524,https://www.newbalance.com.cn,"NB 1906潮流店,免税地标,潮流首发",true
+New Balance,远大购物中心,海南省,海口市,秀英区,长滨四路7号,New Balance 海口西海岸远大店,2层 2F-08,0898-6887162,10:00 - 22:00,20.0161,110.3362,https://www.newbalance.com.cn,"西海岸体验店,跑步生活",true
+New Balance,友谊阳光城,海南省,海口市,龙华区,金龙路2号,New Balance 海口友谊阳光城店,3层 3F-12,0898-6136822,10:00 - 22:00,20.0094,110.341,https://www.newbalance.com.cn,"国贸商圈核心店,复古慢跑",true
+New Balance,海口观澜湖新城,海南省,海口市,龙华区,观澜湖大道1号,New Balance 海口观澜湖奥莱店,1层 1058,0898-7318931,10:00 - 22:00,20.0147,110.3439,https://www.newbalance.com.cn,"奥特莱斯特惠,度假休闲折扣店",true
+New Balance,三亚大悦城,海南省,三亚市,吉阳区,迎宾路与龙岭路交汇处,New Balance 三亚大悦城旗舰店,2层 2F-18,0898-8078612,10:00 - 22:00,18.2404,109.5165,https://www.newbalance.com.cn,"热带海岛旗舰,NB 1906潮流店,跑步专营",true
+New Balance,夏日百货,海南省,三亚市,吉阳区,大东海海韵路1号,New Balance 三亚大东海夏日百货专柜,3层 运动休闲专区,0898-8104946,10:00 - 22:00,18.2652,109.4772,https://www.newbalance.com.cn,"滨海度假专柜,经典复古跑鞋",true
+New Balance,三亚海旅免税城,海南省,三亚市,吉阳区,迎宾路303号,New Balance 三亚海旅店,2层 2F-06,0898-7303589,10:00 - 22:00,18.2556,109.517,https://www.newbalance.com.cn,"自贸港体验店,经典鞋款",true
+New Balance,三亚海棠湾夏日站,海南省,三亚市,海棠区,海棠北路,New Balance 三亚海棠湾奥莱店,1层 108,0898-7997318,10:00 - 22:00,18.2833,109.4958,https://www.newbalance.com.cn,"奥特莱斯特惠,名品折扣",true
+New Balance,太原万象城,山西省,太原市,万柏林区,长风西街16号,New Balance 太原万象城全球概念店,L3层 L318,0351-6266623,10:00 - 22:00,37.8579,112.5212,https://www.newbalance.com.cn,"三晋标杆旗舰,Grey Store,Made in USA/UK高端线",true
+New Balance,茂业天地(亲贤街),山西省,太原市,小店区,亲贤北街79号,New Balance 太原茂业天地店,3层 3F-16,0351-7615785,10:00 - 22:00,37.8964,112.5163,https://www.newbalance.com.cn,"市中心地标店,NB 1906潮流店,全系列",true
+New Balance,北美新天地,山西省,太原市,小店区,长风街116号,New Balance 太原北美新天地店,2层 2F-12,0351-6105995,10:00 - 22:00,37.8654,112.5388,https://www.newbalance.com.cn,"青年潮流体验店,复古潮鞋",true
+New Balance,天美杉杉奥特莱斯(榆次),山西省,太原市,晋中市,开发区鸣谦大街,New Balance 太原晋中杉杉奥莱店,1层 1088,0351-7284100,09:30 - 21:30,37.874,112.5703,https://www.newbalance.com.cn,"奥特莱斯超级工厂店,超大折扣",true
+New Balance,王府井百货(亲贤店),山西省,太原市,小店区,亲贤北街99号,New Balance 太原王府井专柜,4层 运动名品馆,0351-7391443,10:00 - 22:00,37.8521,112.5438,https://www.newbalance.com.cn,"高端百货专柜,英美产系列",true
+New Balance,柳巷贵都百货,山西省,太原市,迎泽区,柳巷北路99号,New Balance 太原贵都百货专柜,3层 运动天地,0351-6838828,10:00 - 22:00,37.8891,112.5442,https://www.newbalance.com.cn,"柳巷老字号专柜,经典跑鞋",true
+New Balance,大同万达广场,山西省,大同市,平城区,永泰南路与开源街交汇处,New Balance 大同万达店,2层 2F-18,0352-6132879,10:00 - 22:00,40.1084,113.3032,https://www.newbalance.com.cn,"雁北旗舰店,全系列跑鞋",true
+New Balance,大同百盛购物中心,山西省,大同市,平城区,御河西路与迎宾街交汇处,New Balance 大同百盛专柜,3层 运动馆,0352-7056831,10:00 - 22:00,40.0912,113.2853,https://www.newbalance.com.cn,"核心商圈专柜,复古慢跑",true
+New Balance,振华广场,内蒙古自治区,呼和浩特市,新城区,新华东街89号,New Balance 呼和浩特振华广场旗舰店,3层 3F-18,0471-6256690,10:00 - 22:00,40.8585,111.751,https://www.newbalance.com.cn,"首府标杆旗舰,Grey Store,Made in USA",true
+New Balance,回民区万达广场,内蒙古自治区,呼和浩特市,回民区,成吉思汗西街与巴彦淖尔北路交汇处,New Balance 呼和浩特回民万达店,2层 2F-28,0471-6948775,10:00 - 22:00,40.8664,111.7706,https://www.newbalance.com.cn,"综合大店,全系列跑鞋",true
+New Balance,赛罕万达广场,内蒙古自治区,呼和浩特市,赛罕区,新华东街26号,New Balance 呼和浩特赛罕万达店,2层 2F-16,0471-6374644,10:00 - 22:00,40.8281,111.7755,https://www.newbalance.com.cn,"市中心专卖店,复古跑鞋",true
+New Balance,摩尔城,内蒙古自治区,呼和浩特市,赛罕区,新华东街5号,New Balance 呼和浩特摩尔城店,2层 2F-08,0471-8425978,10:00 - 22:00,40.8641,111.739,https://www.newbalance.com.cn,"NB 1906潮流店,青年时尚",true
+New Balance,杉杉奥特莱斯(呼市),内蒙古自治区,呼和浩特市,玉泉区,锡林郭勒南路与南二环交汇处,New Balance 呼和浩特杉杉奥莱店,1层 1088,0471-8892419,09:30 - 21:30,40.8764,111.7377,https://www.newbalance.com.cn,"奥特莱斯超级工厂店,超大折扣",true
+New Balance,包头九原万达广场,内蒙古自治区,包头市,九原区,建华南路与黄河大街交汇处,New Balance 包头九原万达店,2层 2F-18,0472-6953732,10:00 - 22:00,40.6902,109.8386,https://www.newbalance.com.cn,"鹿城旗舰店,全系列跑鞋",true
+New Balance,包头王府井百货(青山店),内蒙古自治区,包头市,青山区,文化路76号,New Balance 包头王府井专柜,3层 运动专区,0472-8942814,10:00 - 22:00,40.6732,109.8375,https://www.newbalance.com.cn,"核心商圈专柜,复古慢跑",true
+New Balance,包头苏宁广场,内蒙古自治区,包头市,昆都仑区,钢铁大街与民族东路交汇处,New Balance 包头苏宁广场店,2层 2F-08,0472-7953557,10:00 - 22:00,40.6835,109.8098,https://www.newbalance.com.cn,"市中心核心店,经典鞋款",true
+New Balance,鄂尔多斯万达广场,内蒙古自治区,鄂尔多斯市,东胜区,鄂托克西街与天骄南路交汇处,New Balance 鄂尔多斯万达店,2层 2F-18,0477-8557111,10:00 - 22:00,39.6033,109.7915,https://www.newbalance.com.cn,"暖城旗舰店,全系列跑鞋",true
+New Balance,每日百货,内蒙古自治区,鄂尔多斯市,东胜区,伊金霍洛西街5号,New Balance 鄂尔多斯每日百货专柜,3层 运动天地,0477-7764316,10:00 - 22:00,39.6162,109.8056,https://www.newbalance.com.cn,"高端专柜,Made in USA",true
+New Balance,金凤万达广场,宁夏回族自治区,银川市,金凤区,正源南街与黄河东路交汇处,New Balance 银川金凤万达旗舰店,2层 2F-28,0951-8597867,10:00 - 22:00,38.515,106.239,https://www.newbalance.com.cn,"塞上标杆旗舰,NB 1906潮流店,全系列跑鞋",true
+New Balance,建发大阅城,宁夏回族自治区,银川市,金凤区,正源北街与尹家渠街交汇处,New Balance 银川建发大阅城店,2层 2F-16,0951-8309643,10:00 - 22:00,38.4729,106.2201,https://www.newbalance.com.cn,"城市地标店,Grey Store,Made in USA",true
+New Balance,新华百货(总店),宁夏回族自治区,银川市,兴庆区,新华东街89号,New Balance 银川新华百货专柜,4层 运动名品馆,0951-6706751,10:00 - 22:00,38.4924,106.2026,https://www.newbalance.com.cn,"老牌核心专柜,经典复古跑鞋",true
+New Balance,砂之船奥特莱斯(银川),宁夏回族自治区,银川市,兴庆区,友爱中心路与北京东路交汇处,New Balance 银川砂之船奥莱店,1层 A108,0951-6662147,09:30 - 21:30,38.495,106.2188,https://www.newbalance.com.cn,"奥特莱斯超级工厂店,超大折扣",true
+New Balance,经开万达广场,新疆维吾尔自治区,乌鲁木齐市,沙依巴克区,玄武湖路999号,New Balance 乌鲁木齐经开万达旗舰店,2层 2F-28,0991-6429973,10:00 - 22:00,43.8381,87.6095,https://www.newbalance.com.cn,"亚欧核心旗舰,Grey Store,Made in USA/UK高端线",true
+New Balance,MM2购物中心(友好),新疆维吾尔自治区,乌鲁木齐市,沙依巴克区,友好南路668号,New Balance 乌鲁木齐友好商圈店,3层 3F-16,0991-7175477,10:00 - 22:00,43.8547,87.6475,https://www.newbalance.com.cn,"市中心地标店,NB 1906潮流店,全系列",true
+New Balance,天山万科广场,新疆维吾尔自治区,乌鲁木齐市,天山区,解放南路与团结路交汇处,New Balance 乌鲁木齐天山万科店,2层 2F-12,0991-6807778,10:00 - 22:00,43.8193,87.607,https://www.newbalance.com.cn,"南门核心店,复古慢跑",true
+New Balance,杉杉奥特莱斯(乌市),新疆维吾尔自治区,乌鲁木齐市,高新区(新市区),长春北路与纬三路交汇处,New Balance 乌鲁木齐杉杉奥莱店,1层 1088,0991-6877312,09:30 - 21:30,43.8443,87.6394,https://www.newbalance.com.cn,"奥特莱斯超级工厂店,超大折扣",true
+New Balance,汇嘉时代(北京路),新疆维吾尔自治区,乌鲁木齐市,新市区,北京中路388号,New Balance 乌鲁木齐汇嘉时代专柜,3层 运动馆,0991-8753872,10:00 - 22:00,43.8278,87.5904,https://www.newbalance.com.cn,"高新区专柜,经典跑鞋",true
+New Balance,伊宁万容广场,新疆维吾尔自治区,伊犁哈萨克自治州,伊宁市,斯大林街与解放路交汇处,New Balance 伊宁万容广场店,2层 2F-18,0999-7340187,10:00 - 22:00,43.8983,81.3228,https://www.newbalance.com.cn,"塞外江南旗舰,全系列跑鞋",true
+New Balance,伊宁天百购物中心,新疆维吾尔自治区,伊犁哈萨克自治州,伊宁市,新华东路218号,New Balance 伊宁天百专柜,3层 运动专区,0999-7591326,10:00 - 22:00,43.8942,81.3411,https://www.newbalance.com.cn,"市中心专柜,复古慢跑",true
+New Balance,西宁唐道·637,青海省,西宁市,城西区,五四西路63号,New Balance 西宁唐道637旗舰店,2层 2F-18,0971-8987479,10:00 - 22:00,36.6448,101.8046,https://www.newbalance.com.cn,"高原明珠旗舰,Grey Store,NB 1906潮流店,Made in USA",true
+New Balance,海湖万达广场,青海省,西宁市,城西区,西川南路与普丰路交汇处,New Balance 西宁海湖万达店,2层 2F-28,0971-8484708,10:00 - 22:00,36.5934,101.7885,https://www.newbalance.com.cn,"城西核心大店,全系列跑鞋",true
+New Balance,西宁王府井百货(大十字),青海省,西宁市,城中区,东大街11号,New Balance 西宁大十字王府井专柜,4层 运动名品馆,0971-7942603,10:00 - 22:00,36.5823,101.747,https://www.newbalance.com.cn,"市中心老牌专柜,经典复古跑鞋",true
+New Balance,西宁王府井百货(海湖店),青海省,西宁市,城西区,五四西路69号,New Balance 西宁海湖王府井店,3层 3F-12,0971-7349354,10:00 - 22:00,36.6319,101.8109,https://www.newbalance.com.cn,"海湖新区店,跑步生活",true
+New Balance,兰州万象城,甘肃省,兰州市,城关区,东方红广场东侧,New Balance 兰州万象城旗舰店,L3层 L318,0931-7206375,10:00 - 22:00,36.0746,103.8055,https://www.newbalance.com.cn,"黄河之滨标杆旗舰,Grey Store,Made in USA/UK高端线",true
+New Balance,兰州中心,甘肃省,兰州市,七里河区,西津西路16号,New Balance 兰州中心NB 1906店,3层 3F-28,0931-7140734,10:00 - 22:00,36.0876,103.8032,https://www.newbalance.com.cn,"省内顶级商圈大店,NB 1906潮流店,限量首发",true
+New Balance,城关万达广场,甘肃省,兰州市,城关区,天水北路222号,New Balance 兰州城关万达店,2层 2F-16,0931-7009987,10:00 - 22:00,36.0687,103.8356,https://www.newbalance.com.cn,"雁滩核心店,全系列跑鞋",true
+New Balance,亚欧商厦,甘肃省,兰州市,城关区,中山路120号,New Balance 兰州亚欧商厦专柜,4层 运动专区,0931-6310625,10:00 - 22:00,36.0665,103.851,https://www.newbalance.com.cn,"市中心百货专柜,经典复古",true
+New Balance,杉杉奥特莱斯(兰州新区),甘肃省,兰州市,永登县,兰州新区纬一路,New Balance 兰州杉杉奥莱店,1层 1088,0931-6847830,09:30 - 21:30,36.033,103.8386,https://www.newbalance.com.cn,"奥特莱斯超级工厂店,超大折扣",true
+New Balance,盛达广场,甘肃省,兰州市,城关区,天水南路与火车站西路交汇处,New Balance 兰州盛达广场店,2层 2F-08,0931-8535394,10:00 - 22:00,36.0472,103.8053,https://www.newbalance.com.cn,"火车站商圈店,经典慢跑",true
+New Balance,拉萨万达广场,西藏自治区,拉萨市,城关区,纳金东路与藏热路交汇处,New Balance 拉萨万达广场旗舰店,2层 2F-18,0891-6380718,10:00 - 22:00,29.653,91.1078,https://www.newbalance.com.cn,"日光城标杆旗舰,Grey Store,高原跑者驿站,全系列",true
+New Balance,百益百货(神力时代广场),西藏自治区,拉萨市,城关区,北京东路与朵森格路交汇处,New Balance 拉萨神力时代广场店,2层 2F-08,0891-6838131,10:00 - 22:00,29.6642,91.1018,https://www.newbalance.com.cn,"八廓街核心商圈店,复古潮流,经典跑鞋",true
+New Balance,天海商业广场,西藏自治区,拉萨市,城关区,民族北路1号,New Balance 拉萨天海广场店,1层 1F-15,0891-8035569,10:00 - 22:00,29.6409,91.1217,https://www.newbalance.com.cn,"西区体验店,经典复古跑鞋",true
+New Balance,海港城,香港特别行政区,香港特别行政区,油尖旺区,尖沙咀广东道3-27号,New Balance 香港海港城品牌体验店,海运大厦3层 OT268,+852-3149-4127,10:00 - 22:00,22.3089,114.1459,https://www.newbalance.com.cn,"旗舰概念店,Grey Store,Made in USA/UK限定,全球同步发售",true
+New Balance,希慎广场,香港特别行政区,香港特别行政区,湾仔区,铜锣湾轩尼诗道500号,New Balance 香港铜锣湾希慎广场NB 1906店,4层 402铺,+852-2968-6669,10:00 - 22:00,22.2912,114.1584,https://www.newbalance.com.cn,"NB 1906潮流店,铜锣湾核心地标,潮流首发",true
+New Balance,朗豪坊,香港特别行政区,香港特别行政区,油尖旺区,旺角亚皆老街8号,New Balance 香港旺角朗豪坊店,7层 06铺,+852-2222-9201,10:00 - 22:00,22.2817,114.1545,https://www.newbalance.com.cn,"旺角潮流大店,复古跑鞋,青年文化",true
+New Balance,时代广场,香港特别行政区,香港特别行政区,湾仔区,铜锣湾勿地臣街1号,New Balance 香港时代广场专营店,7层 708铺,+852-2739-7452,10:00 - 22:00,22.2885,114.1381,https://www.newbalance.com.cn,"高街时尚专营店,英美产专柜",true
+New Balance,新城市广场,香港特别行政区,香港特别行政区,沙田区,沙田正街18-19号,New Balance 香港沙田新城市广场Running Store,1期5层 528铺,+852-2431-2856,10:00 - 22:00,22.2722,114.1657,https://www.newbalance.com.cn,"跑步专营店,足态分析,新界旗舰",true
+New Balance,K11 MUSEA,香港特别行政区,香港特别行政区,油尖旺区,尖沙咀梳士巴利道18号,New Balance 香港K11 MUSEA先锋店,3层 312铺,+852-3044-8275,10:00 - 22:00,22.2986,114.1402,https://www.newbalance.com.cn,"艺术概念店,联名限定,高端潮流",true
+New Balance,东荟城名店仓,香港特别行政区,香港特别行政区,离岛区,大屿山东涌达东路20号,New Balance 香港东荟城奥莱店,1层 118铺,+852-2946-5101,10:00 - 22:00,22.2865,114.1834,https://www.newbalance.com.cn,"名品奥特莱斯,经典复古折扣工厂店",true
+New Balance,威尼斯人购物中心,澳门特别行政区,澳门特别行政区,路氹区,望德圣母湾大马路,New Balance 澳门威尼斯人旗舰店,大运河街818铺,+853-2825-7542,10:00 - 22:00,22.1949,113.5654,https://www.newbalance.com.cn,"度假区旗舰店,Grey Store,Made in USA/UK,全品类",true
+New Balance,伦敦人购物中心,澳门特别行政区,澳门特别行政区,路氹区,连贯公路,New Balance 澳门伦敦人NB 1906店,2层 2018铺,+853-2857-2707,10:00 - 22:00,22.2324,113.5702,https://www.newbalance.com.cn,"NB 1906潮流店,英伦复古概念,潮流发售",true
+New Balance,新八佰伴百货,澳门特别行政区,澳门特别行政区,大堂区,苏亚利斯博士大马路90号,New Balance 澳门新八佰伴专柜,4层 运动专区,+853-2857-4247,10:00 - 22:00,22.2043,113.5509,https://www.newbalance.com.cn,"半岛核心百货专柜,经典慢跑",true
+New Balance,银河时尚汇,澳门特别行政区,澳门特别行政区,路氹区,望德圣母湾大马路澳门银河,New Balance 澳门银河精品店,1层 G068,+853-2893-6429,10:00 - 22:00,22.1965,113.5215,https://www.newbalance.com.cn,"高端精品店,英产专区,商务运动",true
+New Balance,新光三越信义新天地A11,台湾省,台北市,信义区,松寿路11号,New Balance 台北信义A11概念旗舰店,4层 运动专区,+886-2-2751-4673,10:00 - 22:00,24.9995,121.5716,https://www.newbalance.com.cn,"城市概念旗舰,Grey Store,Made in USA/UK高端线",true
+New Balance,台北101购物中心,台湾省,台北市,信义区,市府路45号,New Balance 台北101精品店,B1层 B1-08,+886-2-2736-1399,10:00 - 22:00,25.0007,121.573,https://www.newbalance.com.cn,"地标精品店,全球限定款,英产专区",true
+New Balance,西门町概念店,台湾省,台北市,万华区,汉中街52号,New Balance 台北西门町NB 1906旗舰店,1-2层 独栋,+886-2-2560-1187,10:00 - 22:00,25.0635,121.5787,https://www.newbalance.com.cn,"独栋潮流旗舰,NB 1906潮流店,青年潮流地标",true
+New Balance,SOGO百货复兴馆,台湾省,台北市,大安区,忠孝东路三段300号,New Balance 台北SOGO复兴馆专柜,6层 潮流馆,+886-2-2985-2137,10:00 - 22:00,25.0527,121.5904,https://www.newbalance.com.cn,"忠孝东路商圈专柜,复古跑鞋",true
+New Balance,华泰名品城,台湾省,台北市,中坜区,春德路189号(近桃园高德),New Balance 桃园华泰名品城奥莱店,1期 1088铺,+886-2-2174-2826,10:00 - 22:00,25.0114,121.5618,https://www.newbalance.com.cn,"美式奥特莱斯,经典复古折扣工厂店",true
