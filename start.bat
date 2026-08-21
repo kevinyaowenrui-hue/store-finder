@@ -1,3 +1,4 @@
 @echo off
+title Store Finder Æ·ÅÆÃÅµêËÑË÷ÒýÇæ
 cd /d "%~dp0"
-wscript.exe "%~dp0run_app.vbs"
+"F:\Node.js\node.exe" "%~dp0launcher.js"
