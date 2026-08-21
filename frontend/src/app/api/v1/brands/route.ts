@@ -3,7 +3,7 @@ import storesData from '@/data/stores.json';
 import { StoreItem, Brand } from '@/lib/types';
 
 export async function GET() {
-  const allStores = storesData as StoreItem[];
+  const allStores = storesData as unknown as StoreItem[];
   const brandMap = new Map<string, { id: number; name: string; code: string; logo_url: string | null; count: number }>();
 
   for (const s of allStores) {

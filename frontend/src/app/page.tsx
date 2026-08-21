@@ -261,7 +261,7 @@ export default function HomePage() {
         <section className="text-center space-y-3 max-w-3xl mx-auto w-full pt-1 sm:pt-4">
           <div className="inline-flex items-center space-x-1.5 px-3 py-1 rounded-full bg-zinc-100/90 border border-zinc-200/80 text-[11px] sm:text-xs font-medium text-zinc-700">
             <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" />
-            <span>全国 34 省市 763 家品牌实体专柜与旗舰店</span>
+            <span>覆盖中国大陆 31 省市 1,300+ 家品牌实体专柜与旗舰店</span>
           </div>
 
           <h1 className="text-2xl sm:text-4xl font-extrabold tracking-tight text-zinc-900 leading-tight">

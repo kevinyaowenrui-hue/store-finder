@@ -34,7 +34,7 @@ export async function GET(request: NextRequest) {
   const userLat = latStr ? parseFloat(latStr) : null;
   const userLng = lngStr ? parseFloat(lngStr) : null;
 
-  const allStores = storesData as StoreItem[];
+  const allStores = storesData as unknown as StoreItem[];
 
   // 1. Filtering
   let filtered = allStores.filter((store) => {

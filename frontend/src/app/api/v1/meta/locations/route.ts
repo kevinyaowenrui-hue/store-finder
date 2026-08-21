@@ -6,7 +6,7 @@ export async function GET(request: NextRequest) {
   const searchParams = request.nextUrl.searchParams;
   const brand = searchParams.get('brand');
 
-  const allStores = storesData as StoreItem[];
+  const allStores = storesData as unknown as StoreItem[];
 
   // Filter stores by active & brand
   const activeStores = allStores.filter((s) => {

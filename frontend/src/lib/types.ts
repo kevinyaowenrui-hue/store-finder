@@ -28,7 +28,8 @@ export interface StoreItem {
     id: number;
     name: string;
     code: string;
-    logo_url?: string;
+    logo_url?: string | null;
+    official_site?: string | null;
   };
   mall: {
     id: number;
