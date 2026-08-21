@@ -1,4 +1,2 @@
 @echo off
-title Store Finder Æ·ÅÆÃÅµêËÑË÷ÒýÇæ
-cd /d "%~dp0"
-"F:\Node.js\node.exe" "%~dp0launcher.js"
+start "" "C:\Users\kevin\AppData\Local\hermes\hermes-agent\venv\Scripts\pythonw.exe" "%~dp0run_app.py"

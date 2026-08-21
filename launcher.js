@@ -8,7 +8,18 @@ const FRONTEND_DIR = path.join(ROOT_DIR, 'frontend');
 const BACKEND_DIR = path.join(ROOT_DIR, 'backend');
 const NEXT_BIN = path.join(FRONTEND_DIR, 'node_modules', 'next', 'dist', 'bin', 'next');
 
-// Find Node.js executable path
+// Lockfile guard
+const LOCK_FILE = path.join(ROOT_DIR, '.launcher.lock');
+try {
+  if (fs.existsSync(LOCK_FILE)) {
+    const stats = fs.statSync(LOCK_FILE);
+    if (Date.now() - stats.mtimeMs < 4000) {
+      process.exit(0);
+    }
+  }
+  fs.writeFileSync(LOCK_FILE, Date.now().toString());
+} catch (e) {}
+
 let nodeExe = process.execPath;
 if (!fs.existsSync(nodeExe)) {
   if (fs.existsSync('F:\\Node.js\\node.exe')) {
@@ -18,77 +29,60 @@ if (!fs.existsSync(nodeExe)) {
   }
 }
 
-console.log('======================================================');
-console.log('       Store Finder 品牌门店与专柜搜索引擎');
-console.log('======================================================');
-console.log('[*] 正在检查并启动后台服务...');
+let browserOpened = false;
 
-// 1. Helper to check if 127.0.0.1:5199 is responding
+function openBrowserOnce() {
+  if (browserOpened) return;
+  browserOpened = true;
+  try {
+    if (fs.existsSync(LOCK_FILE)) fs.unlinkSync(LOCK_FILE);
+  } catch (e) {}
+
+  // Open default browser on Windows
+  exec('start http://127.0.0.1:5199');
+  setTimeout(() => process.exit(0), 1000);
+}
+
 function checkServer(callback) {
-  const req = http.get('http://127.0.0.1:5199/', (res) => {
+  const req = http.get('http://127.0.0.1:5199/api/v1/health', (res) => {
     callback(res.statusCode === 200);
   });
   req.on('error', () => callback(false));
-  req.setTimeout(500, () => {
+  req.setTimeout(600, () => {
     req.destroy();
     callback(false);
   });
 }
 
-// 2. Open browser once ready
-function openBrowser() {
-  console.log('[OK] 服务已就绪 (http://127.0.0.1:5199)，正在唤起浏览器！');
-  exec('start http://127.0.0.1:5199');
-  setTimeout(() => process.exit(0), 1000);
-}
-
-// 3. Poll loop
-function pollUntilReady(attempts = 0) {
-  if (attempts > 30) {
-    console.log('[!] 正在尝试直接打开主页...');
-    openBrowser();
+function pollAndOpen(attempt = 0) {
+  if (attempt > 30) {
+    openBrowserOnce();
     return;
   }
-  checkServer((ready) => {
-    if (ready) {
-      openBrowser();
+  checkServer((ok) => {
+    if (ok) {
+      openBrowserOnce();
     } else {
-      setTimeout(() => pollUntilReady(attempts + 1), 500);
+      setTimeout(() => pollAndOpen(attempt + 1), 350);
     }
   });
 }
 
-// Check initial status
-checkServer((isRunning) => {
-  if (isRunning) {
-    console.log('[i] 服务已在运行中');
-    openBrowser();
+checkServer((alreadyRunning) => {
+  if (alreadyRunning) {
+    openBrowserOnce();
   } else {
-    console.log('[*] 正在启动 Next.js 前端核心服务 (端口 5199)...');
-    try {
-      const frontend = spawn(nodeExe, [NEXT_BIN, 'start', '-p', '5199', '-H', '127.0.0.1'], {
-        cwd: FRONTEND_DIR,
-        stdio: 'ignore',
-        detached: true,
-        windowsHide: true
-      });
-      frontend.unref();
-    } catch (err) {
-      console.error('[!] 启动 Next.js 失败:', err);
-    }
+    // Launch Next.js via cmd start so it remains alive independently
+    const nextCmd = `start "" /min "${nodeExe}" "${NEXT_BIN}" start "${FRONTEND_DIR}" -p 5199 -H 127.0.0.1`;
+    exec(nextCmd, { cwd: FRONTEND_DIR });
 
     // Optional FastAPI backend
     try {
-      const backend = spawn('python', ['-m', 'uvicorn', 'app.main:app', '--host', '127.0.0.1', '--port', '8000'], {
-        cwd: BACKEND_DIR,
-        stdio: 'ignore',
-        detached: true,
-        windowsHide: true
-      });
-      backend.unref();
-    } catch (err) {}
+      const pyCmd = `start "" /min python -m uvicorn app.main:app --host 127.0.0.1 --port 8000`;
+      exec(pyCmd, { cwd: BACKEND_DIR });
+    } catch (e) {}
 
-    // Wait and poll until server is 100% 200 OK
-    pollUntilReady(0);
+    // Wait and open exactly once
+    pollAndOpen(0);
   }
 });
