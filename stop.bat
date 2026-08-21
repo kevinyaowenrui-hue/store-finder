@@ -1,16 +1,4 @@
 @echo off
-chcp 65001 >nul
-title 鍏抽棴 Store Finder 鏈嶅姟
-echo ======================================================================
-echo           姝ｅ湪鍋滄 Store Finder 鍏宠仈鏈嶅姟...
-echo ======================================================================
-echo.
-
+title 关闭 Store Finder
 powershell -NoProfile -Command "Get-NetTCPConnection -LocalPort 8000,5199 -ErrorAction SilentlyContinue | ForEach-Object { Stop-Process -Id $_.OwningProcess -Force -ErrorAction SilentlyContinue }"
-
-echo.
-echo ======================================================================
-echo  [OK] Store Finder 鍚庡彴鏈嶅姟宸插叏閮ㄥ畨鍏ㄩ��鍑猴紒
-echo ======================================================================
-echo.
-ping 127.0.0.1 -n 2 >nul
+echo [OK] Store Finder 服务已关闭
