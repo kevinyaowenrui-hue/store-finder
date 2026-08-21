@@ -5,6 +5,7 @@ import { StoreItem } from '../lib/types';
 import { BrandLogo } from './BrandLogo';
 import { getBusinessStatus } from '../lib/time';
 import { formatDistance } from '../lib/geo';
+import { copyToClipboard } from '../lib/clipboard';
 import {
   X,
   Phone,
@@ -25,12 +26,16 @@ interface StoreDetailModalProps {
   store: StoreItem | null;
   onClose: () => void;
   onShowToast?: (message: string) => void;
+  onOpenInquiry?: (store: StoreItem) => void;
+  onOpenContact?: (store: StoreItem) => void;
 }
 
 export function StoreDetailModal({
   store,
   onClose,
   onShowToast,
+  onOpenInquiry,
+  onOpenContact,
 }: StoreDetailModalProps) {
   const [copiedNote, setCopiedNote] = useState(false);
   const [copiedPhone, setCopiedPhone] = useState(false);
@@ -64,7 +69,7 @@ export function StoreDetailModal({
 
   const appleMapUrl = `http://maps.apple.com/?q=${encodeURIComponent(storeTitle)}&ll=${lat},${lng}`;
 
-  const handleCopyNote = () => {
+  const handleCopyNote = async () => {
     const note = [
       `🏪 【${brand.name} · ${store.store_name}】`,
       `📍 地址：${mall.province} ${mall.city} ${mall.district ? mall.district + ' ' : ''}${mall.name}`,
@@ -76,7 +81,7 @@ export function StoreDetailModal({
       .filter(Boolean)
       .join('\n');
 
-    navigator.clipboard.writeText(note);
+    await copyToClipboard(note);
     setCopiedNote(true);
     setTimeout(() => setCopiedNote(false), 2000);
     if (onShowToast) {
@@ -84,9 +89,9 @@ export function StoreDetailModal({
     }
   };
 
-  const handleCopyPhone = () => {
+  const handleCopyPhone = async () => {
     if (!store.phone) return;
-    navigator.clipboard.writeText(store.phone);
+    await copyToClipboard(store.phone);
     setCopiedPhone(true);
     setTimeout(() => setCopiedPhone(false), 2000);
     if (onShowToast) {
@@ -219,6 +224,38 @@ export function StoreDetailModal({
               </div>
             </div>
           )}
+
+          {/* Dewu Sourcing Tools: 1-Click Inquiry & Private Contact */}
+          <div className="p-3.5 rounded-2xl bg-amber-50/80 border border-amber-200/80 space-y-2.5">
+            <div className="flex items-center justify-between">
+              <span className="text-xs font-bold text-amber-900 flex items-center space-x-1">
+                <span>⚡ 得物卖家调货直通车</span>
+              </span>
+              <span className="text-[10px] text-amber-700">专柜调拨 · 极速开单</span>
+            </div>
+            <div className="grid grid-cols-2 gap-2">
+              <button
+                type="button"
+                onClick={() => {
+                  onClose();
+                  onOpenInquiry && onOpenInquiry(store);
+                }}
+                className="flex items-center justify-center space-x-1.5 py-2 px-3 rounded-xl bg-amber-500 hover:bg-amber-600 active:bg-amber-700 text-white font-bold text-xs shadow-xs transition-all"
+              >
+                <span>📋 一键查货话术</span>
+              </button>
+              <button
+                type="button"
+                onClick={() => {
+                  onClose();
+                  onOpenContact && onOpenContact(store);
+                }}
+                className="flex items-center justify-center space-x-1.5 py-2 px-3 rounded-xl bg-white border border-amber-300 hover:bg-amber-100/60 text-amber-900 font-semibold text-xs transition-all"
+              >
+                <span>👤 柜员私域名片</span>
+              </button>
+            </div>
+          </div>
 
           {/* Map Apps Launchers */}
           <div>

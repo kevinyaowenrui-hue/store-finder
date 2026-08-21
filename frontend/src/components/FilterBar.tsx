@@ -30,14 +30,42 @@ interface FilterBarProps {
   isFiltered: boolean;
 }
 
-const CATEGORY_TAGS = [
-  { label: '全部业态', value: 'all' },
-  { label: '✨ Grey概念店', value: 'Grey' },
-  { label: '👟 1906潮流店', value: '1906' },
-  { label: '🏃 跑步专营店', value: '跑步' },
-  { label: '🏷️ 奥莱折扣店', value: '奥莱' },
-  { label: '旗舰概念', value: '概念店' },
-];
+const BRAND_CATEGORY_TAGS: Record<string, Array<{ label: string; value: string }>> = {
+  all: [
+    { label: '全部业态', value: 'all' },
+    { label: '🏛️ 旗舰概念', value: '旗舰' },
+    { label: '👟 潮流先锋', value: '潮流' },
+    { label: '🏃 跑步专营', value: '跑步' },
+    { label: '🏷️ 奥莱特惠', value: '奥莱' },
+    { label: '🏀 Jordan/篮球', value: 'Jordan' },
+  ],
+  nike: [
+    { label: '全部业态', value: 'all' },
+    { label: '🏛️ Rise / 001旗舰', value: '旗舰' },
+    { label: '🎨 Nike Style潮流', value: 'Style' },
+    { label: '👟 Kicks Lounge', value: 'Kicks' },
+    { label: '🏀 Jordan 飞人专区', value: 'Jordan' },
+    { label: '🏃 Nike Running', value: 'Running' },
+    { label: '🏷️ Unite / 奥莱特惠', value: '奥莱' },
+  ],
+  adidas: [
+    { label: '全部业态', value: 'all' },
+    { label: '🏛️ 品牌中心 Brand Center', value: '品牌中心' },
+    { label: '🍀 三叶草 Originals', value: '三叶草' },
+    { label: '🏟️ Homecourt 主场店', value: 'Homecourt' },
+    { label: '🏃 Adizero 跑步竞速', value: 'Running' },
+    { label: '🏔️ Terrex 山系户外', value: 'Terrex' },
+    { label: '🏷️ 奥莱超级工厂店', value: '奥莱' },
+  ],
+  'new-balance': [
+    { label: '全部业态', value: 'all' },
+    { label: '✨ Grey 全球概念店', value: 'Grey' },
+    { label: '👟 1906 潮流店', value: '1906' },
+    { label: '🏃 Running 跑步专营', value: '跑步' },
+    { label: '🏷️ 奥莱折扣店', value: '奥莱' },
+    { label: '🇬🇧 英美产专营', value: 'USA' },
+  ],
+};
 
 export function FilterBar({
   brands,
@@ -167,7 +195,7 @@ export function FilterBar({
 
       {/* 2. Format / Category Filter Pills (Mobile Friendly) */}
       <div className="flex items-center space-x-1.5 overflow-x-auto no-scrollbar py-0.5 -mx-1 px-1 text-xs">
-        {CATEGORY_TAGS.map((cat) => {
+        {(BRAND_CATEGORY_TAGS[selectedBrand] || BRAND_CATEGORY_TAGS['all']).map((cat) => {
           const isSelected = selectedCategory === cat.value;
           return (
             <button

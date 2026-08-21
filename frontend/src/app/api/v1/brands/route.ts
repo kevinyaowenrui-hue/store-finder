@@ -1,9 +1,12 @@
 import { NextResponse } from 'next/server';
-import storesData from '@/data/stores.json';
-import { StoreItem, Brand } from '@/lib/types';
+import { getMemoryStores } from '@/lib/storeDb';
+import { Brand } from '@/lib/types';
+
+export const dynamic = 'force-dynamic';
+export const revalidate = 0;
 
 export async function GET() {
-  const allStores = storesData as unknown as StoreItem[];
+  const allStores = getMemoryStores();
   const brandMap = new Map<string, { id: number; name: string; code: string; logo_url: string | null; count: number }>();
 
   for (const s of allStores) {
@@ -23,8 +26,21 @@ export async function GET() {
     }
   }
 
+  const BRAND_PRIORITY: Record<string, number> = {
+    'new-balance': 1,
+    'newbalance': 1,
+    'new_balance': 1,
+    'nike': 2,
+    'adidas': 3,
+  };
+
   const brands: Brand[] = Array.from(brandMap.values())
-    .sort((a, b) => b.count - a.count)
+    .sort((a, b) => {
+      const pA = BRAND_PRIORITY[a.code.toLowerCase()] || 99;
+      const pB = BRAND_PRIORITY[b.code.toLowerCase()] || 99;
+      if (pA !== pB) return pA - pB;
+      return b.count - a.count;
+    })
     .map((b) => ({
       id: b.id,
       name: b.name,

@@ -30,22 +30,17 @@ export function BrandLogo({ code, name = '', className = 'w-5 h-5' }: BrandLogoP
   // 2. Nike: Iconic Swoosh
   if (brandCode === 'nike') {
     return (
-      <svg viewBox="0 0 100 40" className={className} fill="currentColor">
-        <path
-          d="M10 28C28 35 48 30 65 14C78 2 88 -2 94 1C98 3 95 9 86 16C68 31 42 42 16 38C8 37 4 33 10 28Z"
-          fill="#111111"
-        />
+      <svg viewBox="0 0 24 24" className={className} fill="currentColor">
+        <path d="M21.71 6.84c-3.15 4.34-8.08 8.68-12.83 10.63-2.1.86-4.14.97-5.46.22-1.57-.9-1.92-2.73-1.07-4.47.88-1.8 2.65-3.5 4.96-4.78-1.12.95-1.96 2.06-2.28 3.12-.42 1.39.02 2.37.95 2.76.99.41 2.53.07 4.29-.86 4.31-2.28 9.08-6.62 11.44-10.62z" />
       </svg>
     );
   }
 
-  // 3. Adidas: Iconic 3-Stripes / Trefoil
+  // 3. Adidas: Iconic 3-Stripes
   if (brandCode === 'adidas') {
     return (
-      <svg viewBox="0 0 100 70" className={className} fill="currentColor">
-        <path d="M12 55L32 55L45 32L25 32Z" fill="#111111" />
-        <path d="M38 55L58 55L71 20L51 20Z" fill="#111111" />
-        <path d="M64 55L84 55L97 8L77 8Z" fill="#111111" />
+      <svg viewBox="0 0 24 24" className={className} fill="currentColor">
+        <path d="M1.5 19h4.2l3.8-6.5h-4.2L1.5 19zm6.3 0h4.2l5.6-9.7h-4.2L7.8 19zm6.3 0h4.2L22.5 5h-4.2L14.1 19z" />
       </svg>
     );
   }

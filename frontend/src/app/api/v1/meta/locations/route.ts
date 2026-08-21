@@ -1,18 +1,26 @@
 import { NextRequest, NextResponse } from 'next/server';
-import storesData from '@/data/stores.json';
-import { StoreItem, ProvinceMeta, CityMeta } from '@/lib/types';
+import { getMemoryStores } from '@/lib/storeDb';
+import { ProvinceMeta, CityMeta } from '@/lib/types';
+
+export const dynamic = 'force-dynamic';
+export const revalidate = 0;
 
 export async function GET(request: NextRequest) {
   const searchParams = request.nextUrl.searchParams;
   const brand = searchParams.get('brand');
 
-  const allStores = storesData as unknown as StoreItem[];
+  const allStores = getMemoryStores();
 
   // Filter stores by active & brand
   const activeStores = allStores.filter((s) => {
     if (!s.is_active) return false;
     if (brand && brand !== 'all') {
-      return s.brand.code === brand;
+      const bCode = (s.brand.code || '').toLowerCase().replace(/[-_\s]/g, '');
+      const qCode = brand.toLowerCase().replace(/[-_\s]/g, '');
+      const bName = (s.brand.name || '').toLowerCase();
+      const qName = brand.toLowerCase();
+      const matches = bCode === qCode || bName.includes(qName) || qName.includes(bName);
+      return matches;
     }
     return true;
   });

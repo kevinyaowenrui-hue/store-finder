@@ -7,11 +7,19 @@ import { FilterBar } from '../components/FilterBar';
 import { ActiveFilterChips } from '../components/ActiveFilterChips';
 import { StoreCard } from '../components/StoreCard';
 import { StoreDetailModal } from '../components/StoreDetailModal';
+import { StoreContactModal } from '../components/StoreContactModal';
+import { InquiryScriptModal } from '../components/InquiryScriptModal';
+import { ProfitCalculatorModal } from '../components/ProfitCalculatorModal';
+import { SourcingKanbanModal } from '../components/SourcingKanbanModal';
+import { NewTaskModal } from '../components/NewTaskModal';
 import { Toast } from '../components/Toast';
 import { searchStores, getLocationMeta, getBrands, getHealthStatus } from '../lib/api';
 import { StoreItem, LocationMetaResponse, Brand } from '../lib/types';
 import { requestUserLocation, GeoLocation } from '../lib/geo';
-import { Search, MapPinOff, Layers, Compass, ChevronLeft, ChevronRight, ArrowUp, Sparkles } from 'lucide-react';
+import { isStoreFavorited, getAllFavorites } from '../lib/favoritesStorage';
+import { getTaskSummary, SourcingTask } from '../lib/kanbanStorage';
+import { copyToClipboard } from '../lib/clipboard';
+import { Search, MapPinOff, Layers, Compass, ChevronLeft, ChevronRight, ArrowUp, Sparkles, Star } from 'lucide-react';
 
 const PAGE_SIZE = 24;
 
@@ -23,6 +31,11 @@ export default function HomePage() {
   const [selectedProvince, setSelectedProvince] = useState('全部');
   const [selectedCity, setSelectedCity] = useState('全部');
   const [selectedDistrict, setSelectedDistrict] = useState('全部');
+
+  // Favorites & Sourcing Filter State
+  const [onlyFavorites, setOnlyFavorites] = useState(false);
+  const [favoriteVersion, setFavoriteVersion] = useState(0);
+  const [favoritesCount, setFavoritesCount] = useState(0);
 
   // Geo Proximity State
   const [userGeo, setUserGeo] = useState<GeoLocation | null>(null);
@@ -44,9 +57,35 @@ export default function HomePage() {
 
   // Modal & Toast State
   const [activeDetailStore, setActiveDetailStore] = useState<StoreItem | null>(null);
+  const [inquiryStore, setInquiryStore] = useState<StoreItem | null>(null);
+  const [contactStore, setContactStore] = useState<StoreItem | null>(null);
+  const [calculatorStore, setCalculatorStore] = useState<StoreItem | null>(null);
+  const [isCalculatorOpen, setIsCalculatorOpen] = useState(false);
+
+  // Kanban & Sourcing Tasks State
+  const [isKanbanOpen, setIsKanbanOpen] = useState(false);
+  const [isNewTaskOpen, setIsNewTaskOpen] = useState(false);
+  const [newTaskStore, setNewTaskStore] = useState<StoreItem | null>(null);
+  const [newTaskParams, setNewTaskParams] = useState<{
+    sku?: string;
+    size?: string;
+    cost?: number;
+    dewuPrice?: number;
+    profit?: number;
+  }>({});
+  const [taskSummary, setTaskSummary] = useState(getTaskSummary());
+
+  const [contactVersion, setContactVersion] = useState(0);
   const [toastMessage, setToastMessage] = useState<string | null>(null);
 
   const isInitialUrlHydrated = useRef(false);
+
+  // Sync favorites & kanban tasks summary on updates
+  useEffect(() => {
+    const favs = getAllFavorites();
+    setFavoritesCount(Object.keys(favs).length);
+    setTaskSummary(getTaskSummary());
+  }, [favoriteVersion, isKanbanOpen, isNewTaskOpen]);
 
   // Scroll listener for mobile back-to-top button
   useEffect(() => {
@@ -218,8 +257,8 @@ export default function HomePage() {
     executeSearch();
   }, [executeSearch]);
 
-  const handleCopyPhone = (phone: string) => {
-    navigator.clipboard.writeText(phone);
+  const handleCopyPhone = async (phone: string) => {
+    await copyToClipboard(phone);
     setToastMessage(`已复制电话: ${phone}`);
   };
 
@@ -253,7 +292,16 @@ export default function HomePage() {
 
   return (
     <div className="flex flex-col min-h-screen pb-safe">
-      <Header engine={engine} totalStores={locationMeta?.total_stores} />
+      <Header
+        engine={engine}
+        totalStores={locationMeta?.total_stores}
+        onOpenCalculator={() => {
+          setCalculatorStore(null);
+          setIsCalculatorOpen(true);
+        }}
+        onOpenKanban={() => setIsKanbanOpen(true)}
+        activeTaskCount={taskSummary.activeCount}
+      />
 
       {/* Main Container */}
       <main className="flex-1 max-w-5xl w-full mx-auto px-3 sm:px-6 py-4 sm:py-8 flex flex-col space-y-4 sm:space-y-6">
@@ -261,7 +309,9 @@ export default function HomePage() {
         <section className="text-center space-y-3 max-w-3xl mx-auto w-full pt-1 sm:pt-4">
           <div className="inline-flex items-center space-x-1.5 px-3 py-1 rounded-full bg-zinc-100/90 border border-zinc-200/80 text-[11px] sm:text-xs font-medium text-zinc-700">
             <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" />
-            <span>覆盖中国大陆 31 省市 1,300+ 家品牌实体专柜与旗舰店</span>
+            <span>
+              覆盖中国大陆 31 省市 {locationMeta?.total_stores ? `${locationMeta.total_stores.toLocaleString()} 家` : '4,000+ 家'}品牌实体专柜与旗舰店
+            </span>
           </div>
 
           <h1 className="text-2xl sm:text-4xl font-extrabold tracking-tight text-zinc-900 leading-tight">
@@ -294,6 +344,7 @@ export default function HomePage() {
             selectedBrand={selectedBrand}
             onSelectBrand={(b) => {
               setSelectedBrand(b);
+              setSelectedCategory('all');
               setCurrentPage(1);
             }}
             selectedCategory={selectedCategory}
@@ -352,8 +403,30 @@ export default function HomePage() {
 
         {/* Results Metadata Header */}
         <section className="w-full flex items-center justify-between text-xs text-zinc-500 border-b border-zinc-200/70 pb-2.5 pt-1">
-          <div className="flex items-center space-x-2 font-medium">
-            <span className="text-zinc-900 font-semibold">找到 {totalCount} 家门店</span>
+          <div className="flex items-center space-x-2.5 font-medium flex-wrap gap-y-1.5">
+            <span className="text-zinc-900 font-semibold">
+              找到 {onlyFavorites ? stores.filter((s) => isStoreFavorited(s.id)).length : totalCount} 家门店
+            </span>
+
+            {/* Sourcing Favorites Filter Toggle */}
+            <button
+              type="button"
+              onClick={() => setOnlyFavorites(!onlyFavorites)}
+              className={`flex items-center space-x-1 px-2.5 py-0.5 rounded-full text-[11px] font-bold transition-all shadow-xs active:scale-95 border ${
+                onlyFavorites
+                  ? 'bg-amber-500 text-white border-amber-600'
+                  : 'bg-amber-50/80 border-amber-300 text-amber-900 hover:bg-amber-100'
+              }`}
+              title="仅显示您标星收藏的核心合作专柜"
+            >
+              <Star
+                className={`w-3 h-3 ${
+                  onlyFavorites ? 'fill-white text-white' : 'fill-amber-400 text-amber-500'
+                }`}
+              />
+              <span>{onlyFavorites ? '⭐ 仅显示收藏 (开启)' : `⭐ 核心合作店 (${favoritesCount})`}</span>
+            </button>
+
             {processingTime > 0 && (
               <span className="text-zinc-400 font-mono text-[10px] hidden sm:inline">
                 ({processingTime} ms)
@@ -393,22 +466,39 @@ export default function HomePage() {
               </div>
             ))}
           </div>
-        ) : stores.length > 0 ? (
+        ) : (onlyFavorites ? stores.filter((s) => isStoreFavorited(s.id)) : stores).length > 0 ? (
           <div className="space-y-6">
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3.5 sm:gap-5">
-              {stores.map((store) => (
+              {(onlyFavorites ? stores.filter((s) => isStoreFavorited(s.id)) : stores).map((store) => (
                 <StoreCard
                   key={store.id}
                   store={store}
+                  contactVersion={contactVersion + favoriteVersion}
                   onCopyPhone={handleCopyPhone}
                   onShowToast={setToastMessage}
                   onSelectStore={(s) => setActiveDetailStore(s)}
+                  onOpenInquiry={(s) => setInquiryStore(s)}
+                  onOpenContact={(s) => setContactStore(s)}
+                  onOpenCalculator={(s) => {
+                    setCalculatorStore(s);
+                    setIsCalculatorOpen(true);
+                  }}
+                  onOpenNewTask={(s) => {
+                    setNewTaskStore(s);
+                    setNewTaskParams({});
+                    setIsNewTaskOpen(true);
+                  }}
+                  onFavoriteChanged={() => {
+                    setFavoriteVersion((v) => v + 1);
+                    const favs = getAllFavorites();
+                    setFavoritesCount(Object.keys(favs).length);
+                  }}
                 />
               ))}
             </div>
 
             {/* Pagination Controls */}
-            {totalPages > 1 && (
+            {!onlyFavorites && totalPages > 1 && (
               <div className="flex items-center justify-between border-t border-zinc-200/80 pt-4 text-xs text-zinc-600">
                 <div className="text-xs">
                   第 <span className="font-bold text-zinc-900">{currentPage}</span> / {totalPages} 页 (共 {totalCount} 条)
@@ -447,16 +537,20 @@ export default function HomePage() {
             <div className="w-12 h-12 rounded-2xl bg-zinc-100 text-zinc-400 flex items-center justify-center mx-auto">
               <MapPinOff className="w-6 h-6" />
             </div>
-            <h3 className="font-bold text-zinc-800 text-sm sm:text-base">未找到符合条件的门店</h3>
+            <h3 className="font-bold text-zinc-800 text-sm sm:text-base">
+              {onlyFavorites ? '当前列表页暂无已收藏的核心门店' : '未找到符合条件的门店'}
+            </h3>
             <p className="text-xs text-zinc-500 max-w-xs mx-auto">
-              试试缩短搜索词、重置省市或业态筛选。
+              {onlyFavorites
+                ? '点击卡片右上角 ⭐ 即可将常用专柜加入核心收藏池。'
+                : '试试缩短搜索词、重置省市或业态筛选。'}
             </p>
             <div className="pt-2">
               <button
-                onClick={handleResetFilters}
+                onClick={onlyFavorites ? () => setOnlyFavorites(false) : handleResetFilters}
                 className="px-4 py-2 bg-zinc-900 active:bg-zinc-800 text-white text-xs font-semibold rounded-xl shadow-xs active:scale-95 transition-all"
               >
-                重置所有筛选
+                {onlyFavorites ? '退出收藏视图，查看全部' : '重置所有筛选'}
               </button>
             </div>
           </div>
@@ -480,8 +574,89 @@ export default function HomePage() {
           store={activeDetailStore}
           onClose={() => setActiveDetailStore(null)}
           onShowToast={setToastMessage}
+          onOpenInquiry={(s) => setInquiryStore(s)}
+          onOpenContact={(s) => setContactStore(s)}
         />
       )}
+
+      {/* Store Private Contact Modal */}
+      {contactStore && (
+        <StoreContactModal
+          store={contactStore}
+          isOpen={Boolean(contactStore)}
+          onClose={() => setContactStore(null)}
+          onSaved={() => {
+            setContactVersion((v) => v + 1);
+            setToastMessage('✅ 专柜私域名片与调货备忘已保存！');
+          }}
+        />
+      )}
+
+      {/* Instant Inquiry Sourcing Script Modal */}
+      {inquiryStore && (
+        <InquiryScriptModal
+          store={inquiryStore}
+          isOpen={Boolean(inquiryStore)}
+          onClose={() => setInquiryStore(null)}
+          onOpenContactModal={() => {
+            setContactStore(inquiryStore);
+          }}
+          onOpenNewTask={(store, sku, size) => {
+            setNewTaskStore(store);
+            setNewTaskParams({ sku, size });
+            setIsNewTaskOpen(true);
+          }}
+        />
+      )}
+
+      {/* Dewu Profit Calculator Modal */}
+      <ProfitCalculatorModal
+        isOpen={isCalculatorOpen}
+        onClose={() => {
+          setIsCalculatorOpen(false);
+          setCalculatorStore(null);
+        }}
+        initialStore={calculatorStore}
+        onOpenNewTask={(store, sku, cost, dewuPrice, profit) => {
+          setNewTaskStore(store);
+          setNewTaskParams({ sku, cost, dewuPrice, profit });
+          setIsNewTaskOpen(true);
+        }}
+      />
+
+      {/* Sourcing Kanban Modal */}
+      <SourcingKanbanModal
+        isOpen={isKanbanOpen}
+        onClose={() => {
+          setIsKanbanOpen(false);
+          setTaskSummary(getTaskSummary());
+        }}
+        onOpenNewTask={() => {
+          setNewTaskStore(null);
+          setNewTaskParams({});
+          setIsNewTaskOpen(true);
+        }}
+      />
+
+      {/* New Sourcing Task Modal */}
+      <NewTaskModal
+        isOpen={isNewTaskOpen}
+        onClose={() => {
+          setIsNewTaskOpen(false);
+          setNewTaskStore(null);
+          setNewTaskParams({});
+        }}
+        store={newTaskStore}
+        defaultSku={newTaskParams.sku}
+        defaultSize={newTaskParams.size}
+        defaultCost={newTaskParams.cost}
+        defaultDewuPrice={newTaskParams.dewuPrice}
+        defaultProfit={newTaskParams.profit}
+        onSaved={(task) => {
+          setToastMessage(`✅ 已成功发起【${task.sku}】调货工单！`);
+          setTaskSummary(getTaskSummary());
+        }}
+      />
 
       {/* Footer */}
       <footer className="w-full border-t border-zinc-200/80 py-5 text-center text-[11px] text-zinc-400 mt-auto bg-white/60">

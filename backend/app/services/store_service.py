@@ -250,7 +250,14 @@ class StoreService:
         if district and district != "全部":
             conditions.append(Mall.district == district)
         if active_brand_code and active_brand_code != "all":
-            conditions.append(Brand.code == active_brand_code)
+            clean_code = active_brand_code.lower().replace("-", "").replace("_", "")
+            conditions.append(
+                or_(
+                    Brand.code == active_brand_code,
+                    Brand.code == clean_code,
+                    Brand.code.ilike(f"%{clean_code}%")
+                )
+            )
 
         if conditions:
             stmt = stmt.where(and_(*conditions))
@@ -342,7 +349,14 @@ class StoreService:
         )
 
         if brand_code and brand_code != "all":
-            stmt = stmt.join(Brand, Brand.id == Store.brand_id).where(Brand.code == brand_code.strip())
+            clean_code = brand_code.lower().replace("-", "").replace("_", "")
+            stmt = stmt.join(Brand, Brand.id == Store.brand_id).where(
+                or_(
+                    Brand.code == brand_code.strip(),
+                    Brand.code == clean_code,
+                    Brand.code.ilike(f"%{clean_code}%")
+                )
+            )
 
         stmt = stmt.group_by(Mall.province, Mall.city, Mall.district)
         res = await db.execute(stmt)

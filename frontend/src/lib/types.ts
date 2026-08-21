@@ -105,3 +105,25 @@ export interface AdminStats {
   total_cities: number;
 }
 
+export interface StoreContact {
+  storeId: number;
+  contactName: string;
+  wechatId?: string;
+  phone?: string;
+  role?: string;
+  discountNote?: string;
+  tags?: string[];
+  notes?: string;
+  updatedAt?: string;
+}
+
+export interface InquiryParams {
+  sku: string;
+  size: string;
+  targetRecipient: string;
+  deliveryMethod: string;
+  paymentMethod: string;
+  inquireDiscount: boolean;
+  extraRemarks?: string;
+}
+

@@ -62,8 +62,8 @@ async def test_locations_meta():
         data = response.json()
         assert data["total_stores"] >= 30
         assert len(data["provinces"]) > 0
-        assert len(data["hot_cities"]) > 0
-        assert "上海市" in data["hot_cities"] or "北京市" in data["hot_cities"]
+        assert len(data["hot_cities"]) >= 5
+        assert any(c in data["hot_cities"] for c in ["西安市", "杭州市", "苏州市", "南京市", "成都市", "武汉市", "上海市", "北京市"])
 
 
 @pytest.mark.asyncio
